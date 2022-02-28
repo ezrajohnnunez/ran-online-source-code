@@ -1,0 +1,1507 @@
+/////////////////////////////////////////////////////////////////////////////					
+VERSION,1
+//					
+///////////////////////////////////////////////////////////					
+//					
+//					
+//					
+//					
+//					
+//					
+//					
+//					
+//					
+//					
+SENTENSE,CLOSE_GAME,1
+Do you wish to quit the game?
+					
+SENTENSE,PLAYINTERFACE_2,1
+Do you wish to open the system settings menu?
+					
+SENTENSE,PLAYINTERFACE_3,1
+Do you wish to move to the server selection menu?
+					
+SENTENSE,PLAYINTERFACE_4,1
+Do you wish to move to character selection menu?
+					
+SENTENSE,PLAYINTERFACE_5,2					
+Disconnected!
+Do you wish to quit the game?
+					
+WORD,PLAYINTERFACE_6,1
+Amount input error!
+					
+WORD,PLAYER_REBIRTH,1
+Do you want to revive?
+					
+SENTENSE,REBIRTH_DIALOGUE_TEXT,1
+Do you want to revive?
+					
+SENTENSE,PLAYINTERFACE_8,2					
+Another attempt to login using the same ID detected!
+Quiting the game.
+					
+WORD,PLAYINTERFACE_9,1
+Disconnected because of error.
+					
+WORD,PLAYINTERFACE_10,1
+Item disappeared!
+					
+					
+					
+WORD,PLAYINTERFACE_11,1
+Gold disappeared!
+					
+WORD,PLAYINTERFACE_12,1
+Haven't obtain the ownership of the item yet!
+					
+WORD,PLAYINTERFACE_13,1
+Inventory is full!
+					
+WORD,PLAYINTERFACE_14,1
+Allow to have 1 event item only.
+					
+SENTENSE,MONEYTO_FIELD,1
+Please enter the amount of gold to be drop.
+					
+WORD,PLAYINTERFACE_15,1
+Please enter the amount of gold to be deposit.
+					
+WORD,PLAYINTERFACE_16,1
+Please enter the amount of gold to be withdrawn.
+					
+WORD,PLAYINTERFACE_17,1
+Learning successful!
+					
+WORD,PLAYINTERFACE_18,1
+Unable to continue level up!
+					
+WORD,PLAYINTERFACE_19,1
+Requirements not fulfilled ! Unable to level up!
+					
+WORD,PLAYINTERFACE_20,1
+Unable to learn because of different section!
+					
+					
+WORD,PLAYINTERFACE_21,1
+Statistics requirements not match!
+					
+WORD,PLAYINTERFACE_22,1
+You already learned this skill.
+					
+WORD,PLAYINTERFACE_23,1
+.
+					
+WORD,PLAYINTERFACE_24,1
+.
+					
+WORD,PLAYINTERFACE_25,1
+.
+					
+WORD,PLAYINTERFACE_26,1
+.
+					
+WORD,PLAYINTERFACE_27,1
+.
+					
+WORD,PLAYINTERFACE_28,1
+.
+					
+WORD,PLAYINTERFACE_29,1
+.
+					
+WORD,PLAYINTERFACE_30,1
+Loading...
+					
+WORD,PLAYINTERFACE_31,1
+Please enter the amount of gold to be deposit.
+					
+WORD,PLAYINTERFACE_32,1
+Please enter the amount of gold to be withdrawn.
+					
+WORD,TRADE_MONEY,1
+Please enter the amount of gold to be trade.
+					
+SENTENSE,PARTY_TAR,1
+Do you wish to party with '%s'?
+					
+SENTENSE,TRADE_TAR,1
+Do you wish to trade with '%s'?
+					
+WORD,NOT_READY_CONTROL,1
+Loading...
+					
+WORD,CHAT_PRIVATE_FAIL,1
+Unable to PM '%s'.
+					
+WORD,PARTY_LURE_REFUSE,1
+%s' declined the invitation to party.
+					
+WORD,PARTY_LURE_REFUSE_AUTO,1
+Automatically declined the invitation of party from '%s'.
+					
+WORD,PARTY_LURE_FULL,1
+Party is full ! Unable to join '%s' party.
+					
+WORD,PARTY_LURE_OTHER,1
+%s' had joined other party.
+					
+WORD,PARTY_MBR_PICKUP_BRD,1
+%s' obtained item '%s'.
+					
+WORD,TRADE_FB_CANCEL,1
+%s' had declined the trade request.
+					
+WORD,TRADE_FB_CANCEL_AUTO,1
+%s' had automatically declined the trade request.
+					
+WORD,TRADE_AGREE_TIME,1
+Please try to confirm the trade again later.
+					
+WORD,TRADE_COMPLETE,1				
+Trade successful!
+					
+WORD,TRADE_CANCEL_NORMAL,1
+Trade canceled!
+					
+WORD,TRADE_CANCEL_OTHER,1				
+The opposite side had canceled the trade.
+					
+WORD,TRADE_AGREE_FAIL_MYINVEN,1
+unable to trade cause not enough inventory space.
+					
+WORD,TRADE_CANCEL_MYINVEN,1
+Your have not enough inventory space! Trade canceled.
+					
+WORD,TRADE_CANCEL_TARINVEN,1
+The opposite side have not enough inventory space ! Trade canceled.
+					
+SENTENSE,ITEMPUTON_ACCEPT_SP,1
+Insufficient '%d' of the installation requirement for the using item ! SP costs increase when use.
+					
+SENTENSE,GRINDING_NOITEM,1
+Unable to upgrade this item.
+					
+SENTENSE,GRINDING_DEFCLASS,1
+Unable to upgrade this item by using this upgrade potion.
+					
+SENTENSE,GRINDING_NOT_HIGH,1
+High level upgrade potion is require for upgrade to higher level. 					
+					
+SENTENSE,GRINDING_NOT_LOW,1
+Normal upgrade potion is require to upgrade the items of current level.
+					
+SENTENSE,GRINDING_MAX,1
+The item cannot be upgraded anymore.
+					
+SENTENSE,EMGRINDING_FAIL,1
+Upgrade failed!
+					
+SENTENSE,EMGRINDING_SUCCEED,1
+Upgrade succeed!
+					
+SENTENSE,EMGRINDING_RESET,1
+Upgrade failed ! The level and stats of the item reverted to 0.
+					
+SENTENSE,DIS_EXP,1
+Cost '%d' experiences.
+					
+SENTENSE,INC_EXP,1
+Gained '%d' experiences.
+					
+SENTENSE,INC_LIVING,1
+Gained '%d' life points.
+					
+SENTENSE,DIS_LIVING,1
+Cost '%d' life points.
+					
+SENTENSE,INC_SKP,1
+Gained '%d' skill points.
+					
+SENTENSE,DIS_SKP,1
+Cost '%d' skill points.
+					
+SENTENSE,INC_BRIGHT,1
+Gained '%d' stats.
+					
+SENTENSE,DIS_BRIGHT,1
+Cost '%d' stats.
+					
+SENTENSE,INC_STATS,1
+Gained '%d' ability points.
+					
+SENTENSE,DIS_STATS,1
+Cost '%d' ability points.
+					
+SENTENSE,MAP_REQUIRE_FAIL,1
+Requirement not match ! Unable to move to specified area.
+					
+SENTENSE,EMREQUIRE_LEVEL,1
+Require level '%d' %s in order to move to the specified area.
+					
+SENTENSE,EMREQUIRE_ITEM,1
+Require item '%s' in order to move to the specified area.
+					
+SENTENSE,EMREQUIRE_SKILL,1
+Require skill '%s' in order to move to the specified area.
+					
+SENTENSE,EMREQUIRE_LIVING,1
+Require '%s'  life points in order to move to the specified area.
+					
+SENTENSE,EMREQUIRE_BRIGHT,1
+Require '%s'  stats in order to move to the specified area.
+					
+					
+SENTENSE,EMREQUIRE_QUEST_COM,1
+Require the completion of quest %s in order to move to the specified area.
+					
+SENTENSE,EMREQUIRE_QUEST_ACT,1
+Can only move to the specified area when doing the %s quest.
+					
+SENTENSE,EMSIGN_SAME,1
+Same					
+					
+SENTENSE,EMSIGN_HIGHER,1
+Exceed					
+					
+SENTENSE,EMSIGN_LOWER,1
+Below					
+					
+SENTENSE,EMSIGN_SAMEHIGHER,1
+Above					
+					
+SENTENSE,EMSIGN_SAMELOWER,1
+Below					
+					
+SENTENSE,EMSIGN_ALWAYS,1
+Always					
+					
+SENTENSE,LEVELUP,1
+Congratulation for level up to level '%d' ! You may distribute the new stat points.
+					
+SENTENSE,EMCONFRONT_END_FAIL,1
+The duel had been aborted due to 'common error'.
+					
+SENTENSE,EMCONFRONT_END_WIN,1
+You won the duel with '%s'!
+					
+SENTENSE,EMCONFRONT_END_LOSS,1
+You lost the duel with '%s'!
+					
+SENTENSE,EMCONFRONT_END_NOTWIN,1
+You had not contributed to the victory.
+					
+SENTENSE,EMCONFRONT_END_PWIN,1
+Victory in the party duel!
+					
+SENTENSE,EMCONFRONT_END_PLOSS,1
+Defeat in the party duel!
+					
+SENTENSE,EMCONFRONT_END_PTIME,1
+Party duel had been aborted due to the end of time limit.
+					
+SENTENSE,EMCONFRONT_END_CWIN,1
+Victory in the guild duel!
+					
+SENTENSE,EMCONFRONT_END_CLOSS,1
+Defeat in the guild duel!
+					
+SENTENSE,EMCONFRONT_END_CTIME,1
+Guild duel had been aborted due to the end of time limit.
+					
+SENTENSE,EMCONFRONT_END_TIME,1
+The duel with '%s' had been aborted due to the end of time limit.
+					
+SENTENSE,EMCONFRONT_END_MOVEMAP,1
+The duel had been aborted due to movement to other map.
+					
+SENTENSE,EMCONFRONT_END_DISWIN,1
+The duel with '%s' had been aborted due to the area limitations.
+					
+SENTENSE,EMCONFRONT_END_DISLOSS,1
+Defeat in the duel with '%s' due to the area limitations.
+					
+SENTENSE,EMCONFRONT_END_PARTY,1
+The duel with '%s' had been aborted due to joining a party.
+					
+SENTENSE,EMCONFRONT_FAIL,1
+Unable to make a challenge for duel due to 'common error'.
+					
+SENTENSE,EMCONFRONT_REFUSE,1
+The opponent declined the challenge for duel.
+					
+SENTENSE,EMCONFRONT_REFUSE_AUTO,1
+%s' had automatically declined the challenge for duel.
+					
+SENTENSE,EMCONFRONT_OPTION,1
+Data error in duel selection!
+					
+SENTENSE,EMCONFRONT_PEACE,1
+Unable to duel in safe zone.
+					
+SENTENSE,EMCONFRONT_MAX,1
+Unable to duel with the same opponent within %d seconds, if you had been duel with him/her for %d times.
+					
+SENTENSE,EMCONFRONT_ELAP,1
+Can only duel with the same opponent after %d seconds.
+					
+SENTENSE,EMCONFRONT_ALREADY_ME,1
+Currently in dueling mode.
+					
+SENTENSE,EMCONFRONT_ALREADY_TAR,1
+Opponent is currently dueling with other player.
+					
+SENTENSE,EMCONFRONT_PARTY,1
+Unable to duel with opponent because in same party.
+					
+SENTENSE,CONFT_START,1
+The duel with '%s' starts!
+					
+SENTENSE,CONFTPTY_START,1
+The party duel with '%s' party starts!
+					
+SENTENSE,CONFTPTY_START_NOT,1
+You are unable to join the party duel.
+					
+SENTENSE,EMCONFRONT_MENOTPARTY,1
+You can join the party duel once done party.
+					
+SENTENSE,EMCONFRONT_MENOTMASTER,1
+Only party leader is able to make challenge for party duel.
+					
+SENTENSE,EMCONFRONT_TARMASTER,1
+Can only make challenge to party leader.
+					
+SENTENSE,CONFRONT_RECOVE,1
+The amount of recovery used in the duel is %d.
+					
+SENTENSE,CONFTCLB_START,1
+The duel with '%s' party starts!
+					
+SENTENSE,NOTARGET_SKILL,1
+No target, unable to use the skill.
+					
+SENTENSE,SKILL_DELAYTIME,1
+Skill cooldown time.
+					
+SENTENSE,SKILL_NOTITEM,1
+Require certain item to use the skill.
+					
+SENTENSE,SKILL_NOTITEM_1,1
+Require (%s) to use the skill.
+					
+SENTENSE,SKILL_NOTITEM_2,1
+Require (%s, %s) to use the skill.
+					
+SENTENSE,SKILL_NOTITEM_ARROW,1
+Require arrows to use the skill.
+					
+SENTENSE,SKILL_NOTITEM_CHARM,1
+Require talisman to use the skill.
+					
+SENTENSE,SKILL_NOTHP,1
+Insufficient HP to use the skill.
+					
+SENTENSE,SKILL_NOTMP,1
+Insufficient MP to use the skill.
+					
+SENTENSE,SKILL_NOTEXP,1
+Insufficient experience to use the skill.
+					
+SENTENSE,SKILL_DOFAIL,1
+Skill failed!
+					
+SENTENSE,EMREGEN_GATE_FAIL,1
+Resurrection spot save failed!
+					
+SENTENSE,EMREGEN_GATE_SUCCEED,1
+Resurrection spot save successful.
+					
+SENTENSE,EMREGEN_CURE_FAIL,1
+Heal request failed!
+					
+SENTENSE,EMREQ_DRUG_PK_LEVEL,1
+PK stats too negative, unable to use healing potion.
+					
+SENTENSE,EMREGEN_CHARRESET_SUCCEED,1
+You have used the "Reset Potion"
+					
+SENTENSE,EMREGEN_CHARRESET_FAIL,1
+Failed to use "Reset Potion"
+					
+SENTENSE,EMREGEN_CHARRESET_ITEM_FAIL,1
+You don't have any "Reset Potion", or have not enough of it.
+					
+SENTENSE,CHAT_ERROR_NOPARTY,1
+[Attention]You weren't join any party!
+					
+SENTENSE,CHAT_ERROR_NOPRIVATE,1
+[Attention]The person you are trying to message is offline!
+					
+SENTENSE,CHAT_ERROR_NOGUILD,1
+[Attention]You don't have a Gang!
+					
+SENTENSE,BUYITEM_NOSPACE,1
+Insufficient inventory space! Unable to purchase item.
+					
+SENTENSE,BUYITEM_NOMONEY,1
+Insufficient gold! Unable to purchase item.
+					
+SENTENSE,SPLIT_ITEM,1
+Please enter the amount of the item to be split.
+					
+SENTENSE,CONFLICT_QUESTION,1
+Do you accept the challenge of %s?
+					
+SENTENSE,CONFLICT_QUESTION_PARTY,1
+Do you accept the challenge of %s Team?
+					
+SENTENSE,CONFLICT_QUESTION_GUILD,1
+Do you accept the challenge of %s guild?
+					
+SENTENSE,PARTY_QUESTION,1
+Do you wish to party with '%s'?
+					
+SENTENSE,CONFLICT_ONE_QUESTION_TAR,1
+Do you want to duel with %s?
+					
+SENTENSE,CONFLICT_PARTY_QUESTION_TAR,1
+Do you want to party duel with %s party?
+					
+SENTENSE,CONFLICT_CLUB_QUESTION_TAR,1
+Do you want to guild duel with %s guild?
+					
+SENTENSE,BUY_PILE_ITEM,1
+Please enter the amount that you like to purchase.
+					
+SENTENSE,REQ_GATEOUT_FB_FAIL,1
+[%d]Movement failed!
+					
+SENTENSE,REQ_GATEOUT_FB_DATA_ERR,1
+[%d]DATA error ! Movement failed!
+					
+SENTENSE,REQ_GATEOUT_FB_SVR_ERR,1
+[%d]Server error ! Movement failed!
+					
+SENTENSE,MAPMOVE_MESSAGE,1
+: Move to the area.
+					
+SENTENSE,MODAL_ESC_MENU_CLOSE,1
+Do you wish to quit the game?
+					
+SENTENSE,MODAL_ESC_SERVER_STAGE,1
+Do you wish to move to the server selection menu?
+					
+SENTENSE,SELL_ITEM_CONFIRM,1
+Do you want sell [%s]?
+					
+SENTENSE,BUY_ITEM_CONFIRM,1
+Do you want to purchase [%s]?
+					
+SENTENSE,PICKUP_ITEM,1
+'%s' obtained.
+					
+SENTENSE,PICKUP_MONEY,1
+Obtained '%d' gold.
+					
+SENTENSE,EMNPC_ITEM_TRADE_FAIL,1
+Item trade failed due to common error!
+					
+SENTENSE,EMNPC_ITEM_TRADE_ITEM_FAIL,1
+Item trade failed due to no item to be traded!
+					
+SENTENSE,EMNPC_ITEM_TRADE_INSERT_FAIL,1
+Item trade failed due to insufficient inventory space!
+					
+SENTENSE,EMNPC_ITEM_TRADE_SUCCEED,1
+Item trade successful.
+					
+SENTENSE,EMQUEST_START_FB_FAIL,1
+Quest start failed due to common error!
+					
+SENTENSE,EMQUEST_START_FB_ALREADY,1
+Quest already started.
+					
+SENTENSE,EMQUEST_START_FB_DONAGAIN,1
+Quest failed before ! Unable to try again.
+					
+SENTENSE,EMQUEST_START_FB_DONREPEAT,1
+This quest is a 1-time only quest ! Unable to repeat.
+					
+SENTENSE,EMQUEST_START_FB_CONDITION,1
+Quest start requirement not match ! Unable to start quest.
+					
+SENTENSE,EMQUEST_START_FB_NEEDMONEY,1
+You don't have sufficient gold that require to start the quest!
+					
+SENTENSE,EMREQ_RECALL_FB_OK,1
+You had successfully recalled.
+					
+SENTENSE,EMREQ_RECALL_FB_FAIL,1
+Recall failed!
+					
+SENTENSE,EMREQ_RECALL_FB_ITEM,1
+Recall failed due to item error!
+					
+SENTENSE,EMREQ_RECALL_FB_CONDITION,1
+Unable to recall in current status!
+					
+SENTENSE,EMREQ_RECALL_FB_NOTLASTCALL,1
+You did not save the location to recall!
+					
+SENTENSE,EMREQ_RECALL_FB_PK_LEVEL,1
+PK stats too low ! Unable to use recall card.
+					
+SENTENSE,BLOCK_PROGRAM_FOUND,2					
+System had detected program that might affect the game!
+Game Ended.
+					
+SENTENSE,BLOCK_PROGRAM_FOUND_CONSOLE,1
+System had detected program that might affect the game ! Game ended. This will report back to the system, and may use as proof for account ban.
+					
+SENTENSE,CHAT_NOTICE,1
+					
+					
+SENTENSE,QUEST_KNOCK,1
+Doing '%s' quest currently!
+					
+SENTENSE,QUEST_NOINFO,1
+Unable to read the info of '%s' quest!
+					
+SENTENSE,QUEST_KNOCK_END,1
+Please open the quest window (shortcut key T) to confirm.
+					
+SENTENSE,QUEST_STEP,1
+'%s' Topic
+					
+SENTENSE,QUEST_STEP_OBJ_COMPLETE,1
+'%s' Complete
+					
+SENTENSE,QUEST_TIMEOVER,1
+Had passed the '%s' quest time limit.
+					
+SENTENSE,QUEST_NONDIE,1
+Doing '%s' quest currently, don't use all stamina.
+					
+SENTENSE,QUEST_COMPLETE,1
+You had successfully completed the '%s' quest!
+					
+SENTENSE,QUEST_START,2					
+%s' quest started!
+Please open the quest window (shortcut key T) to confirm.
+					
+SENTENSE,QUEST_FAIL,1
+'%s' quest failed!
+					
+SENTENSE,PICKUP_QUESTITEM,1
+Obtained quest item '%s'.
+					
+SENTENSE,CHAT_NORMAL_MODE,1
+General chat mode.
+					
+SENTENSE,CHAT_PRIVATE_MODE,1
+PM chat mode, input: @character name message					
+					
+SENTENSE,CHAT_PARTY_MODE,1
+Party chat mode, input: #message					
+					
+SENTENSE,CHAT_TOALL_MODE,1
+Shout chat mode, input: $message					
+					
+SENTENSE,CHAT_GUILD_MODE,1
+Guild chat mode, input: %message					
+					
+SENTENSE,BUYITEM_MAXIMUM,1
+Purchased %s, now has %d.
+					
+SENTENSE,QUEST_GIVEUP_CONFIRM,1
+Do you want to abort the current quest?
+					
+SENTENSE,WAITSERVER_MESSAGE,1
+Please wait...
+					
+SENTENSE,INVALID_KEYBOARD_INPUT,1
+Unable to type message if Ctrl or Alt button is down.
+					
+SENTENSE,FRIEND_ADD,2					
+Do you want to add [%s] into the friends list?
+					
+					
+SENTENSE,FRIEND_DEL,2					
+Do you want to remove [%s] from the friends list?
+					
+					
+SENTENSE,FRIEND_BLOCK_ADD,1
+Do you want to add [%s] into the block list?
+					
+SENTENSE,FRIEND_BLOCK_DEL,1
+Do you want to remove [%s] from the block list?
+					
+SENTENSE,FRIEND_MOVE,1
+Are you sure you want to move to [%s]?
+					
+SENTENSE,FRIEND_ADD_ALREADY,1
+[%s] has added you into his/her friends list.
+					
+SENTENSE,FRIEND_ADD_FAIL,1
+Adding [%s] into the friends list failed due to common error!
+					
+SENTENSE,FRIEND_ADD_OK,1
+Successfully added [%s] into your friends list.
+					
+SENTENSE,FRIEND_ADD_REFUSE,1
+[%s] refused to be added into your friends list.
+					
+SENTENSE,EMFRIENDADD_ABSENCE,1
+[%s] is not on line, or no such player. Unable to send invitation to be added into the friends list.
+					
+SENTENSE,FRIEND_DEL_FAIL,1
+Failed to remove [%s] from friends list!
+					
+SENTENSE,FRIEND_DEL_OK,1
+Successfully removed [%s] from the friends list!
+					
+SENTENSE,ADD_FRIEND_REQ,2					
+[%s] would like to add you into his/her friends list, do you want to accept?
+					
+					
+SENTENSE,EMBUS_TAKE_TICKET,1
+You don't have bus ticket, unable to take the bus.
+					
+SENTENSE,EMBUS_TAKE_OK,1
+You had took the bus.
+					
+SENTENSE,EMBUS_TAKE_FAIL,1
+Unable to take the bus due to common error.
+					
+SENTENSE,EMBUS_TAKE_CONDITION,1
+Unable to take the bus due to your current status.
+					
+SENTENSE,EMBUS_TAKE_PK_LEVEL,1
+Unable to take the bus due to low PK stats.
+					
+SENTENSE,DEFAULT_POSITION,2					
+Do you want to move the game window back to the default position?
+					
+					
+SENTENSE,BLOCK_PROGRAM_ALARM,2					
+Make sure whether is normal player or not.
+If yes, please press 'Confirm' button.
+					
+SENTENSE,UI_LOTTO,2					
+>>%s lottery calling<<					
+Please enter the serial number correctly!
+					
+SENTENSE,EMREQ_BOXOPEN_FB_FAIL,1
+Unable to open the box due to common error.
+					
+SENTENSE,EMREQ_BOXOPEN_FB_OK,1
+Successfully opened the box.
+					
+SENTENSE,EMREQ_BOXOPEN_FB_NOITEM,1
+The specified box doesn't exists.
+					
+SENTENSE,EMREQ_BOXOPEN_FB_NOBOX,1
+This is not a box.
+					
+SENTENSE,EMREQ_BOXOPEN_FB_EMPTY,1
+The box is empty.
+					
+SENTENSE,EMREQ_BOXOPEN_FB_NOTINVEN,1
+Insufficient inventory space ! Unable to pick up item from the box.
+					
+SENTENSE,EMREQ_BOXOPEN_FB_INVALIDITEM,1
+There is an invalid item in the box.
+					
+SENTENSE,EMREQ_DISGUISE_FB_FAIL,1
+Disguise error due to common error!
+					
+SENTENSE,EMREQ_DISGUISE_FB_OK,1
+Disguise successful.
+					
+SENTENSE,EMREQ_DISGUISE_FB_NOITEM,1
+You don't have the require item for disguise.
+					
+SENTENSE,EMREQ_DISGUISE_FB_NODISGUISE,1
+This is not an item for disguise.
+					
+SENTENSE,EMREQ_DISGUISE_FB_NOTSUIT,1
+Disguise is only for clothes item.
+					
+SENTENSE,EMREQ_DISGUISE_FB_DEFSUIT,1
+Unable to disguise due to different types of clothes.
+					
+					
+SENTENSE,EMREQ_CLEANSER_FB_FAIL,1
+Washing failed due to common error.
+					
+SENTENSE,EMREQ_CLEANSER_FB_OK,1
+Washing successful!
+					
+SENTENSE,EMREQ_CLEANSER_FB_NOITEM,1
+No item for washing.
+					
+SENTENSE,EMREQ_CLEANSER_FB_NOCLEANSER,1
+Unable to wash due to it's not a washing machine.
+					
+SENTENSE,EMREQ_CLEANSER_FB_NONEED,1
+Do not need to wash.
+					
+SENTENSE,LOTTERY_FB_NO1_6,2					
+Congratulation, you had won the %d prize!
+Please check the official website for more information.
+					
+SENTENSE,LOTTERY_FB_ALREADY_INPUTED,1
+You already took part into lottery event.
+					
+SENTENSE,LOTTERY_FB_NOT_PCROOM,2					
+You are not using cyber cafe IP.
+Only cyber cafe members are allow to take part in the lottery event.
+					
+SENTENSE,LOTTERY_FB_ALREADY_USED,1
+The lottery ticket had been used.
+					
+SENTENSE,LOTTERY_FB_ERROR,1
+Processing lottery ticket error!
+					
+SENTENSE,INVEN_DEL_ITEM_TIMELMT,1
+Item '%s' had reach it's due date and disappeared!
+					
+SENTENSE,EMREQ_CHARCARD_FB_FAIL,1
+Common error while using character card and had been aborted.
+					
+SENTENSE,EMREQ_CHARCARD_FB_OK,1
+You had used the character card, the number of allowed new character had increased.
+					
+SENTENSE,EMREQ_CHARCARD_FB_NOITEM,1
+Didn't obtain character card.
+					
+SENTENSE,EMREQ_STORAGECARD_FB_FAIL,1
+Common error while using storage card and had been aborted.
+					
+SENTENSE,EMREQ_STORAGECARD_FB_OK,1
+Storage card had been used, due date had been extended.
+					
+SENTENSE,STORAGE_EX_STATE,2					
+Based on the time of server, '%d' storage is due on year '%d' month '%d' time '%d'.
+According to current server time, validity is still left '%d' days.
+					
+SENTENSE,EMREQ_STORAGECARD_FB_NOITEM,1
+Didn't obtain storage card.
+					
+SENTENSE,EMREQ_STORAGECARD_FB_INVNUM,1
+The storage card serial number doesn't match the storage.
+					
+SENTENSE,STORAGE_SPAN_END,1
+Unable to store item due to reach the storage limit.
+					
+					
+SENTENSE,EMREQ_PREMIUMSET_FB_FAIL,1
+Unable to set as Premium Service due to common error.
+					
+SENTENSE,EMREQ_PREMIUMSET_FB_OK,1
+Already set as Premium Service.
+					
+SENTENSE,EMREQ_PREMIUMSET_FB_NOITEM,1
+No high level gift box item.
+					
+SENTENSE,EMREQ_PREMIUMSET_FB_NOTINVEN,1
+Unable to pick up item from the high level gift box due to insufficient inventory space.
+					
+SENTENSE,PREMIUMSET_EX_STATE,2					
+Based on the time of server, Premium Service is due on year '%d' month '%d' time '%d'.
+According to current server time, validity is still left '%d' days.
+					
+SENTENSE,PREMIUMSERVICE_END,1
+The validity of Premium Service is finished.
+					
+SENTENSE,EMCHAT_LOUDSPEAKER_FAIL,1
+Loudspeaker use failed due to common error!
+					
+SENTENSE,EMCHAT_LOUDSPEAKER_OK,1
+Loudspeaker used.
+					
+SENTENSE,EMCHAT_LOUDSPEAKER_NOITEM,1
+You don't have loudspeaker.
+					
+SENTENSE,EMCHAT_LOUDSPEAKER_BLOCK,1
+You don't have the right to use loudspeaker.
+					
+SENTENSE,EMREQ_FIRECRACKER_FB_FAIL,1
+Firecracker use failed due to common error.
+					
+SENTENSE,EMREQ_FIRECRACKER_FB_OK,1
+Firecracker used.
+					
+SENTENSE,EMREQ_FIRECRACKER_FB_NOITEM,1
+You don't have firecracker item.
+					
+SENTENSE,EMREQ_INVENLINE_FB_FAIL,1
+Inventory new line insert failed due to common error.
+					
+SENTENSE,EMREQ_INVENLINE_FB_OK,1
+Inventory new line insert successful!
+					
+SENTENSE,EMREQ_INVENLINE_FB_NOITEM,1
+You don't have item that require to insert new line in inventory.
+					
+SENTENSE,EMREQ_INVENLINE_FB_MAXLINE,1
+The maximum space of inventory reached.
+					
+SENTENSE,EMREQ_STORAGEOPEN_FB_FAIL,1
+Unable to use the storage open card due to common error.
+					
+SENTENSE,EMREQ_STORAGEOPEN_FB_OK,1
+Storage open card used.
+					
+SENTENSE,EMREQ_STORAGEOPEN_FB_NOITEM,1
+You don't have storage open card.
+					
+SENTENSE,STORAGE_CHARGE_CARD_CONFIRM,1
+Do you want to store value for [%d] storage ? 					
+					
+SENTENSE,EMCHARGED_ITEM_GET_FB_FAIL,1
+Get item failed due to common error.
+					
+SENTENSE,EMCHARGED_ITEM_GET_FB_OK,1
+Get item successful.
+					
+SENTENSE,EMCHARGED_ITEM_GET_FB_NOITEM,1
+The item doesn't exists.
+					
+SENTENSE,EMCHARGED_ITEM_GET_FB_NOINVEN,1
+Insufficient inventory space for item.
+					
+SENTENSE,EMREQ_STORAGE_END,1
+The validity of %d storage is over.
+					
+SENTENSE,EMREQ_RESET_SKST_FB_FAIL,1
+Stats and skills reset failed.
+					
+SENTENSE,EMREQ_RESET_SKST_FB_OK,2					
+Stats and skills reseted!
+You get %d wizard ball.
+					
+SENTENSE,EMREQ_RESET_SKST_FB_NOITEM,1
+You don't have the require item for reset.
+					
+SENTENSE,EMREQ_RESET_SKST_FB_NOINVEN,2					
+Insufficient inventory space ! Unable to insert the item that been reset back.
+Please make sure the space to insert %d wizard ball.
+					
+SENTENSE,EMQUEST_COMPLETE_FB_FAIL,1
+Unable to complete quest '%s' due to common error.
+					
+SENTENSE,EMQUEST_COMPLETE_FB_OK,1
+Quest '%s' has been completed successfully!
+					
+SENTENSE,EMQUEST_COMPLETE_FB_NOINVEN,1
+Unable to complete quest '%s' due to insufficient inventory space.
+					
+SENTENSE,EMQUEST_COMPLETE_FB_NOINVEN_EX,2					
+Unable to complete quest '%s' due to insufficient inventory space.
+Please check the inventory space, and click 'complete' in the quest window.
+					
+SENTENSE,NO_TRADE_PRIVATE_MARKET_OPEN,1
+Unable to make trade request in private market status.
+					
+SENTENSE,PRIVATE_MARKET_SELL_ITEMCOST,1
+Please enter the selling price of the item.
+					
+SENTENSE,PRIVATE_MARKET_MAKE_OPEN_MESSAGE,1
+Please enter the information of the private market.
+					
+SENTENSE,EMPMARKET_REGITEM_FB_FAIL,1
+Item selling menu registry failed due to common error.
+					
+SENTENSE,EMPMARKET_REGITEM_FB_OK,1
+Item selling menu registry done.
+					
+SENTENSE,EMPMARKET_REGITEM_FB_MAXNUM,1
+Exceed the item selling menu registry amount. 					
+					
+SENTENSE,EMPMARKET_REGITEM_FB_REGITEM,1
+The item had been registered to the selling menu.
+					
+SENTENSE,EMPMARKET_REGITEM_FB_NOSALE,1
+The item is not allow to be traded.
+					
+SENTENSE,EMPMARKET_OPEN_FB_FAIL,1
+Opening private market failed due to common error.
+					
+SENTENSE,EMPMARKET_OPEN_FB_OK,1
+Private market opened.
+					
+SENTENSE,EMPMARKET_OPEN_FB_ALREADY,1
+Private market open completed.
+					
+SENTENSE,EMPMARKET_OPEN_FB_EMPTY,1
+You had not register the item to be sold in the private market.
+					
+SENTENSE,EMPMARKET_BUY_FB_FAIL,1
+There is a common error.
+					
+SENTENSE,EMPMARKET_BUY_FB_OK,1
+You had purchased item from private market.
+					
+SENTENSE,EMPMARKET_BUY_FB_OK_SELLER,1
+Sold '%s', total '%d'.
+					
+SENTENSE,EMPMARKET_BUY_FB_NUM,1
+Not enough for sale.
+					
+SENTENSE,EMPMARKET_BUY_FB_LOWMONEY,1
+Not enough gold.
+					
+SENTENSE,EMPMARKET_BUY_FB_SOLD,1
+The item had been sold.
+					
+SENTENSE,EMPMARKET_BUY_FB_NOINVEN,1
+Insufficient inventory space to insert purchased item.
+					
+SENTENSE,PRIVATE_MARKET_SELL_WINDOW_TEXTBOX,1
+Please specify the item trade information.
+					
+SENTENSE,EMCLUB_NEW_FB_FAIL,1
+Common error while creating guild.
+					
+SENTENSE,EMCLUB_NEW_FB_OK,1
+Created '%s' guild.
+					
+SENTENSE,EMCLUB_NEW_FB_ALREADY,1
+You are a member of another guild ! Unable to create guild.
+					
+SENTENSE,EMCLUB_NEW_FB_NOTMASTER,1
+Only party leader is allow to create guild.
+					
+SENTENSE,EMCLUB_NEW_FB_NOTMEMBER,1
+The guild to be created require %d or above members to join.
+					
+SENTENSE,EMCLUB_NEW_FB_NOTEXIST_MEM,1
+Members that join the guild that going to be created are not around.
+					
+SENTENSE,EMCLUB_NEW_FB_MEM_ALREADY,1
+Member had joined another guild.
+					
+SENTENSE,EMCLUB_NEW_FB_MASTER_LVL,1
+The level of the guild master is not enough. (Require %d or above)					
+					
+SENTENSE,EMCLUB_NEW_FB_AVER_LIVING,1
+The life points of the guild master must be %d or above.
+					
+SENTENSE,EMCLUB_NEW_FB_NOTMONEY,1
+Not enough gold to create guild. (Require: %d)					
+					
+SENTENSE,EMCLUB_NEW_FB_NAME,1
+The guild name '%s' is already being used.
+					
+SENTENSE,EMCLUB_NEW_FB_BADNAME,1
+Unable to use the name '%s' for your guild.
+					
+SENTENSE,EMCLUB_MEMBER_REQ_FB_FAIL,1
+Common error while inviting '%s' to join the guild.
+					
+SENTENSE,EMCLUB_MEMBER_REQ_FB_OK,1
+%s' had joined the guild.
+					
+SENTENSE,EMCLUB_MEMBER_REQ_FB_REFUSE,1
+'%s' had declined the invitation to join the guild.
+					
+SENTENSE,EMCLUB_MEMBER_REQ_FB_ALREADY,1
+%s' had already joined the guild.
+					
+SENTENSE,EMCLUB_MEMBER_REQ_FB_MAXNUM,1
+Maximum number of guild members reached, unable to recruit new member.
+					
+SENTENSE,EMCLUB_MEMBER_REQ_FB_SECEDED,1
+Member who left the guild by himself, can only rejoin the guild after %d days.
+					
+					
+SENTENSE,PRIVATE_MARKET_QUIT,1
+Are you sure you want to close?
+					
+SENTENSE,EMCLUB_RANK_FB_FAIL,1
+Common error while requesting guild level upgrade.
+					
+SENTENSE,EMCLUB_RANK_FB_OK,1
+Guild level upgraded!
+					
+SENTENSE,EMCLUB_RANK_FB_MAX,1
+Guild level already reached maximum!
+					
+SENTENSE,EMCLUB_RANK_FB_MASTER_LVL,1
+Guild master level too low. (Require %d or above)					
+					
+SENTENSE,EMCLUB_RANK_FB_AVER_LIVING,1
+Guild master life points too low. (Require %d or above)					
+					
+SENTENSE,EMCLUB_RANK_FB_NOTMONEY,1
+Not enough gold for guild level upgrade. (Require: %d)					
+					
+SENTENSE,EMCLUB_MEMBER_NICK_FB_FAIL,1
+Guild member nickname change failed!
+					
+SENTENSE,EMCLUB_MEMBER_NICK_FB_OK,1
+Guild member nickname changed.
+					
+SENTENSE,EMCLUB_MEMBER_NICK_FB_BADNAME,1
+Unable to use the name as guild member nickname.
+					
+SENTENSE,CLUB_MAKE_OPEN_MESSAGE,1
+Please enter the guild name.
+					
+SENTENSE,CLUB_LOADMARK_FAIL,3					
+Failed to read guild icon file!
+Please check the %s file in 'My Document' folder.
+Icon file must be in size 16x11, bmp, tga format only.
+					
+SENTENSE,CLUB_KICK_MEMBER,1
+Do you want to expel '%s'?
+					
+SENTENSE,CLUB_BREAKUP,1
+Do you want to dismiss the guild?
+					
+SENTENSE,CLUB_BREAKUP_CANCEL,1
+Do you want to cancel the dismiss of guild?
+					
+SENTENSE,CLUB_CHANGE_MARK,1
+Please enter the guild icon file name.
+					
+SENTENSE,CLUB_CHANGE_NICK,1
+Please enter the nickname.
+					
+SENTENSE,CLUB_JOIN_ASK,1
+Do you want to join the '%s' guild ? (Master: '%s')					
+					
+SENTENSE,CLUB_JOIN,1
+Do you want to permit '%s' to join the guild?
+					
+SENTENSE,EMCLUB_DIS_FB_FAIL,1
+Guild dismiss (cancel) had been aborted due to common error.
+					
+SENTENSE,EMCLUB_DIS_FB_OK,1
+Guild dismiss had been scheduled. (Dismiss after %d days)					
+					
+SENTENSE,EMCLUB_DIS_FB_CANCEL,1
+Guild dismiss had been canceled.
+					
+SENTENSE,EMCLUB_MEMBER_DEL_FB_FAIL,1
+Common error while expel guild member.
+					
+SENTENSE,EMCLUB_MEMBER_DEL_FB_OK,1
+Already expel the guild member.
+					
+SENTENSE,CLUB_SELFQUIT,1
+Do you want to quit the guild?
+					
+SENTENSE,EMCLUB_MEMBER_SECEDE_FB_FAIL,1
+Quit guild failed.
+					
+SENTENSE,EMCLUB_MEMBER_SECEDE_FB_OK,2					
+You had quited the guild!
+You can create your own guild, but can join other guild only after %d days.
+					
+SENTENSE,EMINVEN_RANDOMBOXOPEN_FB_FAIL,1
+Common error while opening gift box.
+					
+SENTENSE,EMINVEN_RANDOMBOXOPEN_FB_OK,1
+Opened gift box.
+					
+SENTENSE,EMINVEN_RANDOMBOXOPEN_FB_EMPTY,1
+Gift box is empty.
+					
+SENTENSE,EMINVEN_RANDOMBOXOPEN_FB_BADITEM,1
+Item in the gift box doesn't exists.
+					
+SENTENSE,EMINVEN_RANDOMBOXOPEN_FB_NOINVEN,1
+Insufficient inventory space, unable to pick up item from gift box.
+					
+SENTENSE,EMINVEN_RANDOMBOXOPEN_FB_MISS,1
+The gift box displayed "Thank You"!
+					
+SENTENSE,EMINVEN_DISJUNCTION_FB_FAIL,1
+Common error while separating the equipment set.
+					
+SENTENSE,EMINVEN_DISJUNCTION_FB_OK,1
+Equipment set separation successful!
+					
+SENTENSE,EMINVEN_DISJUNCTION_FB_BADITEM,1
+The item is unable to perform the task of equipment set separation.
+					
+SENTENSE,EMINVEN_DISJUNCTION_FB_NOINVEN,1
+Insufficient inventory space.
+					
+SENTENSE,EMINVEN_DISJUNCTION_FB_NONEED,1
+The item doesn't require equipment set separation.
+					
+SENTENSE,PK_PLAYHOSTILE_ADD,1
+%s character starts hostile action.
+					
+SENTENSE,EMINVEN_HAIR_CHANGE_FB_FAIL,1
+Common error while changing hair style.
+					
+SENTENSE,EMINVEN_HAIR_CHANGE_FB_OK,1
+Hair style change successful!
+					
+SENTENSE,EMINVEN_HAIR_CHANGE_FB_NOITEM,1
+You don't the item to change hair style.
+					
+SENTENSE,EMINVEN_HAIR_CHANGE_FB_BADITEM,1
+The item is unable to change the hair style.
+					
+SENTENSE,EMINVEN_HAIR_CHANGE_FB_BADCLASS,1
+Unable to change hair style due to character type difference.
+					
+SENTENSE,EMINVEN_FACE_CHANGE_FB_FAIL,1
+Common error while changing face.
+					
+SENTENSE,EMINVEN_FACE_CHANGE_FB_OK,1
+Face change successful!
+					
+SENTENSE,EMINVEN_FACE_CHANGE_FB_NOITEM,1
+You don't have the item to change face.
+					
+SENTENSE,EMINVEN_FACE_CHANGE_FB_BADITEM,1
+The item is unable to change the face.
+					
+SENTENSE,EMINVEN_FACE_CHANGE_FB_BADCLASS,1
+Unable to change face due to character type difference.
+					
+SENTENSE,SKILL_LEVEL_UP_CONFIRM,1
+Do you want to upgrade the level of skill '%s'?
+					
+SENTENSE,CLUB_BATTLE_START,1
+The decisive battle of '%s' guild had started.
+					
+SENTENSE,CLUB_BATTLE_MIN_START,1
+The decisive battle of '%s' guild will starts after '%d' minutes.
+					
+SENTENSE,CLUB_BATTLE_END,1
+The decisive battle of '%s' guild has ended... it's had been decided that '%s' to be the master.
+					
+SENTENSE,EMCDCERTIFY_FAIL,1
+Error while try to verify CD.
+					
+SENTENSE,EMCDCERTIFY_OK,1
+CD verification starts. Please be patient before the verification completed.
+					
+SENTENSE,EMCDCERTIFY_BADNPC,1
+The device that require for verification doesn't exists.
+					
+SENTENSE,EMCDCERTIFY_NOTMASTER,1
+Only master is allows to do the verification.
+					
+SENTENSE,EMCDCERTIFY_AREADYCERTIFY,1
+Verification in progress.
+					
+SENTENSE,EMCDCERTIFY_OTHERCERTIFING,1
+Currently have other guilds doing verification.
+					
+SENTENSE,EMCDCERTIFY_AREADYGUID,1
+Currently the lead guild is another guild.
+					
+SENTENSE,EMCDCERTIFY_NOTTIME,1
+Currently unable to verify.
+					
+SENTENSE,EMCDCERTIFY_DISTANCE,1
+Unable to verify due to too far away from the require device					
+					
+SENTENSE,EMCDCERTIFY_NOTITEM,1
+No verifiable CD. 					
+					
+SENTENSE,EMCDCERTIFY_NOTCONDITION,1
+You haven't meet the requirement for verification yet.
+					
+SENTENSE,EMCDCERTIFY_AREADY,1
+Verification already been done befre.
+					
+SENTENSE,EMCDCERTIFY_ING_TIMEOUT,1
+Verification aborted due to over the time limit.
+					
+SENTENSE,EMCDCERTIFY_ING_DISTANCE,1
+You are disconnected from the device, verification will be aborted.
+					
+SENTENSE,EMCDCERTIFY_ING_DIE,1
+Verification failed.
+					
+SENTENSE,EMCDCERTIFY_COMPLETE,1
+Verification completed.
+					
+SENTENSE,EMGUIDCOMMISSION_FB_FAIL,1
+Error in the progress of changing tax rate.
+					
+SENTENSE,EMGUIDCOMMISSION_FB_OK,1
+You had scheduled a change of tax rate. The rate after change is %2.2f%%.
+					
+SENTENSE,EMGUIDCOMMISSION_FB_RANGE,1
+Over the adjustable range of tax rate.
+					
+SENTENSE,EMGUIDCOMMISSION_FB_NOTCLUB,1
+You are not the lead guild master.
+					
+SENTENSE,EMGUIDCOMMISSION_FB_BATTLE,1
+Unable to change tax rate during lead guild decisive battle.
+					
+SENTENSE,EMGUIDCOMMISSION_FB_ALREADY,1
+You had scheduled a change of tax rate.
+					
+SENTENSE,EMCHAR_GATEOUT_HOLD,1
+You are unable to enter the area.
+					
+SENTENSE,MODAL_COMMISSION,1
+Please enter the tax rate after change.
+					
+SENTENSE,ONLY_CLUB_MASTER_USE_CLUBSTORAGE,1
+Only guild masters are allow to use it.
+					
+SENTENSE,CLUB_BATTLE_LAND,1
+This is a free PK zone.
+					
+SENTENSE,LAND_TRADE_COMMISSION,1
+The current tax rate for this area is %2.2f%%.
+					
+SENTENSE,LAND_TRADE_NEW_COMMISSION,1
+The current tax rate for this area is %2.2f%%.
+					
+SENTENSE,LAND_TRADE_NEW_RV_COMMISSION,1
+The tax rate for this area will be %2.2f%% after 10 minutes					
+					
+SENTENSE,EMREQ_REVIVE_FB_FAIL,1
+Revive ball use failed due to error.
+					
+SENTENSE,EMREQ_REVIVE_FB_OK,1
+Use revive ball.
+					
+SENTENSE,EMREQ_REVIVE_FB_NOITEM,1
+Revive ball doesn't exists.
+					
+SENTENSE,EMREQ_REVIVE_FB_NOTUSE,1
+Unable to use revive ball in the area.
+					
+SENTENSE,EM2FRIEND_FB_FAIL,1
+Move to friend aborted due to error.
+					
+SENTENSE,EM2FRIEND_FB_OK,1
+Moved to friend.
+					
+SENTENSE,EM2FRIEND_FB_NO_ITEM,1
+Do not have friend connect card.
+					
+SENTENSE,EM2FRIEND_FB_FRIEND_CONDITION,1
+Unable to move to friend due to friend's abnormal status 					
+					
+SENTENSE,EM2FRIEND_FB_MAP_CONDITION,1
+You don't have the right to enter the area where your friend is.
+					
+SENTENSE,EM2FRIEND_FB_MY_CONDITION,1
+Unable to move currently.
+					
+SENTENSE,EM2FRIEND_FB_PK_CONDITION,1
+Unable to move due to good/bad ratio too low.
+					
+SENTENSE,EMPARTY_LURE_OTHERSCHOOL,1
+Not allow to party with students of other school					
+					
+SENTENSE,EMCLUB_NEW_FB_OTHERSCHOOL,1
+Not allow to create guild with students of other school.
+					
+SENTENSE,EMGRINDING_TERMINATE,1
+Transformation failed in progress.
+					
+SENTENSE,OTHER_SCHOOL_FREEPK_ON,1
+The School PK Period has just begun.
+					
+SENTENSE,OTHER_SCHOOL_FREEPK_OFF,1
+The School PK Period has just ended.
+					
+SENTENSE,EM2FRIEND_FB_FRIEND_CHANNEL,1
+Unable to move due to the difference of your friend and your channel.
+					
+SENTENSE,EMGM_MOVE2CHAR_FB_FAIL,1
+Move failed due to common error.
+					
+SENTENSE,EMGM_MOVE2CHAR_FB_OK,1
+Move successful.
+					
+SENTENSE,EMGM_MOVE2CHAR_FB_TO_CONDITION,1
+Move failed due to opponents abnormal status.
+					
+SENTENSE,EMGM_MOVE2CHAR_FB_MY_CONDITION,1
+Move failed due to your abnormal status.
+					
+SENTENSE,EMGM_MOVE2CHAR_FB_CHANNEL,1
+Unable to move due to the difference of channel with target. Target is on '%d' channel.
+					
+SENTENSE,EMFRIENDBLOCK_FAIL,1
+Blocking of PM from '%s' failed.
+					
+SENTENSE,EMFRIENDBLOCK_ON,1
+You had set to auto blocking the PM from '%s'.
+					
+SENTENSE,EMFRIENDBLOCK_OFF,1
+You had unblock the PM from '%s'.
+					
+SENTENSE,FRIEND_BLOCK_DEL_INCORRECT,1
+Please press the 'Cancel' button after made a selection.
+					
+SENTENSE,FRIEND_DEL_INCORRECT,1
+Please press the 'Delete' button after made a selection.
+					
+SENTENSE,FRIEND_BLOCK_ADD_ALREADY,1
+Already added '%s' into the block list.
+					
+SENTENSE,EMCLUB_NOTICE_FB_FAIL,1
+Error in change of guild notice.
+					
+SENTENSE,EMCLUB_NOTICE_FB_OK,1
+Guild notice changed successful. [%s]					
+					
+SENTENSE,EMCLUB_NOTICE_FB_NOTMATER,1
+No right to change the guild notice.
+					
+SENTENSE,CLUB_NOTICE,1
+%s guild notice : %s					
+					
+SENTENSE,ANNOUNCE_MAKE_MESSAGE,1
+Please enter the guild notice message.
+					
+SENTENSE,EMCLUBSUBMASTER_FB_FAIL,1
+Error in appointing guild vice master.
+					
+SENTENSE,EMCLUBSUBMASTER_FB_OK,1
+Guild vice master appointed successful.
+					
+SENTENSE,EMCLUBSUBMASTER_FB_NOTMASTER,1
+Only the guild master has the right to appoint a vice master.
+					
+SENTENSE,EMCLUBSUBMASTER_FB_RESET,1
+You had canceled the authority of vice master.
+					
+SENTENSE,EMCLUB_MEMBER_REQ_FB_OTHERSCHOOL,1
+Unable to join the guild due to '%s' is the student of other school.
+					
+SENTENSE,EMREQ_DISGUISE_FB_ALREADY,1
+You already combined with other equipment. Please use the 'Separation Potion' to separate.
+					
+SENTENSE,CLUB_BATTLE_CERTIFY_START,1
+%s is currently start verifying from %s					
+					
+SENTENSE,EMCLUBSUBMASTER_FB_BATTLE,1
+Unable to appoint guild vice master before the guild battle.
+					
+SENTENSE,CHAT_PAPERING_MODE,1
+Not allow to chat for 30 seconds due to continuous input.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_FAIL,1
+Request for guild alliance failed due to common error.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_OK,1
+Guild alliance formed.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_NOTMASTER,1
+Only guild masters are able to form guild alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_NOTCHIEF,1
+Only the alliance chief is allow to invite guild into the alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_TARNOTMASTER,1
+The target is not a guild master.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_ALREADY,1
+The target's guild had already joined other alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_MAX,1
+Already over the maximum number of allowed guild in a alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_REFUSE,1
+Declined the invitation to join the alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_DEL_FB_FAIL,1
+Error in request to delete a guild from alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_DEL_FB_OK,1
+Deleted from the alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_DEL_FB_NOTMASTER,1
+Not a guild master.
+					
+SENTENSE,EMCLUB_ALLIANCE_DEL_FB_NOTCHIEF,1
+Not an alliance chief.
+					
+SENTENSE,EMCLUB_ALLIANCE_SEC_FB_FAIL,1
+Common error in request to withdraw from the alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_SEC_FB_OK,1
+Withdrawn from the alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_SEC_FB_NOTMASTER,1
+Not a guild master.
+					
+SENTENSE,EMCLUB_ALLIANCE_SEC_FB_ALLIANCE,1
+Didn't join any alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_DIS_FB_FAIL,1
+Error while disband the guild alliance.
+					
+SENTENSE,EMCLUB_ALLIANCE_DIS_FB_OK,1
+The guild alliance disbanded.
+					
+SENTENSE,EMCLUB_ALLIANCE_DIS_FB_NOTMASTER,1
+Not a guild master.
+					
+SENTENSE,EMCLUB_ALLIANCE_DIS_FB_NOTCHIEF,1
+Not an alliance chief.
+					
+SENTENSE,UNION_JOIN_ASK,1
+Join the alliance (Master: %s)?
+					
+SENTENSE,UNION_JOIN,1
+Do you want to add '%s' into the alliance?
+					
+SENTENSE,ALLIANCE_ADD,1
+%s' guild had joined the '%s' alliance.
+					
+SENTENSE,ALLIANCE_DEL,1
+%s' guild had withdrawn from the alliance.
+					
+SENTENSE,ALLIANCE_DIS,1
+%s' alliance disbanded.
+					
+SENTENSE,UNION_LEAVE,1
+Do you want to withdrawn from the alliance?
+					
+SENTENSE,UNION_KICK_MEMBER,1
+Do you want to expel the '%s' guild?
+					
+SENTENSE,UNION_BREAKUP,1
+Do you want to disband the alliance?
+					
+SENTENSE,CHAT_ALLIANCE_MODE,1
+Alliance channel directly input : !message					
+					
+SENTENSE,EMCHAR_GATEOUT_CONDITION,1
+[%d] doesn't has the right to move.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_DISTIME,1
+Unable to form alliance until '%s'.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_SECTIME,1
+After being expel from an alliance, unable to join other alliance until '%s' time.
+					
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_TOSECTIME,1
+After withdrawn from an alliance, unable to join other alliance until '%s' time.
+
+SENTENSE,EMCLUB_ALLIANCE_REQ_FB_BOTHGUID,1
+You can not alliance with other Reader Clubs.
+
+SENTENSE,EMCDCERTIFY_HAVEGUIDCLUB,1
+You can not autholization in one more place.
+
+SENTENSE,HAIRCOLORCARD_TITLE,1
+Please Decide Color
+
+SENTENSE,INVEN_CHAR_RENAME,1
+Please Insert Name
+
+WORD,HAIRSTYLECARD_NAME,15
+A,B,C,D,E,F,G,H,I,J,K,L,M,N,O

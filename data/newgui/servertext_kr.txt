@@ -1,0 +1,28 @@
+/////////////////////////////////////////////////////////////////////////////
+VERSION,1
+
+// Server Message
+//
+SENTENSE,EMCONFRONT_END_CWIN,1
+In '%s', the guild battle between '%s' and '%s' had ended. The '%s' guild is victorious !
+
+SENTENSE,EMCONFRONT_END_CDRAWN,1
+In '%s', the guild battle between '%s' and '%s' had ended. It's a draw !
+
+SENTENSE,EMCONFRONT_START_PARTY,1
+In '%s', the guild battle between '%s' and '%s' had started.
+
+SENTENSE,EMCROWACT_REPULSE,1
+The '%s' boss monster had been killed by '%s'.
+
+SENTENSE,EMCROWACT_KNOCK,1
+The '%s' boss monster is appeared at '%s'.
+
+SENTENSE,EMCONFRONT_END_PWIN,1
+In '%s', the party battle between '%s' and '%s' had ended. The '%s' party is victorious !
+
+SENTENSE,EMCONFRONT_END_PDRAWN,1
+In '%s', the party battle between '%s' and '%s' had ended. It's a draw !
+
+SENTENSE,EMGUIDCLUB_CERTIFIED,1
+The '%s' guild had obtained the cetification as the lead guild of the '%s' area.

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<TEXT>
+<SENTENSE Ver="1" Id="CHAR_DEL_CLUB_FAILED">
+<VALUE Lang="pe">Character deletion failed!</VALUE>
+<VALUE Lang="pe">Please dissolve organization then retry it gain</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAR_DEL_FAILED">
+<VALUE Lang="pe">Character deletion failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAR_DEL_SUCCEED">
+<VALUE Lang="pe">Character successfully deleted</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHAR_DELETE_ON">
+<VALUE Lang="pe">Deleting Character...	</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTER_BADNAME">
+<VALUE Lang="pe">Name of the character consists unproper words!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTER_NOT_ENOUGH_CHARREMAIN">
+<VALUE Lang="pe">Character Card</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTER_THIS_SERVER_SLOT_FULL">
+<VALUE Lang="pe">Server is unable to recreate a new character!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_10">
+<VALUE Lang="pe">This character is in the process of being connected!</VALUE>
+<VALUE Lang="pe">Please reconnect it again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_11">
+<VALUE Lang="pe">Failed to create a New Character!</VALUE>
+<VALUE Lang="pe">Please reconnect it again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_12">
+<VALUE Lang="pe">You can not enter this channel.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_13">
+<VALUE Lang="pe">Are you want to return to character selection page?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_2">
+<VALUE Lang="pe">Internet is disconnected!</VALUE>
+<VALUE Lang="pe">Do you want to reconnect it again?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_3">
+<VALUE Lang="pe">Do you want to quit the game?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_4">
+<VALUE Lang="pe">Do you want to create a New Character?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_6">
+<VALUE Lang="pe">Do you want to move to the server menu?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_8">
+<VALUE Lang="pe">Please select the Character.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_9">
+<VALUE Lang="pe">Character failed to be Deleted!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_CAUTION_DELETE">
+<VALUE Lang="pe">As if demanded to delete</VALUE>
+<VALUE Lang="pe">Please key in the second level password.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_CAUTION_DELETE_DAUM">
+<VALUE Lang="pe">Confirm Delete?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_DAUM_GAME_JOIN_FAIL">
+<VALUE Lang="pe">Character data failed to be processed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_GAME_JOIN">
+<VALUE Lang="pe">Processing the data.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHARACTERSTAGE_NOT_SELECTED">
+<VALUE Lang="pe">Please select the character that you wish to be delete.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHINA_GAIN_1HOUR">
+<VALUE Lang="pe">Pass 1 hour</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHINA_LOGIN_GAINTIME_ERROR">
+<VALUE Lang="pe">Able to Login when your offline time of Game had accrued more than 5 hours.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CHINA_OUTER_UP_TITLE">
+<VALUE Lang="pe">Healthy Game's advice</VALUE>
+<VALUE Lang="pe">1. Reject for Pirate games.</VALUE>
+<VALUE Lang="pe">2. To careful to avoid scamming</VALUE>
+<VALUE Lang="pe">3. Avoid obsessed with the game</VALUE>
+<VALUE Lang="pe">4. Arrange time to enjoy a healthy life.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATE_CHARACTER_NAME_ERROR">
+<VALUE Lang="pe">Account's user could not include.</VALUE>
+<VALUE Lang="pe">special character or blank space.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATESTAGE_1">
+<VALUE Lang="pe">Internet is disconnected!</VALUE>
+<VALUE Lang="pe">Do you want to reconnect it again?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATESTAGE_10">
+<VALUE Lang="pe">Wrong vietnamese included in character's name</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATESTAGE_2">
+<VALUE Lang="pe">Please key in the Character's name.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATESTAGE_3">
+<VALUE Lang="pe">Do you want to quit the game?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATESTAGE_4">
+<VALUE Lang="pe">Character Created!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATESTAGE_5">
+<VALUE Lang="pe">This name is not available.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATESTAGE_6">
+<VALUE Lang="pe">You have exceeded the maximum characters allowed.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATESTAGE_7">
+<VALUE Lang="pe">Failed to create a New Character!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATESTAGE_8">
+<VALUE Lang="pe">Character Name cannot include Special Characters or Blank Spaces.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="CREATESTAGE_9">
+<VALUE Lang="pe">Included wrong Thai language in character name</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DAUM_LOGIN_WAIT">
+<VALUE Lang="pe">Server is in the process of being connected.</VALUE>
+<VALUE Lang="pe">Please Wait!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DAUM_LOGIN_WAIT_SERVERFULL">
+<VALUE Lang="pe">No Response from Server.</VALUE>
+<VALUE Lang="pe">Do you wish to reconnect?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_LOGIN_FB_SUB_BETAKEY">
+<VALUE Lang="pe">Beta'key can not access the authentication fails.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_LOGIN_FB_SUB_IMPOSSIBLEIP">
+<VALUE Lang="pe">IP connectivity is impossible.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="EM_LOGIN_FB_SUB_UUIDGET_FAIL">
+<VALUE Lang="pe">Can't load UUID by login failed</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGIN_ALREADYOFFLINE">
+<VALUE Lang="pe">Login failed due to unstable line connection.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGIN_FAILED">
+<VALUE Lang="pe">Failed to log in</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGIN_FAILED_INVALID_VER">
+<VALUE Lang="pe">A new Client version is available!</VALUE>
+<VALUE Lang="pe">You must exit the game before you can update lastest version.</VALUE>
+<VALUE Lang="pe">Rerun the Application?.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGIN_FAILED_VER_FILE">
+<VALUE Lang="pe">Client's Program Corrupted!</VALUE>
+<VALUE Lang="pe">Please uninstall and reinstall the Program</VALUE>
+<VALUE Lang="pe">Start again  to run the games.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGIN_PAGE_ID_ERROR">
+<VALUE Lang="pe">Account is unable to use</VALUE>
+<VALUE Lang="pe">the special character or blank space.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGIN_PAGE_PW_ERROR">
+<VALUE Lang="pe">Please Type in your Password.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGIN_PAGE_RAND_NUMBER">
+<VALUE Lang="pe">%dth security code</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGIN_PAGE_RP_ERROR">
+<VALUE Lang="pe">unable to use blank or ASCII code</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_1">
+<VALUE Lang="pe">You have been disconnected!</VALUE>
+<VALUE Lang="pe">Do you want to reconnect?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_10">
+<VALUE Lang="pe">User's account is being connected!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_11">
+<VALUE Lang="pe">Username and Passwords does not match!</VALUE>
+<VALUE Lang="pe">Please reconfirm.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_12">
+<VALUE Lang="pe">User IP is blocked!</VALUE>
+<VALUE Lang="pe">Please inquire with the GM</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_13">
+<VALUE Lang="pe">2nd ID is overlap. Try to use new ID.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_18LESS_FAILED">
+<VALUE Lang="pe">skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_18LESS_TIME_FAILED">
+<VALUE Lang="pe">skip</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_18MORE_FAILED">
+<VALUE Lang="pe">Total offline time must cumulative over than 5 hours before log in</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_2">
+<VALUE Lang="pe">Please select a server that you want to connect.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_3">
+<VALUE Lang="pe">Please select a server that you want to connect.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_4">
+<VALUE Lang="pe">Invalid User Name.</VALUE>
+<VALUE Lang="pe">Special Character or Blank Space.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_5">
+<VALUE Lang="pe">Please Key in your username and passwords.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_6">
+<VALUE Lang="pe">Verifying user's data!</VALUE>
+<VALUE Lang="pe">Please wait＃</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_8">
+<VALUE Lang="pe">System error caused log in fail</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_9">
+<VALUE Lang="pe">Permition time usage error!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_ADULT_FAILED">
+<VALUE Lang="pe">Adult failed to log in!</VALUE>
+<VALUE Lang="pe">Please press the</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_BLOCK">
+<VALUE Lang="pe">This Account is blocked!</VALUE>
+<VALUE Lang="pe">Please inquire with  the GM</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_EXPIRED_USER">
+<VALUE Lang="pe">Time up for the log in Conformation!</VALUE>
+<VALUE Lang="pe">Please press the in order to quit the game</VALUE>
+<VALUE Lang="pe">Please retry it again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_FULL">
+<VALUE Lang="pe">The server is already full. Please try again later.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_INVALID_LOGIN">
+<VALUE Lang="pe">Irregular log in!</VALUE>
+<VALUE Lang="pe">Please press the</VALUE>
+<VALUE Lang="pe">in order to quit the games.</VALUE>
+<VALUE Lang="pe">Please retry it again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_NOGID">
+<VALUE Lang="pe">Irregular log in! Please press the</VALUE>
+<VALUE Lang="pe">in order to quit the games.</VALUE>
+<VALUE Lang="pe">Please retry it again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_NOUID">
+<VALUE Lang="pe">Time up for the log in Conformation!</VALUE>
+<VALUE Lang="pe">Please press the</VALUE>
+<VALUE Lang="pe">in order to quit the games.</VALUE>
+<VALUE Lang="pe">Please retry it again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_RANDOM_PASS_FAILED">
+<VALUE Lang="pe">Card number wrong (Or empty), Please try again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_SSN_FAILED">
+<VALUE Lang="pe">Identification Card 's character does not match</VALUE>
+<VALUE Lang="pe">Please press the</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="LOGINSTAGE_UNKNOWN_FAILED">
+<VALUE Lang="pe">User's account is not clear!</VALUE>
+<VALUE Lang="pe">Please visit the official FAQ's website,</VALUE>
+<VALUE Lang="pe">Contact with the GM</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_CLASS_DEC0">
+<VALUE Lang="pe">Brawler students are taught to harness the latent powers stored deep within their bodies and use this as their greatest weapon. Only students demonstrating high strength and coordination test scores qualify for this course, as Brawlers have shunned all armed conflict, choosing instead to embrace combat in its purest, basest form. They study to master the art of close range combat.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_CLASS_DEC1">
+<VALUE Lang="pe">Swordsman students go through the most rigorous training as they have to be masters of precision, strength and agility. They embrace the way of the sword, living their life not only on the edge but by the edge. Students belonging to this class are formidable opponents as they have the highest defense. Their goal is to deal a blow that is swift, clean, and most of all, final.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_CLASS_DEC2">
+<VALUE Lang="pe">The true mark of graduates of Archery is that they never miss a target. Their skill with the bow is matchless; their speed, supreme. Great allies in every battle, these students are the master of long ranged combat. Once they unleash their arrows, they become unstoppable. Their superior evasion skills serve as their greatest defense.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_CLASS_DEC3">
+<VALUE Lang="pe">Brawler students are taught to harness the latent powers stored deep within their bodies and use this as their greatest weapon. Only students demonstrating high strength and coordination test scores qualify for this course, as Brawlers have shunned all armed conflict, choosing instead to embrace combat in its purest, basest form. They study to master the art of close range combat.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_CLASS_DEC4">
+<VALUE Lang="pe">Shaman students are the masters of martial arts and Qi manipulation. Those who aim to take on this course must be prepared to practice strict discipline and enduring patience. Shaman students have the strongest spirituality and highest intelligence among the classes. Accomplished Shamans can command the elements and even call elemental guardians to aid them in battle. </VALUE>
+<VALUE Lang="pe">nUsing spear and wands to channel their Qi and execute perfect martial arts, Shamans may choose to use their energy to heal and buff others or command mass destruction.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_CLASS_ERROR">
+<VALUE Lang="pe">Select Desired Class</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_SCHOOL_DEC0">
+<VALUE Lang="pe">Direction: Located in West</VALUE>
+<VALUE Lang="pe">Sacred Gate Campus is the first educational institution built by the Sacred Financial Group. Boasting Eastern infrastructures and designs, this campus is the center of History, Social Science, Language and Literature. It also boasts a huge library dedicated to Shamanism and researches related to martial arts.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_SCHOOL_DEC1">
+<VALUE Lang="pe">Direction: Located in North</VALUE>
+<VALUE Lang="pe">Mystic Peak is the second campus to be created by the Sacred Financial Group located at the Northern area of RAN world. Its aura reflects the grandeur of Western civilizations in their prime. The stained glass windows, scenic plazas, and rich flora and fauna reflect the academe’s dedication to the Arts and Natural Science.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_SCHOOL_DEC2">
+<VALUE Lang="pe">Direction: Located in South</VALUE>
+<VALUE Lang="pe">TPhoenix campus is the third educational institution of the Sacred Financial Group. Its campus is located in the Southern area of the RAN world. Renowned for its advanced engineering curriculum, this campus fascinates the members of high society. Phoenix offers the engineers and scientists of tomorrow access to the most expensive and advanced technology, free to test out their theories and experiments.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_SCHOOL_ERROR">
+<VALUE Lang="pe">Select a school</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_SEX_ERROR">
+<VALUE Lang="pe">Select your character gender</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEW_CHAR_SELECT_STYLE_ERROR">
+<VALUE Lang="pe">Character Customization</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NEWCHAR_NAME_TOO_SHORT">
+<VALUE Lang="pe">Character's name is too short!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_ERROR_AUTH_GAMEGUARD">
+<VALUE Lang="pe">GameGuard file does not exist or is corrupted. Please install the GameGuard setup file.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_ERROR_CRYPTOAPI">
+<VALUE Lang="pe">Window system files might be corrupted. Please reinstall the Internet Explorer(IE).</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_ERROR_DEFAULT">
+<VALUE Lang="pe">Error occurred while running GameGuard. Please send all *.erl files in GameGuard folder to Game2@inca.co.kr via email.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_ERROR_EXECUTE">
+<VALUE Lang="pe">Fail to run GameGuard. Please reinstall the GameGuard setup file.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_ERROR_EXIST">
+<VALUE Lang="pe">GameGuard is already running. Try rebooting first and executing the game again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_ERROR_GAME_EXIST">
+<VALUE Lang="pe">There are multiple events of game execution or GameGuard is already running. Close the game then try again.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_ERROR_ILLEGAL_PRG">
+<VALUE Lang="pe">Illegal program detected. Close all the unnecessary programs before running the game.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_ERROR_INIT">
+<VALUE Lang="pe">GameGuard initialization error. Try rebooting and executing the game or close the program considered to cause a collision.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_ERROR_NPSCAN">
+<VALUE Lang="pe">Failed to load virus and hacking tool scanning module. Possibly due to lack of memory or virus infection.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_GAMEHACK_DETECT">
+<VALUE Lang="pe">Gamehack detected.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_GAMEHACK_DOUBT">
+<VALUE Lang="pe">Game or GameGuard file corrupted.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_GAMEHACK_KILLED">
+<VALUE Lang="pe">Gamehack detected.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_INIT_ERROR">
+<VALUE Lang="pe">GameGuard initialization error : %lu</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGAMEMON_SPEEDHACK">
+<VALUE Lang="pe">Speedhack detected.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGMUP_ERROR_ABORT">
+<VALUE Lang="pe">GameGuard update has been aborted. Please check the status of Internet network or personal firewall settings when unable to connect continuously.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGMUP_ERROR_AUTH">
+<VALUE Lang="pe">Fail to complete GameGuard update. Suspend Anti-Virus program temporarily and try the game, or check the settings of PC management programs if any.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="NPGMUP_ERROR_CONNECT">
+<VALUE Lang="pe">Fail to connect the GameGuard update server. Please try again after a while, or check personal Firewall settings if any.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SECID_LENGTH_ERROR">
+<VALUE Lang="pe">A character for password size is 6 ~ 14.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SECPASS_CHECKPAGE_TEXT">
+<VALUE Lang="pe">Enter 2nd password setting information.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SECPASS_EMPTY_ERROR">
+<VALUE Lang="pe">Enter Password.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SECPASS_EQUAL_ERROR">
+<VALUE Lang="pe">Can't use same password with ID</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SECPASS_FIRST_NUMBER">
+<VALUE Lang="pe">Can't use number for ID and password first word</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SECPASS_LENGTH_ERROR">
+<VALUE Lang="pe">Password size is minimum letters 8 and maximum letters 12.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SECPASS_NOTEQUAL_ERROR">
+<VALUE Lang="pe">The input password is not match.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SECPASS_SETPAGE_TEXT">
+<VALUE Lang="pe">Enter 2nd password setting information</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SELECT_AREA_STATIC">
+<VALUE Lang="pe">Choice connection area.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SERVER_INFO_RECV_FAILED">
+<VALUE Lang="pe">Server Menu connection Fail</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SERVERSTAGE_1">
+<VALUE Lang="pe">Reading the Server's Account Info.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SERVERSTAGE_2">
+<VALUE Lang="pe">Please select the server that you want to connect.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SERVERSTAGE_3">
+<VALUE Lang="pe">Do you want to quit the game?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SERVERSTAGE_4">
+<VALUE Lang="pe">Internet Connection Error!</VALUE>
+<VALUE Lang="pe">Do you want to quit RAN?</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="SERVERSTAGE_5">
+<VALUE Lang="pe">Server connection failed!</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="WAITSERVER_DEL_CHARACTER">
+<VALUE Lang="pe">Character would be deleted</VALUE>
+</SENTENSE>
+<WORD Ver="1" Id="NEW_CHAR_SELECT_CLASS_NAME">
+<VALUE Lang="pe" Index="0">Extreme new class</VALUE>
+<VALUE Lang="pe" Index="1">Brawler Class</VALUE>
+<VALUE Lang="pe" Index="2">Swordsman Class</VALUE>
+<VALUE Lang="pe" Index="3">Archer Class</VALUE>
+<VALUE Lang="pe" Index="4">Shaman Class</VALUE>
+</WORD>
+<WORD Ver="1" Id="NEW_CHAR_SELECT_PREV_BUTTON">
+<VALUE Lang="pe" Index="0">Previous</VALUE>
+<VALUE Lang="pe" Index="1">Next</VALUE>
+</WORD>
+<WORD Ver="1" Id="NEW_CHAR_SELECT_SCHOOL_NAME">
+<VALUE Lang="pe" Index="0">Sacred Gate</VALUE>
+<VALUE Lang="pe" Index="1">Mystic Peak</VALUE>
+<VALUE Lang="pe" Index="2">Phoenix</VALUE>
+</WORD>
+<WORD Ver="1" Id="NEW_CHAR_SELECT_SEX_NAME">
+<VALUE Lang="pe" Index="0">Male</VALUE>
+<VALUE Lang="pe" Index="1">Female</VALUE>
+</WORD>
+<WORD Ver="1" Id="NEW_CHAR_SELECT_STAGE_DEC">
+<VALUE Lang="pe" Index="0">*Select a school*</VALUE>
+<VALUE Lang="pe" Index="1">*Select your character gender*</VALUE>
+<VALUE Lang="pe" Index="2">*Select Desired Class*</VALUE>
+<VALUE Lang="pe" Index="3">*Character Customization*</VALUE>
+</WORD>
+<WORD Ver="1" Id="NEW_CHAR_SELECT_STAGE_TITLE">
+<VALUE Lang="pe" Index="0">Select a school</VALUE>
+<VALUE Lang="pe" Index="1">Select Gender</VALUE>
+<VALUE Lang="pe" Index="2">Select Desired Class</VALUE>
+<VALUE Lang="pe" Index="3">Character Customization</VALUE>
+</WORD>
+<WORD Ver="1" Id="SERVER_CHANNEL">
+<VALUE Lang="pe" Index="0">Channel</VALUE>
+</WORD>
+<WORD Ver="1" Id="SERVER_NAME">
+<VALUE Lang="pe" Index="0">Server0</VALUE>
+<VALUE Lang="pe" Index="1">Strife Server</VALUE>
+<VALUE Lang="pe" Index="2">Havoc Server</VALUE>
+<VALUE Lang="pe" Index="3">Fury Server</VALUE>
+<VALUE Lang="pe" Index="4">Alab Server</VALUE>
+<VALUE Lang="pe" Index="5">Tala Server</VALUE>
+<VALUE Lang="pe" Index="6">Alamat</VALUE>
+<VALUE Lang="pe" Index="7">Kalayaan</VALUE>
+<VALUE Lang="pe" Index="8">Wrath Server</VALUE>
+<VALUE Lang="pe" Index="9">Server9</VALUE>
+</WORD>
+<WORD Ver="1" Id="SERVER_PK">
+<VALUE Lang="pe" Index="0">[PK]</VALUE>
+</WORD>
+</TEXT>

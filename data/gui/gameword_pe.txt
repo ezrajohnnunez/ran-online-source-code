@@ -1,0 +1,543 @@
+/////////////////////////////////////////////////////////////////////////////
+VERSION,1
+
+///////////////////////////////////////////////////////////////////
+//
+WORD,SKILL_BASIC_INFO,5
+Name,Level,Characteristic,Class,Character Level
+
+WORD,SKILL_ADVANCED_INFO,4
+Skill,Skill Level,Skill Point,Character Level
+
+WORD,SKILL_ADVANCED_INFO_STATS,6
+Pow,Vit,Spi,Dex,Int,Stm
+
+WORD,SKILL_ETC_MASTER,1
+Proficient Skill
+
+WORD,SKILL_ADVANCED_TARGET_RANGE,1
+Target is Beyond Range Limit
+
+WORD,SKILL_ADVANCED_USE_ITEM_LR_HAND,2
+Use Subsidiary's tool,Use Principal's tool
+
+WORD,SKILL_ADVANCED_USE_ITEM,9
+Sword,Blade,Sword/Blade,Dagger,Spear,Club,Knuckles,Bow,Darts
+
+WORD,SKILL_ADVANCED_SAPPLY,1
+Applicable type
+
+WORD,SKILL_CDATA_CVL_BASIC,7
+Delay,Time continuous,Applicable range,Applicable Quantity,Applicable Perspective,Penetrate Level,Target Quantities.
+
+WORD,SKILL_CDATA_CVL_BASIC_USE_VALUE,6
+Amount of Arrows' Consumption,Amount of magic incantations's Consumption,Amount of the Experience's Consumption,Amount of of the HP's Consumption,Amount of of the MP's Consumption,Amount of of the SP's Consumption. 
+
+WORD,SKILL_STATE_BLOW,1
+Occurred Possibility 
+
+WORD,SKILL_CATEGORY,9
+Item Information,Required Weapon,Attribute,SP Usage,Status Effect,Appended Effect,Added Effects,Next Level Requirement,Description
+
+WORD,SKILL_SPEC_TYPE,1
+Fuction
+
+WORD,SKILL_NEXTLEVEL,1
+Next Level
+
+WORD,QUEST_GIFT,10
+Experience,Gold,Attribute,Life Pt,PK Off,Skills,Stat Point,Stage Prop,Skill,Mission Reward.
+
+WORD,WEAR_ITEM,1
+Current Equipment
+
+WORD,ITEM_BASIC_INFO,8
+Name,Price,Unable to Sell,Costume,Expiration,Basic Price,Tax,Costume's Expiration
+
+WORD,ITEM_EXPIRE_DATE,1
+%02d/%02d/%02d %02d:%03d
+
+WORD,ITEM_ADVANCED_INFO,9
+Attack,Defence,Attack Distance,Accuracy,Evasion,Set Type,Type,SP Usage,Energy's Usage
+
+WORD,ITEM_ALL_CLASS,1
+All type
+
+WORD,ITEM_GRIND_ALL_RESIST,1
+All Resistance
+
+WORD,ITEM_ADVANCED_INFO_CONDITION,3
+Level,Melee Power,Missile Power
+
+WORD,ITEM_ADVANCED_INFO_CONDITION_STATS,6
+Pow,Vit,Int,Dex,Int,Stm
+
+WORD,ITEM_ADVANCED_INFO_RESIST,5
+Electric,Fire,Ice,Poison,Wind
+
+WORD,ITEM_ADVANCED_INFO_ABNORMAL,5
+Abnormad State of Mind,Continuous time (second),Occurred Possibility(%),Number one,Number two
+
+WORD,ITEM_ADVANCED_INFO_SPECIAL,4
+Special Function,able to remodify a number of time,unable to retransform,able to retransform
+
+WORD,ITEM_ARROW_INFO,3
+Attack Power,Quantity,Level
+
+WORD,ITEM_TURN_INFO,1
+Quantity
+
+WORD,ITEM_USABLE,2
+Usable,Unusable
+
+WORD,ITEM_NEEDSP,1
+Not Enough SP
+
+WORD,ITEM_CATEGORY,12
+Information,Attribute,Requirement,Resistance,Status Effect,Special Function,Upgrade Information,Recovery,Status,Description,Add Value,Random Value
+
+WORD,ITEM_CATEGORY_EX,1
+Able to practice asceticism a number of time
+
+WORD,ITEM_SKILL_CONDITION,3
+Learned the Skill Scroll,Skill Point Required,Skills
+
+WORD,ITEM_ADVANCED_INFO_SPECIAL_ADD,5
+Without,Hp Recovery Rate,MP Recovery Rate,SP Recovery Rate,HP+MP+SP Recovery Rate
+
+WORD,ITEM_ADVANCED_INFO_SPECIAL_ADD_VOL,5
+Without,HP Recovery,MP Recovery,SP Recovery,HP+MP+SP Recovery
+
+WORD,ITEM_ADDON_INFO,17
+Blank,Accuracy,Evasion,Attack,Defence,HP,MP,SP,Pow,Vit,Int,Dex,Int,Stm,Melee,Missile,Energy Value
+
+WORD,CHARACTER_NAME_STATIC,1
+Character
+
+WORD,CHARACTER_EXP_STATIC,1
+EXP
+
+WORD,CHARACTER_STAT_STATIC,6
+Pow,Dex,Int,Int,Vit,Stm
+
+WORD,CHARACTER_STATUS_STATIC,13
+Condition,Level,Attack,Defence,Melee,Missile,HP,MP,SP,Accuracy,Evasion,Energy Value,Day Ended 
+
+WORD,CHARACTER_RESI_STATIC,6
+Elemental Resistance,Fire,Ice,Electric,Poison,Wind
+
+WORD,CHARACTER_SOCIAL_STATIC,7
+Character Personality,School,Life Pt.,Rank,Class,Attr,Status
+
+WORD,HWOPTION_WINDOW_NAME_STATIC,1
+Option
+
+WORD,HWOPTION_AV_NAME,3
+Video,Audio,Game
+
+WORD,HWOPTION_APPLYOK,2
+Apply,OK
+
+WORD,HWOPTION_VIDEO_OPTION,10
+Display,Shadow,Detail,Distance,Effects,BG Shadow,Reflex,Refract,Glow,Post Process
+
+WORD,HWOPTION_VIDEO_SIGHT,3
+Near,Normal,Far
+
+WORD,HWOPTION_AUDIO,3
+SFX Volume,Environment Sound Volume,BGM Volume
+
+WORD,HWOPTION_GAMEPLAY_OPTION,10
+Refuse Duel,Refuse Trade,Refuse Party,HP Mini-Gauge,Refuse Friend,Set Default,Transmission,Help Info,Auto Attack,Name Display.
+
+WORD,HWOPTION_VIDEO_SHADOW,5
+None,Minimum,Low,Medium,High
+
+WORD,HWOPTION_VIDEO_SKINDETAIL,3
+Low,Midium,High
+
+WORD,SKILL_NAME_STATIC,1
+Skills
+
+WORD,CHAT_CHANNEL_BUTTON,6
+All,Whisper,Party,Gang,System,League
+
+WORD,SKILL_WINDOW_REST_POINT_STATIC,1
+Skill Points
+
+WORD,ESC_MENU,5
+Select Character,Server List,Option,Help,Exit Game
+
+WORD,SKILL_TAB_TITLE_FIGHTER,4
+Dex,Str,Int,Etc
+
+WORD,SKILL_TAB_TITLE_ARMS,4
+Dex,Int,Str,Etc
+
+WORD,SKILL_TAB_TITLE_ARCHER,4
+Dex,Str,Int,Etc
+
+WORD,SKILL_TAB_TITLE_SPIRIT,4
+Str,Attack,Support,Etc
+
+WORD,SKILL_SLOT,5
+Rank,Passive,Point Needed,Level,Master
+
+WORD,PARTY_NAME_STATIC,1
+Party
+
+WORD,PARTY_WINDOW_MASTER_MEMBER_STATIC,2
+Party Leader,Party Member
+
+WORD,MARKET_NAME_STATIC,1
+Store
+
+WORD,MARKET_WINDOW_PAGE_BUTTON,3
+ARMs,Defensive Gears,Misc Goods
+
+WORD,INVENTORY_NAME_STATIC,1
+Inventory
+
+WORD,STORAGE_NAME_STATIC,1
+Locker
+
+WORD,CLUB_STORAGE_NAME_STATIC,1
+Matter placement organization Box
+
+WORD,TRADEINVENTORY_NAME_STATIC,1
+Equipment's Tool
+
+WORD,TRADE_NAME_STATIC,1
+Transaction
+
+WORD,TRADE_OKCANCEL_BUTTON,2
+Accept,Refuse
+
+WORD,MINIPARTY_NAME_STATIC,1
+Team
+
+WORD,MODAL_BUTTON,4
+OK,Cancel,Yes,No
+
+WORD,MODAL_TITLE,6
+Announcement,Question,Warning,Error,Critical,Enter
+
+WORD,QUICK_POTION_SHORTCUT,6
+Q,W,E,A,S,D
+
+WORD,DIALOGUE_WINDOW_STATIC,1
+Carry on Dialogue
+
+WORD,ADMIN_NAME,1
+GM
+
+WORD,NOTIFY_NAME,1
+Announcement
+
+WORD,SELECT_SERVER,1
+Server Select
+
+WORD,SELECT_SERVER_CONNECTQUIT,2
+Connect,Exit
+
+WORD,COPYRIGHT_TITLE,1
+Copyright 2005~2007 ¨ÏIPVG Corp.
+
+SENTENSE,COPYRIGHT_COMPANY,2
+Copyright 2005~2007 XtraVision Entertainment Limited.
+Copyright 2002~2007 Min Communication co., Ltd. All Rights Reserved.
+
+
+
+WORD,LOGIN_PAGE_OKCANCEL,2
+OK,Cancel
+
+WORD,LOGIN_PAGE,1
+Log In
+
+WORD,LOGIN_PAGE_IDPW,2
+Username,Password
+
+WORD,LOGIN_PAGE_IDSAVE_BACK,1
+Saving's Account
+
+WORD,SELECT_CHARACTER_PAGE_BUTTON,4
+Create,Start,Delete,Cancel
+
+WORD,SELECT_CHARACTER_STATIC,3
+Exp,Attribute,Character Location
+
+WORD,SELECT_CHARACTER_PAGE,1
+Select Character
+
+WORD,CREATE_CHARACTER_PAGE,1
+Create New Character
+
+WORD,CREATE_CHARACTER_PAGE_OKCANCEL,2
+Ok,Cancel
+
+WORD,CREATE_CHARACTER_PAGE_STATIC,5
+School,Class,Face,Hair,Name
+
+WORD,ACADEMY_NAME,3
+Sacred Gate,Mystic Peak,Phoenix 
+
+WORD,FACE_NAME_FIGHTER,10
+TypeA,TypeB,TypeC,TypeD,TypeE,TypeF,TypeG,TypeH,TypeI,TypeJ
+
+WORD,FACE_NAME_ARMS,10
+TypeA,TypeB,TypeC,TypeD,TypeE,TypeF,TypeG,TypeH,TypeI,TypeJ
+
+WORD,FACE_NAME_ARCHER,10
+TypeA,TypeB,TypeC,TypeD,TypeE,TypeF,TypeG,TypeH,TypeI,TypeJ
+
+WORD,FACE_NAME_SPIRIT,10
+TypeA,TypeB,TypeC,TypeD,TypeE,TypeF,TypeG,TypeH,TypeI,TypeJ
+
+WORD,HAIR_NAME_FIGHTER,10
+TypeA,TypeB,TypeC,TypeD,TypeE,TypeF,TypeG,TypeH,TypeI,TypeJ
+
+WORD,HAIR_NAME_ARMS,10
+TypeA,TypeB,TypeC,TypeD,TypeE,TypeF,TypeG,TypeH,TypeI,TypeJ
+
+WORD,HAIR_NAME_ARCHER,10
+TypeA,TypeB,TypeC,TypeD,TypeE,TypeF,TypeG,TypeH,TypeI,TypeJ
+
+WORD,HAIR_NAME_SPIRIT,10
+TypeA,TypeB,TypeC,TypeD,TypeE,TypeF,TypeG,TypeH,TypeI,TypeJ
+
+WORD,SERVER_STATE,3
+Smooth,Normal,Busy
+
+SENTENSE,GATE_ALARM,1
+You are now moving to another map.
+
+WORD,HELP_WINDOW_STATIC,1
+Assist
+
+WORD,CONFT_MODAL_TITLE,2
+Invade,Invasion Information
+
+WORD,CONFT_MODAL_CONDITION,3
+Restricted Range,Recovery Dose Usage,HP Rate Boost
+
+WORD,MAPMOVE_OKBUTTON,1
+Move
+
+WORD,UNLIMITED,1
+Infinite
+
+WORD,PARTY_MODAL_TITLE,2
+Party,Party Information
+
+WORD,PARTY_MODAL_CONDITION,2
+Item Allocation,Coin Allocation
+
+WORD,PARTY_MODAL_OPTION,5
+Killer,Free,Leader,Alternate,Even Share
+
+WORD,ARROW_TYPE,2
+Arrow,Magic Incantations
+
+WORD,QUIT_PARTY,2
+Disband,Leave
+
+WORD,P2PMENU,7
+Trade,Coded Words Log In,Party Invite,Duel Challenge,Add Friend,Gang Invite,League Invite
+
+WORD,GAMEMENU,10
+Inventory(I),Character(C),Skill(K),Party(P),Mission(T),Gang(G),Friends(F),Map(M),Item Bank(B),Run/Walk(R)
+
+WORD,QUEST_WINDOW_STATIC,1
+Mission
+
+WORD,QUEST_MAIN_BUTTON,5
+Give Up,Detail,Back,complete,Reward
+
+WORD,QUEST_MAIN_ITEM_TITLE,1
+Quest Items
+
+WORD,QUEST_MAIN_CONDITION,3
+Time Retriction,Number of People Retricton,Immortal
+
+WORD,QUEST_STEP_BUTTON,2
+Renounce,Back
+
+WORD,QUEST_STEP_ITEM_TITLE,1
+Quest Item
+
+WORD,QUEST_LIST_BUTTON,3
+On-Going Tasks,Completed Tasks,Detail
+
+WORD,QUEST_COMPLETE,2
+Failure,Success
+
+WORD,QUEST_TRYCOUNT,1
+Time Limit
+
+WORD,QUEST_CONDITION,1
+Requirement
+
+WORD,QUEST_CONDITION_TIME_UNIT,2
+Hour,Minute
+
+WORD,WAITSERVER_OKBUTTON,1
+OK
+
+WORD,WAITSERVER_CANCELBUTTON,1
+Cancel
+
+WORD,WAITSERVER_TIMELEFT_UNIT,1
+Second
+
+WORD,FRIEND_BUTTON,12
+Add Friend,Delete,Move,Remove,Block,Name,Topic,Reply,Initiate,New Mail,Send Mail,Rewrite.
+
+WORD,FRIEND_WINDOW_NAME_STATIC,1
+Friends
+
+WORD,QUEST_BEGIN_MONEY,1
+Volume of Demand
+
+WORD,BUS_WINDOW_NAME_STATIC,1
+Bus
+
+WORD,BUS_TITLE,2
+Secssion,Bus Station
+
+WORD,ITEMBANK_NAME_STATIC,1
+Item Bank
+
+WORD,LARGEMAP_WINDOW_STATIC,1
+Map
+
+WORD,SELECT_CHARACTER_CARD,1
+Character Cards
+
+WORD,SELECT_CHARACTER_CARD_STATIC,2
+Number of Cards,Used Cards
+
+WORD,STORAGE_CARD_NUMBER,3
+Number2,Number3,Number4
+
+WORD,STORAGE_USABLE,2
+Apply,Unable to Apply
+
+SENTENSE,STORAGE_TIMELEFT,2
+%d Years %d Months %d Days
+%d Hours %d Minutes Left
+
+WORD,STORAGE_TIMELEFT_ONELINE,1
+%d Years %d Months %d Days %d Hours %d Minutes Left
+
+WORD,ITEMBANK_REFRESH_BUTTON,1
+Refresh
+
+WORD,CHARACTER_PREMIUM_EXPIRE_DATE_STATIC,1
+Premium Service Expiration
+
+WORD,CHARACTER_PREMIUM_EXPIRE_DATE,1
+%d Years %d Months %d Days %d Hours %d Minutes
+
+WORD,REBIRTH_BUTTON,2
+Revive, Used Revive's Ball 
+
+WORD,NOT_USE_PREMIUM,1
+Unable to Apply
+
+WORD,PRIVATE_MARKET_BUTTON,2
+Begin,End
+
+WORD,PRIVATE_MARKET_NAME_STATIC,1
+Personal Store
+
+WORD,PRIVATE_MARKET_MAKE_BUTTON,2
+OK,cancel
+
+WORD,PRIVATE_MARKET_SELL_WINDOW_STATICTEXT,2
+Unit Price,Vending's Amount
+
+WORD,PRIVATE_MARKET,1
+Personal Store
+
+WORD,CLUB_WINDOW_NAME_STATIC,1
+Gang
+
+WORD,CLUB_TEXT_STATIC,9
+Name,Level,Master,Foundation,Badge,Dismissal,Alias,Senior,General
+
+WORD,CLUB_BUTTON,13
+Expel,Dismiss,Modification,Close,Amend username,Cancel Dismission,Withdraw,Member,Notice,Alliance,Compose,Assist Senior Officer Founded,Disband
+
+WORD,CLUB_GRADE,5
+E,D,C,B,A
+
+WORD,CHAT_ONOFF,6
+General,Whisper,Party,Gang,System,Alliance
+
+WORD,MOVABLE_ON_CHAT_WINDOW,1
+Be able use mouse to select item in the chatroom window
+
+WORD,SERVER_NAME,10
+NULL,Server1A,Server2B,Server3C,Server4,Server5,Server6,Server7,Server8,Server9
+
+WORD,SERVER_CHANNEL,1
+Channel
+
+WORD,FRIEND_TAB_BUTTON,6
+Friends Menu,Blocked Menu,Received Message,Sended Message,Delivered Message,Message
+
+
+
+
+
+WORD,SYSTEM_MESSAGE_FADE,3
+9.0,3.0,120.0
+
+
+
+
+WORD,HELP_FILE,1
+Ran_Help.hlp
+
+WORD,CONFT_WAV_BEGIN,6
+Fight.WAV,cd01.WAV,cd02.WAV,cd03.WAV,cd04.WAV,cd05.WAV
+
+WORD,CONFT_WAV_END,3
+Win.wav,Lost.wav,Draw.wav
+
+WORD,QUEST_ALARM,1
+06000197.wav
+
+WORD,TIP_FILE,1
+tip.txt
+
+WORD,LOBY_BGM,1
+intro.ogg
+
+WORD,BIG_FONT,1
+1
+
+WORD,SKILL_TEXTURE,5
+4,skill_archer.dds,skill_fighter.dds,skill_knight.dds,skill_magic.dds
+
+WORD,SUBMASTER_OPTION,6
+Powers,Recruit,Expel,Announcement,Badge,Authentication of Leadership Organization 
+
+WORD,SKILL_TAB_INFO,3
+F1,F2,F3
+
+WORD,ITEM_RANDOM_OPTION,17
+0,Attack,Defense,Accuracy,Energy Value,HP Increase,MP Increase,SP Increase,HP Increase Rate,MP Increase Rate,SP Increase Rate,HP/MP/SP Increase Rate,Atk Practice,Def Practice,Atk Range,Decrease SP Usage,Resistance
+
+WORD,ITEM_ADVANCED_INFO_SPECIAL_EX,2
+Exp,Rate Obtain
+
+WORD,HAIRCOLORCARD_WINDOW_TITLE,1
+Hair Color Card
+
+WORD,HAIRSTYLECARD_WINDOW_TITLE,1
+Short Hair Style Card 
+
+SENTENSE,COPYRIGHT_COMPANY_LOAD,1
+Copyright(c) 2006 ¨ÏIPVG Corp. & Min Communication co., Ltd All Rights Reserved.

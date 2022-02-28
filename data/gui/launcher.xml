@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<TEXT>
+<SENTENSE Ver="1" Id="ABOUT_BOX_ID_OK">
+<VALUE Lang="pe">OK</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DISCOURAGES">
+<VALUE Lang="pe">Not Recommended</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DISCOURAGES_MESSAGE">
+<VALUE Lang="pe">The best resolution for this game is 1024 X 768, but the display mode that your choose is non-recommended.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="DOWNAREA_ID_OK">
+<VALUE Lang="pe">OK</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GAMESET_ID_CANCEL">
+<VALUE Lang="pe">Cancel</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="GAMESET_ID_OK">
+<VALUE Lang="pe">Save</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_AREA_STATIC">
+<VALUE Lang="pe">Not String</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_ATI_STATIC">
+<VALUE Lang="pe">ATI  ( Radeon )</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_BUTTON_EXIT">
+<VALUE Lang="pe">Exit</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_BUTTON_OPTION">
+<VALUE Lang="pe">Option</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_BUTTON_PATCH">
+<VALUE Lang="pe">Action</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_BUTTON_RETRY">
+<VALUE Lang="pe">Not String</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_BUTTON_START">
+<VALUE Lang="pe">Start</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_CHECK_NOCHECK">
+<VALUE Lang="pe">Don't caution next time.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_CHECK_PASSIVE">
+<VALUE Lang="pe">Passive Mode</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_CHECK_USE_HTTP">
+<VALUE Lang="pe">http</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_CHECK_WINDOWMODE">
+<VALUE Lang="pe">window mode</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_DISPLAY_STATIC">
+<VALUE Lang="pe">Display</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_DOWNAREA_STATIC">
+<VALUE Lang="pe">DownLoad Area</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_DOWNLOAD_STATIC">
+<VALUE Lang="pe">Download</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_NVIDIA_STATIC">
+<VALUE Lang="pe">nVidia  ( Geforce, TNT )</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_READYTOSTART">
+<VALUE Lang="pe">When the game is prepared, start</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_STATIC_ATI_LINK">
+<VALUE Lang="pe">Driver Download</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_STATIC_DOWNLOAD">
+<VALUE Lang="pe">Download</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_STATIC_DOWNLOAD2">
+<VALUE Lang="pe">Overall progress</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_STATIC_HOMEPAGE">
+<VALUE Lang="pe">Homepage</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_STATIC_NVIDIA_LINK">
+<VALUE Lang="pe">Driver Download</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_TITLE_STATIC">
+<VALUE Lang="pe">RAN-Online</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_VER_STATIC">
+<VALUE Lang="pe">AutoPatchMan Version 1.0</VALUE>
+<VALUE Lang="pe">Copyright (c) 2002</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDC_VIDEO_STATIC">
+<VALUE Lang="pe">Windows Hardware Quality Labs (WHQL) Certified</VALUE>
+<VALUE Lang="pe">Video Driver is not installed.</VALUE>
+<VALUE Lang="pe">if Windows Hardware Quality Labs (WHQL) Certified Video Driver is not installed,</VALUE>
+<VALUE Lang="pe">it's possible to make error while playing game.</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDD_ABOUT_BOX">
+<VALUE Lang="pe">AutoPatchMan Information</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDD_DIALOG_DOWNLOAD_AREA">
+<VALUE Lang="pe">DOWNLOAD AREA</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDD_DIALOG_WARNING_WHQL">
+<VALUE Lang="pe">Caution</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="IDD_GAMESETDLG">
+<VALUE Lang="pe">Option</VALUE>
+</SENTENSE>
+<SENTENSE Ver="1" Id="WARNING_ID_OK">
+<VALUE Lang="pe">OK</VALUE>
+</SENTENSE>
+<WORD Ver="1" Id="IDC_GRAPHIC_OPTION">
+<VALUE Lang="pe" Index="0">Graphic</VALUE>
+<VALUE Lang="pe" Index="1">Default Option</VALUE>
+<VALUE Lang="pe" Index="2">View</VALUE>
+<VALUE Lang="pe" Index="3">Character Shadow</VALUE>
+<VALUE Lang="pe" Index="4">Character Detail</VALUE>
+<VALUE Lang="pe" Index="5">Field Shadow</VALUE>
+<VALUE Lang="pe" Index="6">Realtime Reflection</VALUE>
+<VALUE Lang="pe" Index="7">Scene Distortion</VALUE>
+<VALUE Lang="pe" Index="8">Glow Effect</VALUE>
+<VALUE Lang="pe" Index="9">Buff Effect</VALUE>
+<VALUE Lang="pe" Index="10">POST PROCESSING</VALUE>
+<VALUE Lang="pe" Index="11">Game Cursor</VALUE>
+<VALUE Lang="pe" Index="12">Texture Font</VALUE>
+<VALUE Lang="pe" Index="13">Used limit Frame</VALUE>
+<VALUE Lang="pe" Index="14">Please select opponent effect</VALUE>
+<VALUE Lang="pe" Index="15">Item effect showed</VALUE>
+<VALUE Lang="pe" Index="16">Map point function</VALUE>
+<VALUE Lang="pe" Index="17">Using Normal Map</VALUE>
+</WORD>
+<WORD Ver="1" Id="IDC_SOUND_OPTION">
+<VALUE Lang="pe" Index="0">Sound</VALUE>
+<VALUE Lang="pe" Index="1">3D Sound</VALUE>
+<VALUE Lang="pe" Index="2">Find</VALUE>
+<VALUE Lang="pe" Index="3">BGM</VALUE>
+<VALUE Lang="pe" Index="4">MAP</VALUE>
+<VALUE Lang="pe" Index="5">SFX</VALUE>
+</WORD>
+<WORD Ver="1" Id="IDS_ABOUTBOX">
+<VALUE Lang="pe" Index="0">AutoPatchMan Info.(&amp;A)...</VALUE>
+</WORD>
+<WORD Ver="1" Id="IDS_MESSAGE">
+<VALUE Lang="pe" Index="0">Ran Online</VALUE>
+<VALUE Lang="pe" Index="1">Run on the Web environment.</VALUE>
+<VALUE Lang="pe" Index="2">Ran-Online file is damaged. Please reinstall Ran-Online.</VALUE>
+<VALUE Lang="pe" Index="3">Closing. wait a moment.</VALUE>
+<VALUE Lang="pe" Index="4">Program restart  failed after patch.</VALUE>
+<VALUE Lang="pe" Index="5">Winsock version is not suitable.</VALUE>
+<VALUE Lang="pe" Index="6">DirextX version is not suitable.</VALUE>
+<VALUE Lang="pe" Index="7">Please play after updating DirectX.</VALUE>
+<VALUE Lang="pe" Index="8">Server is now inspected. Please conect a little bit later.</VALUE>
+<VALUE Lang="pe" Index="9">Version file reading  failed.</VALUE>
+<VALUE Lang="pe" Index="10">Error occurs while program patch file loading.</VALUE>
+<VALUE Lang="pe" Index="11">Error occurs whlile program patch file installing.</VALUE>
+<VALUE Lang="pe" Index="12">Finished prepare to game play.</VALUE>
+<VALUE Lang="pe" Index="13">Connecting Server failed. reach the max try connecting.</VALUE>
+<VALUE Lang="pe" Index="14">Trying to connection......</VALUE>
+<VALUE Lang="pe" Index="15">Connecting Server failed. over the max connection time.</VALUE>
+<VALUE Lang="pe" Index="16">Connecting Server OK, data transmission succeed.</VALUE>
+<VALUE Lang="pe" Index="17">Try to connection FTP......</VALUE>
+<VALUE Lang="pe" Index="18">Connecting FTP Server fails due to over connection time.</VALUE>
+<VALUE Lang="pe" Index="19">Connect to FTP Server,  data transmission success.</VALUE>
+<VALUE Lang="pe" Index="20">Creating event fails.</VALUE>
+<VALUE Lang="pe" Index="21">Selecting event fails.</VALUE>
+<VALUE Lang="pe" Index="22">Connecting fails.</VALUE>
+<VALUE Lang="pe" Index="23">Waiting for event fails.</VALUE>
+<VALUE Lang="pe" Index="24">Contact event was not occured.</VALUE>
+<VALUE Lang="pe" Index="25">Thread Creating fails.</VALUE>
+<VALUE Lang="pe" Index="26">Unable to connect to Server.</VALUE>
+<VALUE Lang="pe" Index="27">Version data transmission failed.</VALUE>
+<VALUE Lang="pe" Index="28">Forced termination accomplished.</VALUE>
+<VALUE Lang="pe" Index="29">Can't find file to start launch program.</VALUE>
+<VALUE Lang="pe" Index="30">Sound card is missing or out of order.</VALUE>
+<VALUE Lang="pe" Index="31">None</VALUE>
+<VALUE Lang="pe" Index="32">Low</VALUE>
+<VALUE Lang="pe" Index="33">Middle</VALUE>
+<VALUE Lang="pe" Index="34">High</VALUE>
+<VALUE Lang="pe" Index="35">Higher</VALUE>
+<VALUE Lang="pe" Index="36">Low</VALUE>
+<VALUE Lang="pe" Index="37">Middle</VALUE>
+<VALUE Lang="pe" Index="38">High</VALUE>
+<VALUE Lang="pe" Index="39">Standard</VALUE>
+<VALUE Lang="pe" Index="40">Hardware Acceleration HALF</VALUE>
+<VALUE Lang="pe" Index="41">Hardware Acceleration FULL</VALUE>
+<VALUE Lang="pe" Index="42">Near</VALUE>
+<VALUE Lang="pe" Index="43">Far</VALUE>
+<VALUE Lang="pe" Index="44">Further</VALUE>
+<VALUE Lang="pe" Index="45">Connecting FTP Server fails.</VALUE>
+<VALUE Lang="pe" Index="46">Size of downloaded file is wrong.</VALUE>
+<VALUE Lang="pe" Index="47">Patch file is being transmitted......</VALUE>
+<VALUE Lang="pe" Index="48">Patching......</VALUE>
+<VALUE Lang="pe" Index="49">Patch list file is being transmitted.</VALUE>
+<VALUE Lang="pe" Index="50">Error occurs while patch list file transmitting.</VALUE>
+<VALUE Lang="pe" Index="51">Decompressing patch list file.</VALUE>
+<VALUE Lang="pe" Index="52">Decompressing patch list file fails.</VALUE>
+<VALUE Lang="pe" Index="53">Loading patch file list.</VALUE>
+<VALUE Lang="pe" Index="54">Loading patch file list fails.</VALUE>
+<VALUE Lang="pe" Index="55">Error occurs while patch file transmitting.</VALUE>
+<VALUE Lang="pe" Index="56">Please check 'passive mode' on 'option' menu, 'download' tap,</VALUE>
+<VALUE Lang="pe" Index="57">Comparing patch file list.</VALUE>
+<VALUE Lang="pe" Index="58">Comparing patch file list fails.</VALUE>
+<VALUE Lang="pe" Index="59">A part of patch file is damaged.</VALUE>
+<VALUE Lang="pe" Index="60">Renewing client version.</VALUE>
+<VALUE Lang="pe" Index="61">Renewing client version fails.</VALUE>
+<VALUE Lang="pe" Index="62">It accomplished all patch work successfully.</VALUE>
+<VALUE Lang="pe" Index="63">and try again.</VALUE>
+<VALUE Lang="pe" Index="64">Please try again after changing the downlaoding server from Option.</VALUE>
+<VALUE Lang="pe" Index="65">Initiating the file comparisons...</VALUE>
+<VALUE Lang="pe" Index="66">Completed the file comparisons!</VALUE>
+<VALUE Lang="pe" Index="67">Creating the list needed for the file comparisons...</VALUE>
+<VALUE Lang="pe" Index="68">Failed to create the file comparisons list! </VALUE>
+<VALUE Lang="pe" Index="69">Comparing the files...</VALUE>
+<VALUE Lang="pe" Index="70">Zipping down the file...</VALUE>
+<VALUE Lang="pe" Index="71">Failed to zip down the file!</VALUE>
+<VALUE Lang="pe" Index="72">Failed to execute the optimization!</VALUE>
+<VALUE Lang="pe" Index="73">User definitions</VALUE>
+<VALUE Lang="pe" Index="74">Extract the files failed.</VALUE>
+<VALUE Lang="pe" Index="75">Has failed to specify the compressed folder.</VALUE>
+<VALUE Lang="pe" Index="76">Failed to delete file.</VALUE>
+<VALUE Lang="pe" Index="77">Need to prepare for the game has not been completed</VALUE>
+<VALUE Lang="pe" Index="78">Please click the "UPDATE START" button to download</VALUE>
+</WORD>
+<WORD Ver="1" Id="IDS_WHQL_CVD">
+<VALUE Lang="pe" Index="0">WHQL Certified Video Driver</VALUE>
+</WORD>
+<WORD Ver="1" Id="IDS_WHQL_UCVD">
+<VALUE Lang="pe" Index="0">WHQL Uncertified Video Driver</VALUE>
+</WORD>
+</TEXT>

@@ -1,0 +1,3837 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<INTERFACE>
+	<CONTROL Local="Common" Id="QUEST_ALARM">
+		<WINDOW_POS X="729" Y="543" W="32" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUEST_ALARM_BUTTON">
+		<WINDOW_POS X="0" Y="0" W="32" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="334" Y="457" W="32" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUEST_ALARM_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="32" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="334" Y="457" W="32" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUEST_ALARM_BLINK">
+		<WINDOW_POS X="0" Y="0" W="32" H="30" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="371" Y="121" W="32" H="30" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="QBOX_BUTTON">
+		<WINDOW_POS X="692" Y="539" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QBOX_BUTTON_BUTTON">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">charinven03.dds</TEXTURE>
+		<TEXTURE_POS X="35" Y="319" W="35" H="35" />		
+	</CONTROL>
+	<CONTROL Local="Common" Id="QBOX_BUTTON_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">charinven03.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="319" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QBOX_ALARM_BLINK">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">charinven03.dds</TEXTURE>
+		<TEXTURE_POS X="70" Y="319" W="35" H="35" />
+	</CONTROL>		
+	
+	<!--CONTROL Local="cn" Id="QUEST_ALARM">
+		<WINDOW_POS X="692" Y="559" W="41" H="41" />
+	</CONTROL-->
+	<!--CONTROL Local="cn" Id="QUEST_ALARM_BUTTON">
+		<WINDOW_POS X="0" Y="0" W="41" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="439" Y="391" W="41" H="41" />
+	</CONTROL-->
+	<!--CONTROL Local="cn" Id="QUEST_ALARM_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="41" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="439" Y="433" W="41" H="41" />
+	</CONTROL-->
+	<!--CONTROL Local="cn" Id="QUEST_ALARM_BLINK">
+		<WINDOW_POS X="0" Y="0" W="41" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="439" Y="433" W="41" H="41" />
+	</CONTROL-->
+
+	<CONTROL Local="Common" Id="DIALOGUE_ICON_HEAL">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="349" Y="488" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="DIALOGUE_ICON_TRADE">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="361" Y="488" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="DIALOGUE_ICON_STARTPOINT">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="373" Y="488" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="DIALOGUE_ICON_STORAGE">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="385" Y="488" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="DIALOGUE_ICON_MARKET">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="397" Y="488" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="DIALOGUE_ICON_RESETPOINT">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="409" Y="488" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="DIALOGUE_ICON_BUS">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="421" Y="488" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="DIALOGUE_ICON_QUEST_START">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="433" Y="488" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="DIALOGUE_ICON_QUEST_ING">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="445" Y="488" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="DIALOGUE_ICON_TALK">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="457" Y="488" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUEST_CHECK">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUEST_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="FRIEND_WINDOW">
+		<WINDOW_POS X="483" Y="0" W="282" H="350" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_NORMAL_TAB_BUTTON">
+		<WINDOW_POS X="5" Y="25" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_BLOCK_TAB_BUTTON">
+		<WINDOW_POS X="5" Y="50" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_RECEIVE_TAB_BUTTON">
+		<WINDOW_POS X="5" Y="75" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_SEND_TAB_BUTTON">
+		<WINDOW_POS X="5" Y="100" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_LINEBOX">
+		<WINDOW_POS X="67" Y="20" W="213" H="327" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_NORMAL_PAGE">
+		<WINDOW_POS X="70" Y="25" W="210" H="325" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_LIST_TEXTBOX">
+		<WINDOW_POS X="17" Y="0" W="180" H="275" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_LIST_SCROLLBAR">
+		<WINDOW_POS X="201" Y="0" W="9" H="275" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_EDIT_BOX_BACK">
+		<WINDOW_POS X="0" Y="285" W="130" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_EDIT_BOX">
+		<WINDOW_POS X="5" Y="288" W="121" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_LIST_ADDBUTTON">
+		<WINDOW_POS X="135" Y="285" W="60" H="14" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="FRIEND_LIST_BLOCKBUTTON">
+		<WINDOW_POS X="0" Y="305" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_LIST_MOVEBUTTON">
+		<WINDOW_POS X="65" Y="305" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_LIST_DELBUTTON">
+		<WINDOW_POS X="135" Y="305" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_BLOCK_PAGE">
+		<WINDOW_POS X="70" Y="25" W="210" H="325" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_LIST_TEXTBOX_BLOCK">
+		<WINDOW_POS X="17" Y="0" W="180" H="275" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_LIST_SCROLLBAR_BLOCK">
+		<WINDOW_POS X="201" Y="0" W="9" H="275" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_EDIT_BOX_BACK_BLOCK">
+		<WINDOW_POS X="0" Y="285" W="130" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_EDIT_BOX_BLOCK">
+		<WINDOW_POS X="5" Y="288" W="121" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_LIST_ADD_BLOCK_BUTTON">
+		<WINDOW_POS X="135" Y="285" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_LIST_DEL_BLOCK_BUTTON">
+		<WINDOW_POS X="135" Y="305" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_INBOX_PAGE">
+		<WINDOW_POS X="70" Y="25" W="210" H="325" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_NAMEBACK_L">
+		<WINDOW_POS X="0" Y="0" W="35" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="36" W="40" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_NAMEBACK_R">
+		<WINDOW_POS X="35" Y="0" W="35" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="36" W="39" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_NAME_TEXT">
+		<WINDOW_POS X="2" Y="2" W="66" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_TITLEBACK_L">
+		<WINDOW_POS X="70" Y="0" W="70" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="36" W="80" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_TITLEBACK_R">
+		<WINDOW_POS X="140" Y="0" W="70" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="150" Y="36" W="89" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_TITLE_TEXT">
+		<WINDOW_POS X="72" Y="2" W="136" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_LIST_TEXTBOX">
+		<WINDOW_POS X="0" Y="18" W="197" H="257" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_LIST_SCROLLBAR">
+		<WINDOW_POS X="201" Y="18" W="9" H="257" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_OPEN_BUTTON">
+		<WINDOW_POS X="0" Y="305" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_DEL_BUTTON">
+		<WINDOW_POS X="65" Y="305" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="INBOX_RELOAD_BUTTON">
+		<WINDOW_POS X="130" Y="305" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_SENT_PAGE">
+		<WINDOW_POS X="70" Y="25" W="210" H="325" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_NAMEBACK_L">
+		<WINDOW_POS X="0" Y="0" W="35" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="36" W="40" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_NAMEBACK_R">
+		<WINDOW_POS X="35" Y="0" W="35" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="200" Y="36" W="39" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_NAME_TEXT">
+		<WINDOW_POS X="2" Y="2" W="66" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_TITLEBACK_L">
+		<WINDOW_POS X="70" Y="0" W="70" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="36" W="80" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_TITLEBACK_R">
+		<WINDOW_POS X="140" Y="0" W="70" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="150" Y="36" W="89" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_TITLE_TEXT">
+		<WINDOW_POS X="72" Y="2" W="136" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_LIST_TEXTBOX">
+		<WINDOW_POS X="0" Y="18" W="197" H="257" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_LIST_SCROLLBAR">
+		<WINDOW_POS X="201" Y="18" W="9" H="257" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_OPEN_BUTTON">
+		<WINDOW_POS X="0" Y="305" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_DEL_BUTTON">
+		<WINDOW_POS X="65" Y="305" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SENT_RELOAD_BUTTON">
+		<WINDOW_POS X="130" Y="305" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_CARRAT">
+		<WINDOW_POS X="1" Y="0" W="2" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_ONLINE">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="456" Y="304" W="12" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FRIEND_OFFLINE">
+		<WINDOW_POS X="0" Y="0" W="12" H="12" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="456" Y="317" W="12" H="12" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="RECEIVE_NOTE_WINDOW">
+		<WINDOW_POS X="10" Y="25" W="260" H="240" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RECEIVENOTE_FROM_TEXTBOX">
+		<WINDOW_POS X="5" Y="25" W="65" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RECEIVENOTE_FROM_NAME_TEXTBOX">
+		<WINDOW_POS X="70" Y="25" W="185" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RECEIVENOTE_SUBJECT_TEXTBOX">
+		<WINDOW_POS X="5" Y="45" W="65" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RECEIVENOTE_SUBJECT_NAME_TEXTBOX">
+		<WINDOW_POS X="70" Y="45" W="185" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RECEIVE_NOTE_LINE_TEXTBOX">
+		<WINDOW_POS X="5" Y="65" W="250" H="150" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RECEIVENOTE_TEXT_TEXTBOX">
+		<WINDOW_POS X="10" Y="70" W="240" H="140" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="RECEIVENOTE_REPLY_BUTTON">
+		<WINDOW_POS X="190" Y="220" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITE_NOTE_WINDOW">
+		<WINDOW_POS X="10" Y="25" W="260" H="240" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_TO_TEXTBOX">
+		<WINDOW_POS X="5" Y="25" W="65" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_TO_NAME_TEXTBOX">
+		<WINDOW_POS X="70" Y="25" W="185" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_SUBJECT_TEXTBOX">
+		<WINDOW_POS X="5" Y="45" W="65" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITE_NOTE_BOX_BACK">
+		<WINDOW_POS X="68" Y="43" W="188" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_SUBJECT_EDITBOX">
+		<WINDOW_POS X="70" Y="45" W="185" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITE_NOTE_LINE_TEXTBOX">
+		<WINDOW_POS X="5" Y="65" W="250" H="150" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITE_NOTE_EDITBOX">
+		<WINDOW_POS X="10" Y="70" W="240" H="140" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_EDITBOX_L01">
+		<WINDOW_POS X="0" Y="0" W="250" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_EDITBOX_L02">
+		<WINDOW_POS X="0" Y="14" W="250" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_EDITBOX_L03">
+		<WINDOW_POS X="0" Y="28" W="250" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_EDITBOX_L04">
+		<WINDOW_POS X="0" Y="42" W="250" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_EDITBOX_L05">
+		<WINDOW_POS X="0" Y="56" W="250" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_EDITBOX_L06">
+		<WINDOW_POS X="0" Y="70" W="250" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_EDITBOX_L07">
+		<WINDOW_POS X="0" Y="84" W="250" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_EDITBOX_L08">
+		<WINDOW_POS X="0" Y="98" W="250" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_EDITBOX_L09">
+		<WINDOW_POS X="0" Y="112" W="250" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_EDITBOX_L10">
+		<WINDOW_POS X="0" Y="126" W="250" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITE_NOTE_CARRAT">
+		<WINDOW_POS X="1" Y="0" W="2" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_REWRITE_BUTTON">
+		<WINDOW_POS X="125" Y="220" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WRITENOTE_SEND_BUTTON">
+		<WINDOW_POS X="190" Y="220" W="60" H="14" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="BUS_WINDOW">
+		<WINDOW_POS X="100" Y="100" W="178" H="310" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_TOP_BACK_L">
+		<WINDOW_POS X="2" Y="21" W="100" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="458" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_TOP_BACK_R">
+		<WINDOW_POS X="102" Y="21" W="74" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="141" Y="458" W="74" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_MAP_TITLE">
+		<WINDOW_POS X="9" Y="23" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_MAP_LIST_BACK">
+		<WINDOW_POS X="4" Y="39" W="170" H="95" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_MAP_LIST">
+		<WINDOW_POS X="10" Y="45" W="158" H="83" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_MAP_SCROLLBAR">
+		<WINDOW_POS X="163" Y="41" W="9" H="91" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_MIDDLE_BACK_L">
+		<WINDOW_POS X="2" Y="137" W="100" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="458" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_MIDDLE_BACK_R">
+		<WINDOW_POS X="102" Y="137" W="74" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="141" Y="458" W="74" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_STOP_TITLE">
+		<WINDOW_POS X="9" Y="139" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_STOP_LIST_BACK">
+		<WINDOW_POS X="4" Y="155" W="170" H="127" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_STOP_LIST">
+		<WINDOW_POS X="10" Y="161" W="158" H="112" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_STOP_SCROLLBAR">
+		<WINDOW_POS X="163" Y="157" W="9" H="123" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_BOTTOM_BACK_L">
+		<WINDOW_POS X="2" Y="288" W="100" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="458" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_BOTTOM_BACK_R">
+		<WINDOW_POS X="102" Y="288" W="74" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="141" Y="458" W="74" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_MOVEBUTTON">
+		<WINDOW_POS X="37" Y="284" W="104" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="298" Y="155" W="104" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BUS_MOVEBUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="104" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="298" Y="178" W="104" H="22" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="LEFTTOP_CONTROL_GROUP">
+		<WINDOW_POS X="205" Y="0" W="1" H="1" />
+	</CONTROL>
+	<!--CONTROL Local="cn" Id="LEFTTOP_CONTROL_GROUP">
+		<WINDOW_POS X="466" Y="559" W="1" H="1" />
+		<WINDOW_ALIGN X="RIGHT" Y="BOTTOM" />
+	</CONTROL-->
+	
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_SLOT">
+		<WINDOW_POS X="0" Y="0" W="43" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="374" Y="404" W="43" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_IMAGE">
+		<WINDOW_POS X="4" Y="3" W="35" H="35" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_SLOT_MOUSE_OVER">
+		<WINDOW_POS X="5" Y="4" W="33" H="33" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="42" Y="167" W="33" H="33" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_SLOT_AMOUNT">
+		<WINDOW_POS X="0" Y="24" W="35" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_SLOT_AMOUNT_SINGLE">
+		<WINDOW_POS X="1" Y="24" W="35" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_TRAY">
+		<WINDOW_POS X="0" Y="0" W="241" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_TRAY_SLOT_BEGIN">
+		<WINDOW_POS X="0" Y="0" W="4" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="434" Y="446" W="4" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_TRAY_SLOT0">
+		<WINDOW_POS X="4" Y="0" W="37" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="438" Y="446" W="37" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_TRAY_SLOT1">
+		<WINDOW_POS X="41" Y="0" W="37" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="438" Y="446" W="37" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_TRAY_SLOT2">
+		<WINDOW_POS X="78" Y="0" W="37" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="438" Y="446" W="37" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_TRAY_SLOT3">
+		<WINDOW_POS X="115" Y="0" W="37" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="438" Y="446" W="37" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_TRAY_SLOT4">
+		<WINDOW_POS X="152" Y="0" W="37" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="438" Y="446" W="37" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_QUICK_POTION_TRAY_SLOT5">
+		<WINDOW_POS X="189" Y="0" W="37" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="438" Y="446" W="37" H="41" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="QUICK_POTION_TRAY_OPEN_BUTTON">
+		<WINDOW_POS X="44" Y="0" W="15" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="418" Y="404" W="15" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUICK_POTION_TRAY_OPEN_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="15" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="434" Y="404" W="15" H="41" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="QUICK_POTION_TRAY_CLOSE_BUTTON">
+		<WINDOW_POS X="226" Y="0" W="15" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="450" Y="404" W="15" H="41" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUICK_POTION_TRAY_CLOSE_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="15" H="41" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="466" Y="404" W="15" H="41" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="BASIC_LEVEL_DISPLAY">
+		<WINDOW_POS X="0" Y="42" W="59" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="374" Y="446" W="59" H="15" />
+	</CONTROL>
+	<!--CONTROL Local="cn" Id="BASIC_LEVEL_DISPLAY">
+		<WINDOW_POS X="3" Y="4" W="59" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="374" Y="446" W="59" H="15" />
+	</CONTROL-->
+	<CONTROL Local="Common" Id="BASIC_LEVEL_DISPLAY_TEXT">
+		<WINDOW_POS X="23" Y="1" W="30" H="15" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="WEAPON_DISPLAY">
+		<WINDOW_POS X="43" Y="58" W="33" H="33" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WEAPON_DISPLAY_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="33" H="33" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WEAPON_DISPLAY_DUMMY">
+		<WINDOW_POS X="1" Y="1" W="33" H="33" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="348" Y="49" W="33" H="33" />				
+	</CONTROL>	
+	
+	
+	<CONTROL Local="Common" Id="ITEM_SHOP_ICON_MAN">
+		<WINDOW_POS X="0" Y="0" W="33" H="33" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_SHOP_ICON">
+		<WINDOW_POS X="0" Y="0" W="33" H="33" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_SHOP_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="33" H="33" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="305" Y="122" W="24" H="24" />
+	</CONTROL>	
+
+	<CONTROL Local="Common" Id="SKILLTIME_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILLTIME_BACK">
+		<WINDOW_POS X="35" Y="0" W="6" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="247" Y="163" W="6" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILLTIME_PROGRESS">
+		<WINDOW_POS X="35" Y="1" W="5" H="33" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILLTIME_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="5" H="33" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="254" Y="164" W="5" H="33" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_DISPLAY_EXTREME">
+		<WINDOW_POS X="78" Y="58" W="588" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_DISPLAY">
+		<WINDOW_POS X="42" Y="58" W="588" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILLTIME_UNIT">
+		<WINDOW_POS X="0" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT0">
+		<WINDOW_POS X="0" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT1">
+		<WINDOW_POS X="42" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT2">
+		<WINDOW_POS X="84" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT3">
+		<WINDOW_POS X="126" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT4">
+		<WINDOW_POS X="168" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT5">
+		<WINDOW_POS X="210" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT6">
+		<WINDOW_POS X="252" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT7">
+		<WINDOW_POS X="294" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT8">
+		<WINDOW_POS X="336" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT9">
+		<WINDOW_POS X="378" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT10">
+		<WINDOW_POS X="420" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT11">
+		<WINDOW_POS X="462" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT12">
+		<WINDOW_POS X="504" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SKILL_TIME_UNIT13">
+		<WINDOW_POS X="546" Y="0" W="41" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="18" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_PROGRESS">
+		<WINDOW_POS X="18" Y="0" W="2" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="2" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="254" Y="164" W="5" H="33" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="MINIPARTY_BUFF_INFO">
+		<WINDOW_POS X="0" Y="0" W="30" H="28" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT">
+		<WINDOW_POS X="0" Y="0" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_BACK">
+		<WINDOW_POS X="0" Y="0" W="30" H="28" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT0">
+		<WINDOW_POS X="5" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT1">
+		<WINDOW_POS X="26" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT2">
+		<WINDOW_POS X="47" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT3">
+		<WINDOW_POS X="68" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT4">
+		<WINDOW_POS X="89" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT5">
+		<WINDOW_POS X="110" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT6">
+		<WINDOW_POS X="131" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT7">
+		<WINDOW_POS X="152" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT8">
+		<WINDOW_POS X="173" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT9">
+		<WINDOW_POS X="194" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT10">
+		<WINDOW_POS X="215" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT11">
+		<WINDOW_POS X="236" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT12">
+		<WINDOW_POS X="257" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PARTYBUFF_UNIT13">
+		<WINDOW_POS X="278" Y="5" W="20" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_CONFT_DISPLAY">
+		<WINDOW_POS X="100" Y="64" W="500" H="98" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_LEFT_MARK">
+		<WINDOW_POS X="0" Y="0" W="98" H="98" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_LEFT_NUMBER">
+		<WINDOW_POS X="105" Y="16" W="64" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_RIGHT_NUMBER">
+		<WINDOW_POS X="331" Y="16" W="64" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_RIGHT_MARK">
+		<WINDOW_POS X="402" Y="0" W="98" H="98" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_NUM1">
+		<WINDOW_POS X="0" Y="0" W="64" H="67" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="445" W="64" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_NUM2">
+		<WINDOW_POS X="0" Y="0" W="64" H="67" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="445" W="64" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_NUM3">
+		<WINDOW_POS X="0" Y="0" W="64" H="67" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="445" W="64" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_NUM4">
+		<WINDOW_POS X="0" Y="0" W="64" H="67" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="445" W="64" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_NUM5">
+		<WINDOW_POS X="0" Y="0" W="64" H="67" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="445" W="64" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_NUM6">
+		<WINDOW_POS X="0" Y="0" W="64" H="67" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="320" Y="445" W="64" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_NUM7">
+		<WINDOW_POS X="0" Y="0" W="64" H="67" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="384" Y="445" W="64" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_NUM8">
+		<WINDOW_POS X="0" Y="0" W="64" H="67" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="448" Y="445" W="64" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_MARK0">
+		<WINDOW_POS X="0" Y="0" W="98" H="98" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="412" Y="68" W="98" H="98" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_MARK1">
+		<WINDOW_POS X="0" Y="0" W="98" H="98" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="316" Y="345" W="98" H="98" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ACADEMY_PARTY_CONFT_MARK2">
+		<WINDOW_POS X="0" Y="0" W="98" H="98" />
+		<TEXTURE SizeX="512" SizeY="512">party_text.dds</TEXTURE>
+		<TEXTURE_POS X="414" Y="345" W="98" H="98" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_EX_SIMPLEHP">
+		<WINDOW_POS X="0" Y="0" W="6" H="6" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_EX_LEFT_SIMPLEHP">
+		<WINDOW_POS X="0" Y="2" W="2" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="313" Y="460" W="2" H="2" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_EX_RIGHT_SIMPLEHP">
+		<WINDOW_POS X="4" Y="2" W="2" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="317" Y="460" W="2" H="2" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_EX_TOP_SIMPLEHP">
+		<WINDOW_POS X="2" Y="0" W="2" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="315" Y="458" W="2" H="2" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_EX_BOTTOM_SIMPLEHP">
+		<WINDOW_POS X="2" Y="4" W="2" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="315" Y="462" W="2" H="2" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_EX_LEFTTOP_SIMPLEHP">
+		<WINDOW_POS X="0" Y="0" W="2" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="313" Y="458" W="2" H="2" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_EX_LEFTBOTTOM_SIMPLEHP">
+		<WINDOW_POS X="0" Y="4" W="2" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="313" Y="462" W="2" H="2" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_EX_RIGHTTOP_SIMPLEHP">
+		<WINDOW_POS X="4" Y="0" W="2" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="317" Y="458" W="2" H="2" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_EX_RIGHTBOTTOM_SIMPLEHP">
+		<WINDOW_POS X="4" Y="4" W="2" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="317" Y="462" W="2" H="2" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_EX_BODY_SIMPLEHP">
+		<WINDOW_POS X="2" Y="2" W="2" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="315" Y="460" W="2" H="2" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SIMPLE_HP">
+		<WINDOW_POS X="0" Y="0" W="68" H="7" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SIMPLE_HP_IMAGE">
+		<WINDOW_POS X="2" Y="1" W="64" H="5" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="413" Y="327" W="96" H="5" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SIMPLE_HP_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="64" H="5" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="413" Y="321" W="96" H="5" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_HP_IMAGE">
+		<WINDOW_POS X="2" Y="1" W="64" H="5" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="70" W="203" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_HP_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="64" H="5" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="81" W="203" H="10" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="GATHER_GAUGE">
+		<WINDOW_POS X="0" Y="400" W="106" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GATHER_GAUGE_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="106" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="295" Y="375" W="106" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GATHER_GAUGE_OVERIMAGE">
+		<WINDOW_POS X="1" Y="1" W="104" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="402" Y="348" W="104" H="13" />			
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="BONUSTIME_EVENT_GAUGE">
+		<WINDOW_POS X="560" Y="28" W="111" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BONUSTIME_CHARGE_IMAGE">
+		<WINDOW_POS X="2" Y="1" W="107" H="17" />
+		<TEXTURE SizeX="512" SizeY="256">CharInven02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="210" W="107" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BONUSTIME_CHARGE_OVERIMAGE">
+		<WINDOW_POS X="1" Y="1" W="105" H="15" />
+		<TEXTURE SizeX="512" SizeY="256">CharInven02.dds</TEXTURE>
+		<TEXTURE_POS X="108" Y="211" W="105" H="15" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="BONUSTIME_CONSUME_IMAGE">
+		<WINDOW_POS X="2" Y="1" W="107" H="17" />
+		<TEXTURE SizeX="512" SizeY="256">CharInven02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="210" W="107" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BONUSTIME_CONSUME_OVERIMAGE">
+		<WINDOW_POS X="1" Y="1" W="105" H="15" />
+		<TEXTURE SizeX="512" SizeY="256">CharInven02.dds</TEXTURE>
+		<TEXTURE_POS X="214" Y="211" W="105" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BONUSTIME_IMAGE">
+		<WINDOW_POS X="10" Y="4" W="91" H="11" />
+		<TEXTURE SizeX="512" SizeY="256">CharInven02.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="228" W="91" H="11" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="BONUSTIME_EVENT_DISPLAY">
+		<WINDOW_POS X="0" Y="0" W="502" H="125" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="BONUS_TIME">
+		<WINDOW_POS X="0" Y="0" W="502" H="125" />
+		<TEXTURE SizeX="512" SizeY="128">bonustime.dds</TEXTURE>
+		<TEXTURE_POS X="5" Y="2" W="502" H="125" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="BONUSTIME_DISPLAY_POSITION">
+		<WINDOW_POS X="0" Y="340" W="1" H="1" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="BASIC_SIMPLEHP_LINE_BOX">
+		<WINDOW_POS X="0" Y="0" W="68" H="7" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BLOCK_PROGRAM_ALARM">
+		<WINDOW_POS X="0" Y="0" W="295" H="72" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BLOCK_PROGRAM_ALARM_LINE_BOX">
+		<WINDOW_POS X="0" Y="0" W="295" H="72" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BLOCK_PROGRAM_ALARM_TEXTBOX">
+		<WINDOW_POS X="0" Y="13" W="295" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BLOCK_PROGRAM_ALARM_OK">
+		<WINDOW_POS X="118" Y="48" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_WINDOW">
+		<WINDOW_POS X="311" Y="0" W="239" H="318" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_PAGE">
+		<WINDOW_POS X="7" Y="23" W="225" H="287" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_ITEM_SLOT0">
+		<WINDOW_POS X="0" Y="0" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_ITEM_SLOT1">
+		<WINDOW_POS X="0" Y="36" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_ITEM_SLOT2">
+		<WINDOW_POS X="0" Y="72" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_ITEM_SLOT3">
+		<WINDOW_POS X="0" Y="108" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_ITEM_SLOT4">
+		<WINDOW_POS X="0" Y="144" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_ITEM_SLOT5">
+		<WINDOW_POS X="0" Y="180" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_ITEM_SLOT6">
+		<WINDOW_POS X="0" Y="216" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_ITEM_SLOT7">
+		<WINDOW_POS X="0" Y="252" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMBANK_PAGE_SCROLL">
+		<WINDOW_POS X="216" Y="0" W="9" H="287" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="VNGAINSYS_GAUGE_WINDOW">
+		<WINDOW_POS X="410" Y="50" W="255" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_GAUGE_IMAGE">
+		<WINDOW_POS X="31" Y="0" W="225" H="15" />
+		<TEXTURE SizeX="256" SizeY="32">Vietnam_UI.dds</TEXTURE>
+		<TEXTURE_POS X="31" Y="15" W="225" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_GAUGE_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="225" H="15" />
+		<TEXTURE SizeX="256" SizeY="32">Vietnam_UI.dds</TEXTURE>
+		<TEXTURE_POS X="31" Y="0" W="225" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYSTEM_3TIME_STATIC">
+		<WINDOW_POS X="150" Y="17" W="40" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYSTEM_5TIME_STATIC">
+		<WINDOW_POS X="220" Y="17" W="40" H="20" />
+	</CONTROL>	
+	
+	
+	
+	<CONTROL Local="Common" Id="VNGAINSYS_WINDOW">
+		<WINDOW_POS X="311" Y="0" W="230" H="450" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYSTEM_LINEBOX">
+		<WINDOW_POS X="7" Y="23" W="215" H="36" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYSTEM_EXP_STATIC">
+		<WINDOW_POS X="16" Y="25" W="30" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYSTEM_EXPNUMBER_TEXTBOX">
+		<WINDOW_POS X="80" Y="25" W="120" H="18" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="VNGAINSYSINVENTORY_MONEY_TEXT">
+		<WINDOW_POS X="80" Y="43" W="120" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYSINVENTORY_MONEY_BUTTON">
+		<WINDOW_POS X="16" Y="43" W="13" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="228" Y="92" W="13" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYSINVENTORY_MONEY_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="13" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="228" Y="106" W="13" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAININVEN_PAGE">
+		<WINDOW_POS X="7" Y="61" W="220" H="324" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_ITEM_SLOT0">
+		<WINDOW_POS X="0" Y="0" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_ITEM_SLOT1">
+		<WINDOW_POS X="0" Y="36" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_ITEM_SLOT2">
+		<WINDOW_POS X="0" Y="72" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_ITEM_SLOT3">
+		<WINDOW_POS X="0" Y="108" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_ITEM_SLOT4">
+		<WINDOW_POS X="0" Y="144" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_ITEM_SLOT5">
+		<WINDOW_POS X="0" Y="180" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_ITEM_SLOT6">
+		<WINDOW_POS X="0" Y="216" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_ITEM_SLOT7">
+		<WINDOW_POS X="0" Y="252" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_ITEM_SLOT8">
+		<WINDOW_POS X="0" Y="288" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYS_ITEM_SLOT9">
+		<WINDOW_POS X="0" Y="324" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYSTEM_ITEMCNT_STATIC">
+		<WINDOW_POS X="14" Y="430" W="80" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VNGAINSYSTEM_ITEMCNT_TEXTBOX">
+		<WINDOW_POS X="80" Y="430" W="40" H="18" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="VNGAINSYSTEM_ITEMRESET_BUTTON">
+		<WINDOW_POS X="115" Y="430" W="100" H="18" />
+	</CONTROL>	
+
+
+	<CONTROL Local="Common" Id="LARGEMAP_WINDOW">
+		<WINDOW_POS X="470" Y="0" W="330" H="300" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_SCROLLBAR_H">
+		<WINDOW_POS X="3" Y="300" W="326" H="9" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_SCROLLBAR_V">
+		<WINDOW_POS X="330" Y="20" W="9" H="276" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_IMAGE">
+		<WINDOW_POS X="10" Y="20" W="309" H="269" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_RESIZE_THUMB">
+		<WINDOW_POS X="320" Y="290" W="10" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_MOUSEPOS_TEXT">
+		<WINDOW_POS X="247" Y="273" W="70" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_MOUSEPOS_BACK">
+		<WINDOW_POS X="249" Y="269" W="70" H="20" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="2" Y="19" W="10" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_DIRECTION">
+		<WINDOW_POS X="8" Y="225" W="67" H="68" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="203" Y="444" W="67" H="67" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_RB_THUMB">
+		<WINDOW_POS X="311" Y="281" W="19" H="19" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="467" Y="0" W="19" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_RB_THUMB_F">
+		<WINDOW_POS X="0" Y="0" W="19" H="19" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="467" Y="20" W="19" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_LB_THUMB">
+		<WINDOW_POS X="0" Y="281" W="19" H="19" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="467" Y="40" W="19" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_LB_THUMB_F">
+		<WINDOW_POS X="0" Y="0" W="19" H="19" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="467" Y="60" W="19" H="19" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="STORAGE_CHARGE_CARD">
+		<WINDOW_POS X="0" Y="0" W="163" H="178" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STORAGE_CHARGE_CARD_BACK">
+		<WINDOW_POS X="0" Y="0" W="163" H="178" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STROAGE_CHARGE_BUTTON2">
+		<WINDOW_POS X="12" Y="23" W="30" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STORAGE_CHARGE_TEXTBACK2">
+		<WINDOW_POS X="5" Y="18" W="153" H="48" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STROAGE_CHARGE_TEXT2">
+		<WINDOW_POS X="51" Y="23" W="103" H="45" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STROAGE_CHARGE_BUTTON3">
+		<WINDOW_POS X="12" Y="76" W="30" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STORAGE_CHARGE_TEXTBACK3">
+		<WINDOW_POS X="5" Y="71" W="153" H="48" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STROAGE_CHARGE_TEXT3">
+		<WINDOW_POS X="51" Y="76" W="103" H="45" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STROAGE_CHARGE_BUTTON4">
+		<WINDOW_POS X="12" Y="129" W="30" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STORAGE_CHARGE_TEXTBACK4">
+		<WINDOW_POS X="5" Y="124" W="153" H="48" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STROAGE_CHARGE_TEXT4">
+		<WINDOW_POS X="51" Y="129" W="103" H="45" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STORAGE_CLOSE_BUTTON">
+		<WINDOW_POS X="147" Y="4" W="11" H="10" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="217" Y="141" W="11" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="STORAGE_CLOSE_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="10" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="229" Y="141" W="11" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="LARGEMAP_MARK">
+		<WINDOW_POS X="0" Y="0" W="37" H="37" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="305" Y="321" W="37" H="37" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TEST_MARK">
+		<WINDOW_POS X="0" Y="0" W="22" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="374" Y="321" W="22" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TEST_MARK0">
+		<WINDOW_POS X="0" Y="0" W="18" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="493" Y="155" W="18" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TEST_MARK1">
+		<WINDOW_POS X="0" Y="0" W="18" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="493" Y="173" W="18" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TEST_MARK2">
+		<WINDOW_POS X="0" Y="0" W="18" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="493" Y="191" W="18" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TEST_MARK3">
+		<WINDOW_POS X="0" Y="0" W="18" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="493" Y="209" W="18" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TEST_MARK4">
+		<WINDOW_POS X="0" Y="0" W="18" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="493" Y="227" W="18" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TEST_MARK5">
+		<WINDOW_POS X="0" Y="0" W="18" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="493" Y="245" W="18" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TEST_MARK6">
+		<WINDOW_POS X="0" Y="0" W="18" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="493" Y="263" W="18" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TEST_MARK7">
+		<WINDOW_POS X="0" Y="0" W="18" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="493" Y="281" W="18" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="MINIMAP_GUILD_MARK">
+		<WINDOW_POS X="0" Y="0" W="18" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="493" Y="299" W="18" H="18" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="TARGET_MARK">
+		<WINDOW_POS X="0" Y="0" W="22" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">CharInven.dds</TEXTURE>
+		<TEXTURE_POS X="374" Y="321" W="22" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBIRTH_DIALOGUE">
+		<WINDOW_POS X="0" Y="0" W="295" H="82" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBIRTH_DIALOGUE_LINE_BOX">
+		<WINDOW_POS X="0" Y="0" W="295" H="82" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBIRTH_DIALOGUE_TEXTBOX">
+		<WINDOW_POS X="0" Y="15" W="295" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBIRTH_DIALOGUE_CHECKPOINT">
+		<WINDOW_POS X="108" Y="58" W="80" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBIRTH_DIALOGUE_CURRENT_POSITION">
+		<WINDOW_POS X="108" Y="58" W="80" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBIRTH_DIALOGUE_RECOVERY_EXP">
+		<WINDOW_POS X="108" Y="58" W="80" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="REBIRTH_DIALOGUE_1_BUTTON">
+		<WINDOW_POS X="108" Y="58" W="80" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBIRTH_DIALOGUE_2_BUTTON_L">
+		<WINDOW_POS X="50" Y="58" W="80" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBIRTH_DIALOGUE_2_BUTTON_R">
+		<WINDOW_POS X="165" Y="58" W="80" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_WINDOW">
+		<WINDOW_POS X="311" Y="0" W="239" H="249" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_ADVERTISE_LINEBOX">
+		<WINDOW_POS X="7" Y="24" W="225" H="52" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_ADVERTISE_TEXTBOX">
+		<WINDOW_POS X="11" Y="30" W="213" H="47" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_PAGE">
+		<WINDOW_POS X="7" Y="81" W="225" H="143" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_ITEM_SLOT0">
+		<WINDOW_POS X="0" Y="0" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_ITEM_SLOT1">
+		<WINDOW_POS X="0" Y="36" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_ITEM_SLOT2">
+		<WINDOW_POS X="0" Y="72" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_ITEM_SLOT3">
+		<WINDOW_POS X="0" Y="108" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_ITEM_SLOT4">
+		<WINDOW_POS X="0" Y="144" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_ITEM_SLOT5">
+		<WINDOW_POS X="0" Y="180" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_ITEM_SLOT6">
+		<WINDOW_POS X="0" Y="216" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_ITEM_SLOT7">
+		<WINDOW_POS X="0" Y="252" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_PAGE_SCROLL">
+		<WINDOW_POS X="216" Y="0" W="9" H="143" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_START">
+		<WINDOW_POS X="120" Y="229" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_STOP">
+		<WINDOW_POS X="182" Y="229" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_MAKE">
+		<WINDOW_POS X="0" Y="0" W="295" H="90" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_MAKE_LINE_BOX">
+		<WINDOW_POS X="0" Y="0" W="295" H="90" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_MAKE_EDIT">
+		<WINDOW_POS X="15" Y="43" W="265" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_MAKE_EDIT_BACK">
+		<WINDOW_POS X="10" Y="40" W="272" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_MAKE_OK">
+		<WINDOW_POS X="146" Y="66" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_MAKE_CANCEL">
+		<WINDOW_POS X="222" Y="66" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_TEXTBOX">
+		<WINDOW_POS X="10" Y="15" W="295" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_MAKE_CARRAT">
+		<WINDOW_POS X="1" Y="0" W="2" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="212" H="150" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_TEXTBOX">
+		<WINDOW_POS X="13" Y="33" W="186" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_MONEY">
+		<WINDOW_POS X="16" Y="61" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_ITEMCOUNT">
+		<WINDOW_POS X="16" Y="86" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_EDITMAN">
+		<WINDOW_POS X="0" Y="0" W="212" H="150" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_MONEY_EDIT">
+		<WINDOW_POS X="103" Y="62" W="80" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_MONEY_EDIT_BACK">
+		<WINDOW_POS X="99" Y="59" W="92" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_ITEMCOUNT_EDIT">
+		<WINDOW_POS X="103" Y="87" W="80" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_ITEMCOUNT_EDIT_BACK">
+		<WINDOW_POS X="99" Y="84" W="92" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_CARRAT">
+		<WINDOW_POS X="1" Y="0" W="2" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_OK">
+		<WINDOW_POS X="60" Y="127" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PRIVATE_MARKET_SELL_WINDOW_CANCEL">
+		<WINDOW_POS X="141" Y="127" W="60" H="14" />
+	</CONTROL>
+
+	
+	<CONTROL Local="Common" Id="CLUB_WINDOW">
+		<WINDOW_POS X="476" Y="0" W="289" H="411" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CLUB_NAME_STATIC">
+		<WINDOW_POS X="10" Y="30" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_MASTER_NAME_STATIC">
+		<WINDOW_POS X="10" Y="49" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ESTABLISH_DATE_STATIC">
+		<WINDOW_POS X="10" Y="68" W="70" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_GRADE_STATIC">
+		<WINDOW_POS X="10" Y="87" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_MARK_STATIC">
+		<WINDOW_POS X="120" Y="87" W="30" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_NICK_STATIC">
+		<WINDOW_POS X="10" Y="106" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_BATTLE_POINT_STATIC">
+		<WINDOW_POS X="10" Y="125" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ALLIANCE_BATTLE_POINT_STATIC">
+		<WINDOW_POS X="10" Y="144" W="60" H="14" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="vn" Id="CLUB_MARK_STATIC">
+		<WINDOW_POS X="90" Y="87" W="80" H="14" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CLUB_NICK_STATIC">
+		<WINDOW_POS X="10" Y="106" W="70" H="14" />
+	</CONTROL>	
+	<CONTROL Local="vn" Id="CLUB_WINDOW_MARK">
+		<WINDOW_POS X="180" Y="87" W="16" H="11" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="CLUB_NAME_TEXTBOX">
+		<WINDOW_POS X="75" Y="30" W="100" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_MASTER_NAME_TEXTBOX">
+		<WINDOW_POS X="75" Y="49" W="100" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ESTABLISH_DATE_TEXTBOX">
+		<WINDOW_POS X="75" Y="68" W="100" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_GRADE_TEXTBOX">
+		<WINDOW_POS X="75" Y="87" W="40" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CLUB_WINDOW_MARK">
+		<WINDOW_POS X="160" Y="87" W="16" H="11" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CLUB_NICK_TEXTBOX">
+		<WINDOW_POS X="75" Y="106" W="150" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_BATTLE_POINT_TEXTBOX">
+		<WINDOW_POS X="75" Y="125" W="150" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CLUB_ALLIANCE_BATTLE_POINT_TEXTBOX">
+		<WINDOW_POS X="75" Y="144" W="150" H="14" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="CLUB_KICK_BUTTON">
+		<WINDOW_POS X="60" Y="392" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_LEAVE_BUTTON">
+		<WINDOW_POS X="5" Y="392" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_WRITE_BUTTON">
+		<WINDOW_POS X="5" Y="392" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_WRITE_OK_BUTTON">
+		<WINDOW_POS X="60" Y="392" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_WRITE_CANCEL_BUTTON">
+		<WINDOW_POS X="115" Y="392" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_WRITE_CLEAR_BUTTON">
+		<WINDOW_POS X="170" Y="392" W="70" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_SUBMASTER_BUTTON">
+		<WINDOW_POS X="115" Y="392" W="120" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_UNION_KICK_BUTTON">
+		<WINDOW_POS X="5" Y="392" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_UNION_LEAVE_BUTTON">
+		<WINDOW_POS X="5" Y="392" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_UNION_BREAKUP_BUTTON">
+		<WINDOW_POS X="60" Y="392" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_BREAKUP_BUTTON">
+		<WINDOW_POS X="210" Y="29" W="70" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CLUB_BATTLE_ARMISTICE_BUTTON">
+		<WINDOW_POS X="5" Y="392" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_BATTLE_SUBMISSION_BUTTON">
+		<WINDOW_POS X="60" Y="392" W="50" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CLUB_CHANGE_MARK_BUTTON">
+		<WINDOW_POS X="230" Y="86" W="50" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_CHANGE_TITLE_BUTTON">
+		<WINDOW_POS X="210" Y="105" W="70" H="14" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCEMENT_BUTTON">
+		<WINDOW_POS X="5" Y="166" W="90" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_MEMBER_BUTTON">
+		<WINDOW_POS X="100" Y="166" W="90" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_UNION_BUTTON">
+		<WINDOW_POS X="195" Y="166" W="90" H="18" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCEMENT_BUTTON_BATTLE">
+		<WINDOW_POS X="5" Y="166" W="66" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_MEMBER_BUTTON_BATTLE">
+		<WINDOW_POS X="76" Y="166" W="66" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_UNION_BUTTON_BATTLE">
+		<WINDOW_POS X="147" Y="166" W="66" H="18" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CLUB_BATTLE_BUTTON_BATTLE">
+		<WINDOW_POS X="218" Y="166" W="66" H="18" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CLUB_UP_LINEBOX">
+		<WINDOW_POS X="5" Y="24" W="279" H="137" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUBWINDOW_SHEET">
+		<WINDOW_POS X="5" Y="186" W="279" H="202" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_LIST_LINEBOX">
+		<WINDOW_POS X="0" Y="0" W="279" H="202" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_LIST_TEXTBOX">
+		<WINDOW_POS X="22" Y="10" W="243" H="189" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_UNION_LIST_TEXTBOX">
+		<WINDOW_POS X="10" Y="10" W="256" H="189" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_LIST_SCROLLBAR">
+		<WINDOW_POS X="269" Y="0" W="9" H="202" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_BATTLE_LIST_TEXTBOX">
+		<WINDOW_POS X="10" Y="10" W="256" H="189" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_LINEBOX">
+		<WINDOW_POS X="0" Y="0" W="279" H="202" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_LINETEXTBOX">
+		<WINDOW_POS X="5" Y="5" W="269" H="172" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_TEXTBOX">
+		<WINDOW_POS X="10" Y="10" W="259" H="162" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX">
+		<WINDOW_POS X="10" Y="10" W="259" H="162" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX_L01">
+		<WINDOW_POS X="0" Y="0" W="259" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX_L02">
+		<WINDOW_POS X="0" Y="14" W="259" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX_L03">
+		<WINDOW_POS X="0" Y="28" W="259" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX_L04">
+		<WINDOW_POS X="0" Y="42" W="259" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX_L05">
+		<WINDOW_POS X="0" Y="56" W="259" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX_L06">
+		<WINDOW_POS X="0" Y="70" W="259" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX_L07">
+		<WINDOW_POS X="0" Y="84" W="259" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX_L08">
+		<WINDOW_POS X="0" Y="98" W="259" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX_L09">
+		<WINDOW_POS X="0" Y="112" W="259" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_EDITBOX_L10">
+		<WINDOW_POS X="0" Y="126" W="259" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CLUB_ANNOUNCE_CARRAT">
+		<WINDOW_POS X="1" Y="0" W="2" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_MAKE">
+		<WINDOW_POS X="0" Y="0" W="245" H="130" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_LINE_BOX">
+		<WINDOW_POS X="0" Y="0" W="245" H="130" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_LINETEXTBOX">
+		<WINDOW_POS X="5" Y="5" W="235" H="100" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_TEXTBOX">
+		<WINDOW_POS X="20" Y="15" W="225" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_JOIN_BUTTON">
+		<WINDOW_POS X="10" Y="40" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_JOIN_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_JOIN_STATIC">
+		<WINDOW_POS X="24" Y="40" W="60" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_STRIKE_BUTTON">
+		<WINDOW_POS X="140" Y="40" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_STRIKE_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_STRIKE_STATIC">
+		<WINDOW_POS X="154" Y="40" W="60" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_NOTICE_BUTTON">
+		<WINDOW_POS X="10" Y="54" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_NOTICE_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_NOTICE_STATIC">
+		<WINDOW_POS X="24" Y="54" W="60" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_MARK_BUTTON">
+		<WINDOW_POS X="140" Y="54" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_MARK_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_MARK_STATIC">
+		<WINDOW_POS X="154" Y="54" W="60" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_CERTIFY_BUTTON">
+		<WINDOW_POS X="10" Y="68" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_CERTIFY_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_CERTIFY_STATIC">
+		<WINDOW_POS X="24" Y="68" W="80" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_OK">
+		<WINDOW_POS X="96" Y="108" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUBMASTER_CANCEL">
+		<WINDOW_POS X="172" Y="108" W="60" H="14" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="SIMPLE_MESSAGE_MAN">
+		<WINDOW_POS X="100" Y="70" W="400" H="70" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SIMPLE_MESSAGE_MAN_TEXT">
+		<WINDOW_POS X="0" Y="0" W="400" H="70" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_SHOW_FLAG">
+		<WINDOW_POS X="18" Y="22" W="293" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_SHOW_FLAG_BACK">
+		<WINDOW_POS X="0" Y="0" W="293" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_NORMAL_CHECK">
+		<WINDOW_POS X="5" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_NORMAL_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_PRIVATE_CHECK">
+		<WINDOW_POS X="52" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_PRIVATE_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_PARTY_CHECK">
+		<WINDOW_POS X="115" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_PARTY_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_CLUB_CHECK">
+		<WINDOW_POS X="170" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_CLUB_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_ALLIANCE_CHECK">
+		<WINDOW_POS X="225" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_ALLIANCE_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_SYSTEM_CHECK">
+		<WINDOW_POS X="280" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_SYSTEM_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_NORMAL_CHECK_TEXT">
+		<WINDOW_POS X="18" Y="4" W="30" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_PRIVATE_CHECK_TEXT">
+		<WINDOW_POS X="65" Y="4" W="40" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_PARTY_CHECK_TEXT">
+		<WINDOW_POS X="128" Y="4" W="30" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_CLUB_CHECK_TEXT">
+		<WINDOW_POS X="183" Y="4" W="30" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_ALLIANCE_CHECK_TEXT">
+		<WINDOW_POS X="238" Y="4" W="30" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_SYSTEM_CHECK_TEXT">
+		<WINDOW_POS X="293" Y="4" W="40" H="12" />
+	</CONTROL>
+	
+	
+	
+	
+	<CONTROL Local="vn" Id="CHAT_SHOW_FLAG">
+		<WINDOW_POS X="18" Y="22" W="293" H="18" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_SHOW_FLAG_BACK">
+		<WINDOW_POS X="0" Y="0" W="293" H="18" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_NORMAL_CHECK">
+		<WINDOW_POS X="5" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_NORMAL_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_PRIVATE_CHECK">
+		<WINDOW_POS X="62" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_PRIVATE_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_PARTY_CHECK">
+		<WINDOW_POS X="114" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_PARTY_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_CLUB_CHECK">
+		<WINDOW_POS X="171" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_CLUB_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_ALLIANCE_CHECK">
+		<WINDOW_POS X="223" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_ALLIANCE_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_SYSTEM_CHECK">
+		<WINDOW_POS X="300" Y="4" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="238" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_SYSTEM_CHECK_F">
+		<WINDOW_POS X="0" Y="0" W="11" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="251" Y="125" W="11" H="11" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_NORMAL_CHECK_TEXT">
+		<WINDOW_POS X="19" Y="4" W="40" H="12" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_PRIVATE_CHECK_TEXT">
+		<WINDOW_POS X="76" Y="4" W="35" H="12" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_PARTY_CHECK_TEXT">
+		<WINDOW_POS X="128" Y="4" W="40" H="12" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_CLUB_CHECK_TEXT">
+		<WINDOW_POS X="185" Y="4" W="35" H="12" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_ALLIANCE_CHECK_TEXT">
+		<WINDOW_POS X="237" Y="4" W="60" H="12" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="CHAT_SYSTEM_CHECK_TEXT">
+		<WINDOW_POS X="314" Y="4" W="50" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_FLAG_BUTTON">
+		<WINDOW_POS X="0" Y="22" W="19" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="465" Y="118" W="19" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_FLAG_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="19" H="18" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="485" Y="118" W="19" H="18" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_CHANNEL_TOTAL">
+		<WINDOW_POS X="1" Y="22" W="60" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_CHANNEL_PRIVATE">
+		<WINDOW_POS X="61" Y="22" W="60" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_CHANNEL_PARTY">
+		<WINDOW_POS X="121" Y="22" W="60" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_CHANNEL_CLUB">
+		<WINDOW_POS X="181" Y="22" W="60" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_CHANNEL_ALLIANCE">
+		<WINDOW_POS X="241" Y="22" W="60" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_CHANNEL_SYSTEM">
+		<WINDOW_POS X="301" Y="22" W="60" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_SYSTEM_MESSAGE_DISPLAY">
+		<WINDOW_POS X="0" Y="70" W="400" H="75" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_SYSTEM_MESSAGE_LINE_BOX">
+		<WINDOW_POS X="0" Y="0" W="400" H="75" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_SYSTEM_MESSAGE_LINE_TEXTBOX">
+		<WINDOW_POS X="5" Y="5" W="390" H="65" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_SYSTEM_MESSAGE_TEXTBOX">
+		<WINDOW_POS X="10" Y="10" W="380" H="60" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_SYSTEM_MESSAGE">
+		<WINDOW_POS X="0" Y="0" W="5" H="5" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_SYSTEM_BODY_MAIN_LIGHTGRAY">
+		<WINDOW_POS X="0" Y="0" W="5" H="5" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="305" Y="10" W="5" H="5" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_LEFT_SYSTEM_MESSAGE">
+		<WINDOW_POS X="0" Y="0" W="2" H="5" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="19" W="1" H="1" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_TOP_SYSTEM_MESSAGE">
+		<WINDOW_POS X="2" Y="0" W="1" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="19" W="1" H="1" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_RIGHT_SYSTEM_MESSAGE">
+		<WINDOW_POS X="3" Y="0" W="2" H="5" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="19" W="1" H="1" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="BASIC_LINE_BOX_BOTTOM_SYSTEM_MESSAGE">
+		<WINDOW_POS X="2" Y="3" W="1" H="2" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="19" W="1" H="1" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="QUEST_GIFT_VIEW">
+		<WINDOW_POS X="7" Y="7" W="266" H="241" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUEST_GIFT_LINE_BOX">
+		<WINDOW_POS X="0" Y="0" W="266" H="241" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUEST_GIFT_LINE_TEXTBOX">
+		<WINDOW_POS X="5" Y="5" W="256" H="206" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUEST_GIFT_TEXTBOX">
+		<WINDOW_POS X="15" Y="15" W="216" H="191" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUEST_GIFT_VIEW_OK">
+		<WINDOW_POS X="200" Y="217" W="55" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_DISPLAY">
+		<WINDOW_POS X="0" Y="0" W="505" H="120" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_SPEED_UP">
+		<WINDOW_POS X="0" Y="0" W="323" H="54" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="323" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_CRAZY_TIME">
+		<WINDOW_POS X="0" Y="0" W="396" H="54" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="61" W="396" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_POWER_UP">
+		<WINDOW_POS X="0" Y="0" W="340" H="54" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="122" W="340" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_EXP_TIME">
+		<WINDOW_POS X="0" Y="0" W="312" H="54" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="184" W="312" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_EXP_GET">
+		<WINDOW_POS X="0" Y="0" W="256" H="54" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="245" W="256" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_LUCKY">
+		<WINDOW_POS X="0" Y="0" W="198" H="64" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="307" W="198" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_BOMB">
+		<WINDOW_POS X="0" Y="0" W="232" H="54" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="373" W="232" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_OHNO">
+		<WINDOW_POS X="0" Y="0" W="232" H="54" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="434" W="232" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_SPEED_UP_M">
+		<WINDOW_POS X="0" Y="0" W="483" H="54" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="483" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_MADNESS">
+		<WINDOW_POS X="0" Y="0" W="278" H="115" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="232" Y="373" W="278" H="115" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_ATTACK_UP_M">
+		<WINDOW_POS X="0" Y="0" W="500" H="54" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="122" W="500" H="54" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="QUESTION_ITEM_HEAL">
+		<WINDOW_POS X="0" Y="0" W="227" H="54" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="271" Y="245" W="227" H="54" />
+	</CONTROL>
+	
+	<CONTROL Local="cn" Id="QUESTION_ITEM_SPEED_UP">
+		<WINDOW_POS X="0" Y="0" W="292" H="57" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="8" Y="6" W="292" H="57" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_CRAZY_TIME">
+		<WINDOW_POS X="0" Y="0" W="291" H="57" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="9" Y="68" W="291" H="57" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_POWER_UP">
+		<WINDOW_POS X="0" Y="0" W="292" H="56" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="8" Y="131" W="292" H="56" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_EXP_TIME">
+		<WINDOW_POS X="0" Y="0" W="227" H="56" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="8" Y="193" W="227" H="56" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_EXP_GET">
+		<WINDOW_POS X="0" Y="0" W="227" H="56" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="270" Y="193" W="227" H="56" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_LUCKY">
+		<WINDOW_POS X="0" Y="0" W="227" H="57" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="271" Y="254" W="227" H="57" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_BOMB">
+		<WINDOW_POS X="0" Y="0" W="287" H="57" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="8" Y="379" W="287" H="57" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_OHNO">
+		<WINDOW_POS X="0" Y="0" W="225" H="57" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="271" Y="316" W="225" H="57" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_SPEED_UP_M">
+		<WINDOW_POS X="0" Y="0" W="483" H="57" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="8" Y="6" W="483" H="57" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_MADNESS">
+		<WINDOW_POS X="0" Y="0" W="291" H="56" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="9" Y="441" W="291" H="56" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_ATTACK_UP_M">
+		<WINDOW_POS X="0" Y="0" W="483" H="56" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="8" Y="131" W="483" H="56" />
+	</CONTROL>
+	<CONTROL Local="cn" Id="QUESTION_ITEM_HEAL">
+		<WINDOW_POS X="0" Y="0" W="227" H="56" />
+		<TEXTURE SizeX="512" SizeY="512">Question_Text.dds</TEXTURE>
+		<TEXTURE_POS X="8" Y="255" W="227" H="56" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="QUESTION_ITEM_POSITION">
+		<WINDOW_POS X="0" Y="140" W="1" H="1" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CONFT_CONFIRM">
+		<WINDOW_POS X="1" Y="1" W="220" H="220" />
+		<TEXTURE SizeX="256" SizeY="256">progress.dds</TEXTURE>
+		<TEXTURE_POS X="1" Y="1" W="220" H="220" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CONFT_CONFIRM_PROGRESS">
+		<WINDOW_POS X="33" Y="102" W="154" H="16" />
+		<TEXTURE SizeX="256" SizeY="256">progress.dds</TEXTURE>
+		<TEXTURE_POS X="33" Y="102" W="154" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CONFT_CONFIRM_PROGRESS_OVER">
+		<WINDOW_POS X="0" Y="0" W="154" H="16" />
+		<TEXTURE SizeX="256" SizeY="256">progress.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="224" W="154" H="16" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="250" H="160" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_TITLE_BACK_L">
+		<WINDOW_POS X="10" Y="25" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="54" W="115" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_TITLE_BACK_R">
+		<WINDOW_POS X="125" Y="25" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="80" Y="54" W="159" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_TITLE">
+		<WINDOW_POS X="10" Y="27" W="230" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_R">
+		<WINDOW_POS X="15" Y="50" W="8" H="12" />
+		<TEXTURE SizeX="256" SizeY="32">Bar.dds</TEXTURE>
+		<TEXTURE_POS X="182" Y="0" W="8" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_G">
+		<WINDOW_POS X="15" Y="70" W="9" H="12" />
+		<TEXTURE SizeX="256" SizeY="32">Bar.dds</TEXTURE>
+		<TEXTURE_POS X="191" Y="0" W="9" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_B">
+		<WINDOW_POS X="15" Y="90" W="8" H="12" />
+		<TEXTURE SizeX="256" SizeY="32">Bar.dds</TEXTURE>
+		<TEXTURE_POS X="201" Y="0" W="8" H="12" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_R_PROGRESS_DUMMY">
+		<WINDOW_POS X="27" Y="54" W="181" H="6" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_R_PROGRESS">
+		<WINDOW_POS X="27" Y="54" W="181" H="6" />
+		<TEXTURE SizeX="256" SizeY="32">Bar.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="21" W="181" H="6" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_R_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="181" H="6" />
+		<TEXTURE SizeX="256" SizeY="32">Bar.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="181" H="6" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_G_PROGRESS_DUMMY">
+		<WINDOW_POS X="27" Y="74" W="181" H="6" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_G_PROGRESS">
+		<WINDOW_POS X="27" Y="74" W="181" H="6" />
+		<TEXTURE SizeX="256" SizeY="32">Bar.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="21" W="181" H="6" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_G_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="181" H="6" />
+		<TEXTURE SizeX="256" SizeY="32">Bar.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="7" W="181" H="6" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_B_PROGRESS_DUMMY">
+		<WINDOW_POS X="27" Y="94" W="181" H="6" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_B_PROGRESS">
+		<WINDOW_POS X="27" Y="94" W="181" H="6" />
+		<TEXTURE SizeX="256" SizeY="32">Bar.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="21" W="181" H="6" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_B_PROGRESS_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="181" H="6" />
+		<TEXTURE SizeX="256" SizeY="32">Bar.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="14" W="181" H="6" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_R_EDITBOX_BACK">
+		<WINDOW_POS X="210" Y="48" W="30" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_R_EDITBOX">
+		<WINDOW_POS X="212" Y="50" W="26" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_G_EDITBOX_BACK">
+		<WINDOW_POS X="210" Y="68" W="30" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_G_EDITBOX">
+		<WINDOW_POS X="212" Y="70" W="26" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_B_EDITBOX_BACK">
+		<WINDOW_POS X="210" Y="88" W="30" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_B_EDITBOX">
+		<WINDOW_POS X="212" Y="90" W="26" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_OK">
+		<WINDOW_POS X="110" Y="131" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_CANCEL">
+		<WINDOW_POS X="180" Y="131" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_RGB_BACK">
+		<WINDOW_POS X="37" Y="110" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="312" Y="49" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRCOLORCARD_RGB">
+		<WINDOW_POS X="40" Y="113" W="29" H="29" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="250" H="160" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_TITLE_BACK_L">
+		<WINDOW_POS X="10" Y="100" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="54" W="115" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_TITLE_BACK_R">
+		<WINDOW_POS X="125" Y="100" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="80" Y="54" W="159" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_TITLE">
+		<WINDOW_POS X="10" Y="102" W="230" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_OK">
+		<WINDOW_POS X="50" Y="131" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_CANCEL">
+		<WINDOW_POS X="140" Y="131" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_LEFT">
+		<WINDOW_POS X="70" Y="55" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="264" Y="172" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_LEFT_FLIP">
+		<WINDOW_POS X="0" Y="0" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="264" Y="199" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_RIGHT">
+		<WINDOW_POS X="164" Y="55" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="277" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_RIGHT_FLIP">
+		<WINDOW_POS X="0" Y="0" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="247" Y="199" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLECARD_HAIR">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">Hair_form.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="64" H="64" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="GENDER_CHANGE_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="250" H="280" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GENDER_CHANGE_OK">
+		<WINDOW_POS X="50" Y="250" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GENDER_CHANGE_CANCEL">
+		<WINDOW_POS X="140" Y="250" W="60" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="FACESTYLE_TITLE_BACK_L">
+		<WINDOW_POS X="10" Y="100" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="54" W="115" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLE_TITLE_BACK_R">
+		<WINDOW_POS X="125" Y="100" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="80" Y="54" W="159" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLE_TITLE">
+		<WINDOW_POS X="10" Y="102" W="230" H="11" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="FACESTYLE_LEFT">
+		<WINDOW_POS X="70" Y="55" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="264" Y="172" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLE_LEFT_FLIP">
+		<WINDOW_POS X="0" Y="0" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="264" Y="199" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLE_RIGHT">
+		<WINDOW_POS X="164" Y="55" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="277" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLE_RIGHT_FLIP">
+		<WINDOW_POS X="0" Y="0" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="247" Y="199" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLE_FACE">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">face_form.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="128" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="HAIRSTYLE_TITLE_BACK_L">
+		<WINDOW_POS X="10" Y="215" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="54" W="115" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLE_TITLE_BACK_R">
+		<WINDOW_POS X="125" Y="215" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="80" Y="54" W="159" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLE_TITLE">
+		<WINDOW_POS X="10" Y="217" W="230" H="11" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="HAIRSTYLE_LEFT">
+		<WINDOW_POS X="70" Y="160" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="264" Y="172" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLE_LEFT_FLIP">
+		<WINDOW_POS X="0" Y="0" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="264" Y="199" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLE_RIGHT">
+		<WINDOW_POS X="164" Y="160" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="277" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLE_RIGHT_FLIP">
+		<WINDOW_POS X="0" Y="0" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="247" Y="199" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="HAIRSTYLE_HAIR">
+		<WINDOW_POS X="93" Y="140" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">Hair_form.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="64" H="64" />
+	</CONTROL>
+
+	
+	<CONTROL Local="Common" Id="WARNING_MSG_WINDOW">
+		<WINDOW_POS X="0" Y="90" W="512" H="128" />
+		<WINDOW_ALIGN X="CENTER" Y="" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="WARNING_MSG">
+		<WINDOW_POS X="0" Y="0" W="512" H="128" />
+		<TEXTURE SizeX="512" SizeY="128">BT_warning.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="512" H="128" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="COUNT_MSG_WINDOW">
+		<WINDOW_POS X="200" Y="0" W="64" H="47" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="ITEM_REBUILD_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="250" H="140" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_REBUILD_ITEM_SLOT">
+		<WINDOW_POS X="15" Y="30" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_REBUILD_COAST_TEXT_STATIC">
+		<WINDOW_POS X="60" Y="50" W="70" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_REBUILD_COAST_TEXT">
+		<WINDOW_POS X="125" Y="50" W="120" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_REBUILD_MONEY_BACK">
+		<WINDOW_POS X="11" Y="80" W="227" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="105" W="227" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_REBUILD_MONEY_IMAGE">
+		<WINDOW_POS X="21" Y="81" W="13" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="228" Y="92" W="13" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_REBUILD_MONEY_TEXT">
+		<WINDOW_POS X="41" Y="82" W="170" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_REBUILD_OK_BUTTON">
+		<WINDOW_POS X="100" Y="110" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_REBUILD_CANCEL_BUTTON">
+		<WINDOW_POS X="175" Y="110" W="60" H="14" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="239" H="193" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORYSLOT_ITEM_SLOT0">
+		<WINDOW_POS X="0" Y="0" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORYSLOT_ITEM_SLOT1">
+		<WINDOW_POS X="0" Y="36" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORYSLOT_ITEM_SLOT2">
+		<WINDOW_POS X="0" Y="72" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORYSLOT_ITEM_SLOT3">
+		<WINDOW_POS X="0" Y="108" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORYSLOT_ITEM_SLOT4">
+		<WINDOW_POS X="0" Y="144" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORYSLOT_ITEM_SLOT5">
+		<WINDOW_POS X="0" Y="180" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORYSLOT_ITEM_SLOT6">
+		<WINDOW_POS X="0" Y="216" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORYSLOT_ITEM_SLOT7">
+		<WINDOW_POS X="0" Y="252" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORYSLOT_ITEM_SLOT8">
+		<WINDOW_POS X="0" Y="288" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORYSLOT_ITEM_SLOT9">
+		<WINDOW_POS X="0" Y="324" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_PAGE">
+		<WINDOW_POS X="7" Y="23" W="225" H="143" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_PAGE_SCROLL">
+		<WINDOW_POS X="216" Y="0" W="9" H="143" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_MONEY_BACK">
+		<WINDOW_POS X="6" Y="171" W="227" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="105" W="227" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_MONEY_BUTTON">
+		<WINDOW_POS X="16" Y="172" W="13" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="228" Y="92" W="13" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_MONEY_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="13" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="228" Y="106" W="13" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_PLUS_MONEY_BUTTON">
+		<WINDOW_POS X="158" Y="100" W="32" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="321" W="32" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_PLUS_MONEY_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="32" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="336" W="32" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_MINUS_MONEY_BUTTON">
+		<WINDOW_POS X="192" Y="100" W="32" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="34" Y="321" W="32" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_MINUS_MONEY_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="32" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="34" Y="336" W="32" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="REBUILDINVENTORY_MONEYTEXT">
+		<WINDOW_POS X="34" Y="172" W="180" H="11" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="ITEM_GARBAGE_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="250" H="140" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_GARBAGE_ITEM_SLOT">
+		<WINDOW_POS X="107" Y="30" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_GARBAGE_INFO_TEXT_STATIC">
+		<WINDOW_POS X="5" Y="80" W="240" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_GARBAGE_OK_BUTTON">
+		<WINDOW_POS X="40" Y="110" W="60" H="28" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_GARBAGE_CANCEL_BUTTON">
+		<WINDOW_POS X="182" Y="110" W="60" H="28" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="Common" Id="GARBAGEINVENTORY_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="239" H="193" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORYSLOT_ITEM_SLOT0">
+		<WINDOW_POS X="0" Y="0" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORYSLOT_ITEM_SLOT1">
+		<WINDOW_POS X="0" Y="36" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORYSLOT_ITEM_SLOT2">
+		<WINDOW_POS X="0" Y="72" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORYSLOT_ITEM_SLOT3">
+		<WINDOW_POS X="0" Y="108" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORYSLOT_ITEM_SLOT4">
+		<WINDOW_POS X="0" Y="144" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORYSLOT_ITEM_SLOT5">
+		<WINDOW_POS X="0" Y="180" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORYSLOT_ITEM_SLOT6">
+		<WINDOW_POS X="0" Y="216" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORYSLOT_ITEM_SLOT7">
+		<WINDOW_POS X="0" Y="252" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORYSLOT_ITEM_SLOT8">
+		<WINDOW_POS X="0" Y="288" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORYSLOT_ITEM_SLOT9">
+		<WINDOW_POS X="0" Y="324" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORY_PAGE">
+		<WINDOW_POS X="7" Y="23" W="225" H="143" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORY_PAGE_SCROLL">
+		<WINDOW_POS X="216" Y="0" W="9" H="143" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORY_MONEY_BACK">
+		<WINDOW_POS X="6" Y="171" W="227" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="105" W="227" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORY_MONEY_BUTTON">
+		<WINDOW_POS X="16" Y="172" W="13" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="228" Y="92" W="13" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORY_MONEY_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="13" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="228" Y="106" W="13" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GARBAGEINVENTORY_MONEYTEXT">
+		<WINDOW_POS X="34" Y="172" W="180" H="11" />
+	</CONTROL>	
+		
+	
+	<CONTROL Local="Common" Id="PET_REBIRTH_DIALOGUE">
+		<WINDOW_POS X="0" Y= "0" W="295" H="150" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_REBIRTH_NAME_STATIC">
+		<WINDOW_POS X="10" Y="30" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_REBIRTH_DIALOGUE_LINE_BOX">
+		<WINDOW_POS X="0" Y="20" W="295" H="105" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PET_REBIRTH_DIALOGUE_TEXTBOX">
+		<WINDOW_POS X="0" Y="28" W="295" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_REBIRTH_NAME_COMBO_OPEN">
+		<WINDOW_POS X="30" Y="56" W="235" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_REBIRTH_NAME_COMBO_ROLLOVER">
+		<WINDOW_POS X="30" Y="73" W="235" H="38" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_OK_BUTTON">
+		<WINDOW_POS X="70" Y="128" W="70" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_CANCLE_BUTTON">
+		<WINDOW_POS X="160" Y="128" W="70" H="20" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="PETSKIN_MIX_IMAGE_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="187" H="187" />
+		<WINDOW_ALIGN X="CENTER" Y="CENTER" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="PETMIX_ANIMATION_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="187" H="187" />
+		<TEXTURE SizeX="256" SizeY="256">petaround.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="187" H="187" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETMIX_ANIMATION_SHUFFLE1">
+		<WINDOW_POS X="29" Y="29" W="128" H="128" />
+		<TEXTURE SizeX="512" SizeY="256">petmixF.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="128" H="128" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETMIX_ANIMATION_SHUFFLE2">
+		<WINDOW_POS X="29" Y="29" W="128" H="128" />
+		<TEXTURE SizeX="512" SizeY="256">petmixF.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="0" W="128" H="128" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="PETMIX_ANIMATION_SHUFFLE3">
+		<WINDOW_POS X="29" Y="29" W="128" H="128" />
+		<TEXTURE SizeX="512" SizeY="256">petmixF.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="0" W="128" H="128" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="PETMIX_ANIMATION_SHUFFLE4">
+		<WINDOW_POS X="29" Y="29" W="128" H="128" />
+		<TEXTURE SizeX="512" SizeY="256">petmixF.dds</TEXTURE>
+		<TEXTURE_POS X="384" Y="0" W="128" H="128" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="PETMIX_ANIMATION_SHUFFLE5">
+		<WINDOW_POS X="29" Y="29" W="128" H="128" />
+		<TEXTURE SizeX="512" SizeY="256">petmixF.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="128" W="128" H="128" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETMIX_ANIMATION_SHUFFLE6">
+		<WINDOW_POS X="29" Y="29" W="128" H="128" />
+		<TEXTURE SizeX="512" SizeY="256">petmixF.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="128" W="128" H="128" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="PETMIX_ANIMATION_SHUFFLE7">
+		<WINDOW_POS X="29" Y="29" W="128" H="128" />
+		<TEXTURE SizeX="512" SizeY="256">petmixF.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="128" W="128" H="128" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="PETMIX_ANIMATION_SHUFFLE8">
+		<WINDOW_POS X="29" Y="29" W="128" H="128" />
+		<TEXTURE SizeX="512" SizeY="256">petmixF.dds</TEXTURE>
+		<TEXTURE_POS X="384" Y="128" W="128" H="128" />
+	</CONTROL>		
+	
+	
+	<CONTROL Local="Common" Id="GAMBLE_DIALOGUE">
+		<WINDOW_POS X="0" Y="0" W="220" H="159" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_DIALOGUE_LINE_BOX">
+		<WINDOW_POS X="0" Y="20" W="220" H="139" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_INFO_TEXTBOX">
+		<WINDOW_POS X="12" Y="30" W="200" H="28" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_DIALOGUE_TEXT_LINE_BOX">
+		<WINDOW_POS X="9" Y="27" W="203" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_BET_TEXTBOX">
+		<WINDOW_POS X="19" Y="67" W="60" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_GET_TEXTBOX">
+		<WINDOW_POS X="19" Y="96" W="60" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_BET_EDIT_BACK">
+		<WINDOW_POS X="80" Y="63" W="133" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_BET_EDIT">
+		<WINDOW_POS X="85" Y="68" W="123" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_GET_EDIT_BACK">
+		<WINDOW_POS X="80" Y="88" W="133" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_GET_EDIT">
+		<WINDOW_POS X="85" Y="93" W="123" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_OK_BUTTON">
+		<WINDOW_POS X="9" Y="116" W="60" H="23" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_CANCLE_BUTTON">
+		<WINDOW_POS X="81" Y="116" W="60" H="23" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_REINPUT_BUTTON">
+		<WINDOW_POS X="153" Y="116" W="60" H="23" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_TIME_PROGRESSBAR">
+		<WINDOW_POS X="10" Y="141" W="202" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="115" Y="164" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_TIME_PROGRESSBAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="202" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="84" Y="221" W="130" H="13" />
+	</CONTROL>
+	
+	
+	<CONTROL Local="Common" Id="GAMBLE_SELECT_DIALOGUE">
+		<WINDOW_POS X="0" Y="0" W="220" H="205" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_SELECT_DIALOGUE_LINE_BOX">
+		<WINDOW_POS X="0" Y="20" W="220" H="185" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_SELECT_INFO_TEXTBOX">
+		<WINDOW_POS X="12" Y="30" W="200" H="42" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_SELECT_DIALOGUE_TEXT_LINE_BOX">
+		<WINDOW_POS X="9" Y="27" W="203" H="45" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_SELECT_ODD_BUTTON">
+		<WINDOW_POS X="9" Y="78" W="91" H="91" />
+		<TEXTURE SizeX="1024" SizeY="1024">dice.dds</TEXTURE>
+		<TEXTURE_POS X="36" Y="412" W="154" H="164" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_SELECT_ODD_BUTTON_FLIP">
+		<WINDOW_POS X="0" Y="0" W="91" H="91" />
+		<TEXTURE SizeX="1024" SizeY="1024">dice.dds</TEXTURE>
+		<TEXTURE_POS X="36" Y="592" W="154" H="164" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_SELECT_EVEN_BUTTON">
+		<WINDOW_POS X="118" Y="78" W="91" H="91" />
+		<TEXTURE SizeX="1024" SizeY="1024">dice.dds</TEXTURE>
+		<TEXTURE_POS X="190" Y="412" W="154" H="164" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_SELECT_EVEN_BUTTON_FLIP">
+		<WINDOW_POS X="0" Y="0" W="91" H="91" />
+		<TEXTURE SizeX="1024" SizeY="1024">dice.dds</TEXTURE>
+		<TEXTURE_POS X="190" Y="592" W="154" H="164" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_SELECT_TIME_PROGRESSBAR">
+		<WINDOW_POS X="10" Y="188" W="202" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="115" Y="164" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_SELECT_TIME_PROGRESSBAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="202" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="84" Y="221" W="130" H="13" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_DIALOGUE">
+		<WINDOW_POS X="0" Y="0" W="220" H="159" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_DIALOGUE_LINE_BOX">
+		<WINDOW_POS X="0" Y="20" W="220" H="139" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_INFO_TEXTBOX">
+		<WINDOW_POS X="12" Y="30" W="200" H="28" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_DIALOGUE_TEXT_LINE_BOX">
+		<WINDOW_POS X="9" Y="27" W="203" H="31" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_GET_TEXTBOX">
+		<WINDOW_POS X="19" Y="67" W="60" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_GET_EDIT_BACK">
+		<WINDOW_POS X="80" Y="63" W="133" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_GET_EDIT">
+		<WINDOW_POS X="85" Y="68" W="123" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_OK_BUTTON">
+		<WINDOW_POS X="9" Y="116" W="60" H="23" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_CANCLE_BUTTON">
+		<WINDOW_POS X="81" Y="116" W="60" H="23" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_TIME_PROGRESSBAR">
+		<WINDOW_POS X="10" Y="141" W="202" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="115" Y="164" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_AGAIN_TIME_PROGRESSBAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="202" H="11" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="84" Y="221" W="130" H="13" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="GAMBLE_ANIMATION_DIALOGUE">
+		<WINDOW_POS X="0" Y="0" W="220" H="159" />
+		<WINDOW_ALIGN X="CENTER" Y="CENTER" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_ANIMATION_SHUFFLE1">
+		<WINDOW_POS X="0" Y="0" W="220" H="159" />
+		<TEXTURE SizeX="1024" SizeY="1024">dice.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="512" H="384" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_ANIMATION_SHUFFLE2">
+		<WINDOW_POS X="0" Y="0" W="220" H="159" />
+		<TEXTURE SizeX="1024" SizeY="1024">dice.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="512" H="384" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_RESULT_ODD_DIALOGUE">
+		<WINDOW_POS X="0" Y="0" W="220" H="159" />
+		<WINDOW_ALIGN X="CENTER" Y="CENTER" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_RESULT_ODD">
+		<WINDOW_POS X="0" Y="0" W="220" H="159" />
+		<TEXTURE SizeX="1024" SizeY="1024">dice.dds</TEXTURE>
+		<TEXTURE_POS X="512" Y="0" W="512" H="384" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="GAMBLE_RESULT_EVEN_DIALOGUE">
+		<WINDOW_POS X="0" Y="0" W="220" H="159" />
+		<WINDOW_ALIGN X="CENTER" Y="CENTER" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="GAMBLE_RESULT_EVEN">
+		<WINDOW_POS X="0" Y="0" W="220" H="159" />
+		<TEXTURE SizeX="1024" SizeY="1024">dice.dds</TEXTURE>
+		<TEXTURE_POS X="512" Y="384" W="512" H="384" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="PET_WINDOW">
+		<WINDOW_POS X="185" Y="0" W="280" H="200" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_BG_LLINEBOX">
+		<WINDOW_POS X="5" Y="24" W="50" H="170" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_BG_RLINEBOX">
+		<WINDOW_POS X="60" Y="24" W="175" H="170" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PET_NAME_STATIC">
+		<WINDOW_POS X="10" Y="30" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_NAME_TEXTBOX">
+		<WINDOW_POS X="65" Y="30" W="165" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_TYPE_STATIC">
+		<WINDOW_POS X="10" Y="49" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_TYPE_TEXTBOX">
+		<WINDOW_POS X="65" Y="49" W="165" H="14" />
+	</CONTROL>
+		
+	<CONTROL Local="Common" Id="PET_SATIETY_STATIC">
+		<WINDOW_POS X="10" Y="68" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SATIETY_PROGRESSBAR">
+		<WINDOW_POS X="65" Y="68" W="165" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="115" Y="164" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SATIETY_PROGRESSBAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="165" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="84" Y="235" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SATIETY_TEXT">
+		<WINDOW_POS X="127" Y="69" W="40" H="11" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PET_LOYALTY_STATIC">
+		<WINDOW_POS X="10" Y="87" W="40" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_LOYALTY_PROGRESSBAR">
+		<WINDOW_POS X="65" Y="87" W="165" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="115" Y="164" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_LOYALTY_PROGRESSBAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="165" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="84" Y="249" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_LOYALTY_TEXT">
+		<WINDOW_POS X="127" Y="88" W="40" H="11" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PET_SKILL_BUTTON">
+		<WINDOW_POS X="7" Y="106" W="46" H="16" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_COMBO_OPEN">
+		<WINDOW_POS X="65" Y="106" W="165" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_COMBO_ROLLOVER">
+		<WINDOW_POS X="65" Y="123" W="165" H="76" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PET_SLOT_IMAGE0">
+		<WINDOW_POS X="240" Y="24" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SLOT_OVER_IMAGE0">
+		<WINDOW_POS X="240" Y="24" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SLOT_IMAGE1">
+		<WINDOW_POS X="240" Y="62" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SLOT_OVER_IMAGE1">
+		<WINDOW_POS X="240" Y="62" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT">
+		<WINDOW_POS X="240" Y="100" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_MOUSE_OVER">
+		<WINDOW_POS X="1" Y="1" W="33" H="33" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="42" Y="167" W="33" H="33" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PET_SKILL_WINDOW">
+		<WINDOW_POS X="487" Y="0" W="278" H="175" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_PAGE">
+		<WINDOW_POS X="7" Y="25" W="264" H="143" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT0">
+		<WINDOW_POS X="0" Y="0" W="254" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT1">
+		<WINDOW_POS X="0" Y="36" W="254" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT2">
+		<WINDOW_POS X="0" Y="72" W="254" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SLOT3">
+		<WINDOW_POS X="0" Y="108" W="254" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PET_SKILL_SCROLLBAR">
+		<WINDOW_POS X="256" Y="0" W="9" H="143" />
+	</CONTROL>
+	
+	<CONTROL Local="vn" Id="PET_SKILL_WINDOW">
+		<WINDOW_POS X="487" Y="0" W="338" H="175" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="PET_SKILL_PAGE">
+		<WINDOW_POS X="7" Y="25" W="324" H="143" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="PET_SKILL_SLOT0">
+		<WINDOW_POS X="0" Y="0" W="314" H="35" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="PET_SKILL_SLOT1">
+		<WINDOW_POS X="0" Y="36" W="314" H="35" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="PET_SKILL_SLOT2">
+		<WINDOW_POS X="0" Y="72" W="314" H="35" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="PET_SKILL_SLOT3">
+		<WINDOW_POS X="0" Y="108" W="314" H="35" />
+	</CONTROL>
+	<CONTROL Local="vn" Id="PET_SKILL_SCROLLBAR">
+		<WINDOW_POS X="316" Y="0" W="9" H="143" />
+	</CONTROL>      
+	
+	
+	
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_A_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_A_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_A_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_A_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="64" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_A_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="64" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_B_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_B_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_B_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_B_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_B_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="128" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_C_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_C_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_C_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_C_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="192" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_C_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="192" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="PETSTYLECARD_D_00">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_D_01">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="64" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_D_02">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="128" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_D_03">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="192" Y="128" W="64" H="64" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="PETSTYLECARD_D_04">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">pet_style.dds</TEXTURE>
+		<TEXTURE_POS X="256" Y="128" W="64" H="64" />
+	</CONTROL>	
+	
+		
+	<CONTROL Local="Common" Id="VEHICLE_WINDOW">
+		<WINDOW_POS X="185" Y="0" W="245" H="181" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VEHICLE_BG_LLINEBOX">
+		<WINDOW_POS X="5" Y="24" W="70" H="62" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VEHICLE_BG_RLINEBOX">
+		<WINDOW_POS X="80" Y="24" W="160" H="62" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VEHICLE_NAME_STATIC">
+		<WINDOW_POS X="10" Y="30" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VEHICLE_NAME_TEXTBOX">
+		<WINDOW_POS X="85" Y="30" W="150" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VEHICLE_TYPE_STATIC">
+		<WINDOW_POS X="10" Y="49" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VEHICLE_TYPE_TEXTBOX">
+		<WINDOW_POS X="85" Y="49" W="150" H="14" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="VEHICLE_BATTERY_STATIC">
+		<WINDOW_POS X="10" Y="68" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VEHICLE_BATTERY_PROGRESSBAR">
+		<WINDOW_POS X="85" Y="68" W="150" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="115" Y="164" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VEHICLE_BATTERY_PROGRESSBAR_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="150" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="84" Y="235" W="130" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="VEHICLE_BETTERY_TEXT">
+		<WINDOW_POS X="85" Y="69" W="145" H="11" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="180" H="320" />
+		<WINDOW_ALIGN X="CENTER" Y="CENTER" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_BASIC_STATIC">
+		<WINDOW_POS X="0" Y="20" W="180" H="15" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="SUMMON_NAME_STATIC">
+		<WINDOW_POS X="10" Y="40" W="40" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_LEVEL_STATIC">
+		<WINDOW_POS X="10" Y="60" W="40" H="15" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_STATE_STATIC">
+		<WINDOW_POS X="0" Y="80" W="80" H="15" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="SUMMON_HP_STATIC">
+		<WINDOW_POS X="10" Y="100" W="40" H="15" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="SUMMON_DAMAGE_STATIC">
+		<WINDOW_POS X="10" Y="120" W="40" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_DEFENSE_STATIC">
+		<WINDOW_POS X="10" Y="140" W="40" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_HIT_STATIC">
+		<WINDOW_POS X="10" Y="160" W="40" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_DODGE_STATIC">
+		<WINDOW_POS X="10" Y="180" W="40" H="15" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_STATIC">
+		<WINDOW_POS X="0" Y="200" W="180" H="15" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_FIRE_STATIC">
+		<WINDOW_POS X="10" Y="220" W="80" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_COLD_STATIC">
+		<WINDOW_POS X="90" Y="220" W="80" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_ELECTRIC_STATIC">
+		<WINDOW_POS X="10" Y="240" W="80" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_POISON_STATIC">
+		<WINDOW_POS X="90" Y="240" W="80" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_SPRITS_STATIC">
+		<WINDOW_POS X="10" Y="260" W="80" H="15" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="SUMMON_POSION_STATIC">
+		<WINDOW_POS X="70" Y="280" W="100" H="15" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="SUMMON_CONFIRM_BUTTON">
+		<WINDOW_POS X="110" Y="300" W="60" H="18" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="SUMMON_POSION_DISPLAY">
+		<WINDOW_POS X="43" Y="100" W="33" H="33" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_POSION_IMAGE">
+		<WINDOW_POS X="0" Y="0" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_POTION_IMAGE_AMOUNT_SINGLE">
+		<WINDOW_POS X="6" Y="22" W="25" H="15" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="POSION_IMAGE">
+		<WINDOW_POS X="10" Y="280" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="POSION_OVER_IMAGE">
+		<WINDOW_POS X="10" Y="280" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_POTION_SLOT_AMOUNT_SINGLE">
+		<WINDOW_POS X="16" Y="302" W="25" H="15" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_BASIC_BACK_L">
+		<WINDOW_POS X="0" Y="18" W="90" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="36" W="100" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_BASIC_BACK_R">
+		<WINDOW_POS X="21" Y="18" W="159" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="80" Y="36" W="159" H="17" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_STATE_BACK_L">
+		<WINDOW_POS X="0" Y="78" W="90" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="36" W="100" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_STATE_BACK_R">
+		<WINDOW_POS X="21" Y="78" W="159" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="80" Y="36" W="159" H="17" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_BACK_L">
+		<WINDOW_POS X="0" Y="198" W="90" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="36" W="100" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_BACK_R">
+		<WINDOW_POS X="21" Y="198" W="159" H="17" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="80" Y="36" W="159" H="17" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_NAME_TEXT">
+		<WINDOW_POS X="50" Y="40" W="140" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_LEVEL_TEXT">
+		<WINDOW_POS X="50" Y="60" W="40" H="15" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="SUMMON_HP">
+		<WINDOW_POS X="51" Y="100" W="120" H="10" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_HP_WINDOW_OVERIMAGE">
+		<WINDOW_POS X="0" Y="0" W="120" H="10" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="81" W="203" H="10" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="SUMMON_HP_TEXT">
+		<WINDOW_POS X="51" Y="100" W="120" H="10" />
+	</CONTROL>	
+
+	<CONTROL Local="Common" Id="SUMMON_DAMAGE_TEXT">
+		<WINDOW_POS X="55" Y="120" W="80" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_DEFENSE_TEXT">
+		<WINDOW_POS X="55" Y="140" W="80" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_HIT_TEXT">
+		<WINDOW_POS X="55" Y="160" W="80" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_DODGE_TEXT">
+		<WINDOW_POS X="55" Y="180" W="80" H="15" />
+	</CONTROL>
+
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_FIRE_TEXT">
+		<WINDOW_POS X="70" Y="220" W="30" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_COLD_TEXT">
+		<WINDOW_POS X="150" Y="220" W="30" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_ELECTRIC_TEXT">
+		<WINDOW_POS X="70" Y="240" W="30" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_POISON_TEXT">
+		<WINDOW_POS X="150" Y="240" W="30" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SUMMON_REGSITANCE_SPRITS_TEXT">
+		<WINDOW_POS X="70" Y="260" W="30" H="15" />
+	</CONTROL>		
+	
+	
+	<CONTROL Local="Common" Id="SLOT_BACK_IMAGE0">
+		<WINDOW_POS X="5" Y="86" W="235" H="90" />
+		<TEXTURE SizeX="512" SizeY="512">srcUI.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="235" H="90" />
+	</CONTROL>
+		
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="535" H="225" />
+		<WINDOW_ALIGN X="CENTER" Y="CENTER" />
+	</CONTROL>
+	
+	
+		
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LINEBOX1">
+		<WINDOW_POS X="10" Y="25" W="150" H="20" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LINEBOX2">
+		<WINDOW_POS X="165" Y="25" W="190" H="20" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LINEBOX3">
+		<WINDOW_POS X="360" Y="25" W="60" H="20" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LINEBOX4">
+		<WINDOW_POS X="425" Y="25" W="100" H="20" />
+	</CONTROL>		
+		
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LINEBOX5">
+		<WINDOW_POS X="10" Y="50" W="150" H="140" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LINEBOX6">
+		<WINDOW_POS X="165" Y="50" W="190" H="140" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LINEBOX7">
+		<WINDOW_POS X="360" Y="50" W="60" H="140" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LINEBOX8">
+		<WINDOW_POS X="425" Y="50" W="100" H="140" />
+	</CONTROL>		
+	
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_STATIC1">
+		<WINDOW_POS X="10" Y="25" W="150" H="20" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_STATIC2">
+		<WINDOW_POS X="165" Y="25" W="190" H="20" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_STATIC3">
+		<WINDOW_POS X="360" Y="25" W="60" H="20" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_STATIC4">
+		<WINDOW_POS X="425" Y="25" W="100" H="20" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LIST1">
+		<WINDOW_POS X="15" Y="52" W="150" H="140" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LIST2">
+		<WINDOW_POS X="170" Y="52" W="190" H="140" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LIST3">
+		<WINDOW_POS X="365" Y="52" W="60" H="140" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_LIST4">
+		<WINDOW_POS X="430" Y="52" W="120" H="140" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_BUTTON1">
+		<WINDOW_POS X="90" Y="195" W="40" H="30" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_STATIC5">
+		<WINDOW_POS X="135" Y="197" W="20" H="30" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_BUTTON2">
+		<WINDOW_POS X="155" Y="195" W="40" H="30" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_BUTTON3">
+		<WINDOW_POS X="205" Y="195" W="80" H="30" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_BUTTON4">
+		<WINDOW_POS X="290" Y="195" W="80" H="30" />
+	</CONTROL>				
+	<CONTROL Local="Common" Id="ITEM_SEARCH_RESULT_BUTTON5">
+		<WINDOW_POS X="380" Y="195" W="40" H="30" />
+	</CONTROL>					
+
+	
+	
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="395" H="170" />
+		<WINDOW_ALIGN X="CENTER" Y="CENTER" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_BUTTON1">
+		<WINDOW_POS X="260" Y="150" W="60" H="40" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_BUTTON2">
+		<WINDOW_POS X="330" Y="150" W="60" H="40" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_STATIC6">
+		<WINDOW_POS X="100" Y="30" W="200" H="20" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_STATIC1">
+		<WINDOW_POS X="20" Y="50" W="80" H="20" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_STATIC2">
+		<WINDOW_POS X="20" Y="70" W="80" H="20" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_STATIC3">
+		<WINDOW_POS X="20" Y="90" W="80" H="20" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_STATIC4">
+		<WINDOW_POS X="20" Y="110" W="80" H="20" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_STATIC5">
+		<WINDOW_POS X="20" Y="130" W="80" H="20" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_LINEBOX1">
+		<WINDOW_POS X="10" Y="45" W="90" H="102" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_LINEBOX2">
+		<WINDOW_POS X="105" Y="45" W="280" H="102" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_EDITMAN">
+		<WINDOW_POS X="0" Y="0" W="200" H="150" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_CARRAT">
+		<WINDOW_POS X="1" Y="3" W="2" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_EDIT">
+		<WINDOW_POS X="115" Y="49" W="268" H="11" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_SHOP_SEARCH_BGEDIT">
+		<WINDOW_POS X="110" Y="48" W="270" H="16" />		
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEMSHOPSEARCH_COMBO_ROLLOVER_SEARCH">
+		<WINDOW_POS X="110" Y="64" W="270" H="143" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEMSHOPSEARCH_COMBO_OPEN1">
+		<WINDOW_POS X="110" Y="68" W="80" H="17" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEMSHOPSEARCH_COMBO_ROLLOVER1">
+		<WINDOW_POS X="110" Y="85" W="80" H="72" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEMSHOPSEARCH_COMBO_OPEN2">
+		<WINDOW_POS X="110" Y="88" W="80" H="17" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEMSHOPSEARCH_COMBO_ROLLOVER2">
+		<WINDOW_POS X="110" Y="105" W="80" H="114" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEMSHOPSEARCH_COMBO_OPEN3">
+		<WINDOW_POS X="110" Y="108" W="80" H="17" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEMSHOPSEARCH_COMBO_ROLLOVER3">
+		<WINDOW_POS X="110" Y="125" W="80" H="72" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEMSHOPSEARCH_COMBO_OPEN4">
+		<WINDOW_POS X="110" Y="128" W="80" H="17" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEMSHOPSEARCH_COMBO_ROLLOVER4">
+		<WINDOW_POS X="110" Y="145" W="80" H="58" />
+	</CONTROL>				
+		
+
+		
+	
+	<CONTROL Local="Common" Id="SLOT_SKIN_IMAGE_TYPE0">
+		<WINDOW_POS X="160" Y="117" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SLOT_SKIN_OVER_IMAGE_TYPE0">
+		<WINDOW_POS X="160" Y="117" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SLOT_PARTS_IMAGE_TYPE0">
+		<WINDOW_POS X="46" Y="117" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SLOT_PARTS_OVER_IMAGE_TYPE0">
+		<WINDOW_POS X="46" Y="117" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SLOT_PARTS_IMAGE_TYPE1">
+		<WINDOW_POS X="84" Y="117" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SLOT_PARTS_OVER_IMAGE_TYPE1">
+		<WINDOW_POS X="84" Y="117" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SLOT_PARTS_IMAGE_TYPE2">
+		<WINDOW_POS X="122" Y="117" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SLOT_PARTS_OVER_IMAGE_TYPE2">
+		<WINDOW_POS X="122" Y="117" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="463" Y="262" W="35" H="35" />
+	</CONTROL>		
+	
+	
+	<CONTROL Local="Common" Id="MAP_REQUIRE_CHECK_DIALOGUE">
+		<WINDOW_POS X="0" Y="0" W="295" H="92" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="MAP_REQUIRE_CHECK_LINE_BOX">
+		<WINDOW_POS X="0" Y="0" W="295" H="92" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="MAP_REQUIRE_CHECK_BUTTON">
+		<WINDOW_POS X="108" Y="68" W="80" H="16" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="MAP_REQUIRE_CHECK_TEXTBOX">
+		<WINDOW_POS X="10" Y="10" W="275" H="58" />
+	</CONTROL>		
+			
+	<CONTROL Local="Common" Id="SMS_SEND_WINDOW">
+		<WINDOW_POS X="10" Y="25" W="220" H="135" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SMS_SEND_TO_TEXTBOX">
+		<WINDOW_POS X="5" Y="25" W="65" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SMS_SEND_TO_NAME_TEXTBOX">
+		<WINDOW_POS X="70" Y="25" W="145" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SMS_SEND_LINEBOX">
+		<WINDOW_POS X="5" Y="45" W="210" H="19" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SMS_SEND_STATIC">
+		<WINDOW_POS X="7" Y="48" W="206" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SMS_SEND_LINE_TEXTBOX">
+		<WINDOW_POS X="5" Y="73" W="210" H="38" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SMS_SEND_EDITBOX">
+		<WINDOW_POS X="10" Y="78" W="200" H="28" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SMS_SEND_EDITBOX_L01">
+		<WINDOW_POS X="0" Y="0" W="200" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SMS_SEND_EDITBOX_L02">
+		<WINDOW_POS X="0" Y="14" W="200" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SMS_SEND_BUTTON">
+		<WINDOW_POS X="85" Y="115" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="SMS_CANCEL_BUTTON">
+		<WINDOW_POS X="150" Y="115" W="60" H="14" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CHATMACRO_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="375" H="360" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CHATMACRO_WINDOW_BACK_BOX">
+		<WINDOW_POS X="5" Y="30" W="365" H="300" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_KEYTEXT0">
+		<WINDOW_POS X="15" Y="40" W="80" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_KEYTEXT1">
+		<WINDOW_POS X="15" Y="70" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_KEYTEXT2">
+		<WINDOW_POS X="15" Y="100" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_KEYTEXT3">
+		<WINDOW_POS X="15" Y="130" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_KEYTEXT4">
+		<WINDOW_POS X="15" Y="160" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_KEYTEXT5">
+		<WINDOW_POS X="15" Y="190" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_KEYTEXT6">
+		<WINDOW_POS X="15" Y="220" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_KEYTEXT7">
+		<WINDOW_POS X="15" Y="250" W="60" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_KEYTEXT8">
+		<WINDOW_POS X="15" Y="280" W="60" H="15" />
+	</CONTROL>								
+	<CONTROL Local="Common" Id="CHAT_MACRO_KEYTEXT9">
+		<WINDOW_POS X="15" Y="310" W="60" H="15" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT0">
+		<WINDOW_POS X="90" Y="40" W="270" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT_BACK0">
+		<WINDOW_POS X="87" Y="37" W="276" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT1">
+		<WINDOW_POS X="90" Y="70" W="270" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT_BACK1">
+		<WINDOW_POS X="87" Y="67" W="276" H="17" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT2">
+		<WINDOW_POS X="90" Y="100" W="270" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT_BACK2">
+		<WINDOW_POS X="87" Y="97" W="276" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT3">
+		<WINDOW_POS X="90" Y="130" W="270" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT_BACK3">
+		<WINDOW_POS X="87" Y="127" W="276" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT4">
+		<WINDOW_POS X="90" Y="160" W="270" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT_BACK4">
+		<WINDOW_POS X="87" Y="157" W="276" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT5">
+		<WINDOW_POS X="90" Y="190" W="270" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT_BACK5">
+		<WINDOW_POS X="87" Y="187" W="276" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT6">
+		<WINDOW_POS X="90" Y="220" W="270" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT_BACK6">
+		<WINDOW_POS X="87" Y="217" W="276" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT7">
+		<WINDOW_POS X="90" Y="250" W="270" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT_BACK7">
+		<WINDOW_POS X="87" Y="247" W="276" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT8">
+		<WINDOW_POS X="90" Y="280" W="270" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT_BACK8">
+		<WINDOW_POS X="87" Y="277" W="276" H="17" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT9">
+		<WINDOW_POS X="90" Y="310" W="270" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="CHAT_MACRO_EDIT_BACK9">
+		<WINDOW_POS X="87" Y="307" W="276" H="17" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="CHATMACRO_OKBUTTON">
+		<WINDOW_POS X="300" Y="335" W="70" H="18" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="CHATMACRO_CARRAT">
+		<WINDOW_POS X="1" Y="0" W="2" H="11" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="FACESTYLECARD_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="250" H="160" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLECARD_TITLE_BACK_L">
+		<WINDOW_POS X="10" Y="100" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="54" W="115" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLECARD_TITLE_BACK_R">
+		<WINDOW_POS X="125" Y="100" W="115" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="80" Y="54" W="159" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLECARD_TITLE">
+		<WINDOW_POS X="10" Y="102" W="230" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLECARD_OK">
+		<WINDOW_POS X="50" Y="131" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLECARD_CANCEL">
+		<WINDOW_POS X="140" Y="131" W="60" H="14" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLECARD_LEFT">
+		<WINDOW_POS X="70" Y="55" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="264" Y="172" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLECARD_LEFT_FLIP">
+		<WINDOW_POS X="0" Y="0" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="264" Y="199" W="16" H="26" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="FACESTYLECARD_RIGHT">
+		<WINDOW_POS X="164" Y="55" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="277" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLECARD_RIGHT_FLIP">
+		<WINDOW_POS X="0" Y="0" W="16" H="26" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="247" Y="199" W="16" H="26" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="FACESTYLECARD_FACE">
+		<WINDOW_POS X="93" Y="25" W="64" H="64" />
+		<TEXTURE SizeX="512" SizeY="256">face_form.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="64" H="64" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="TAXI_WINDOW">
+		<WINDOW_POS X="100" Y="100" W="178" H="340" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_TOP_BACK_L">
+		<WINDOW_POS X="2" Y="21" W="100" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="458" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_TOP_BACK_R">
+		<WINDOW_POS X="102" Y="21" W="74" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="141" Y="458" W="74" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MAP_TITLE">
+		<WINDOW_POS X="9" Y="23" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MAP_LIST_BACK">
+		<WINDOW_POS X="4" Y="39" W="170" H="95" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MAP_LIST">
+		<WINDOW_POS X="10" Y="45" W="158" H="83" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MAP_SCROLLBAR">
+		<WINDOW_POS X="163" Y="41" W="9" H="91" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MIDDLE_BACK_L">
+		<WINDOW_POS X="2" Y="137" W="100" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="458" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MIDDLE_BACK_R">
+		<WINDOW_POS X="102" Y="137" W="74" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="141" Y="458" W="74" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_STOP_TITLE">
+		<WINDOW_POS X="9" Y="139" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_STOP_LIST_BACK">
+		<WINDOW_POS X="4" Y="155" W="170" H="127" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_STOP_LIST">
+		<WINDOW_POS X="10" Y="161" W="158" H="112" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_STOP_SCROLLBAR">
+		<WINDOW_POS X="163" Y="157" W="9" H="123" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_BOTTOM_BACK_L">
+		<WINDOW_POS X="2" Y="318" W="100" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="458" W="100" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_BOTTOM_BACK_R">
+		<WINDOW_POS X="102" Y="318" W="74" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="141" Y="458" W="74" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MOVEBUTTON">
+		<WINDOW_POS X="37" Y="314" W="104" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="298" Y="155" W="104" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MOVEBUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="104" H="22" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="298" Y="178" W="104" H="22" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MONEY_BACK">
+		<WINDOW_POS X="2" Y="288" W="174" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="105" W="227" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MONEY_TEXT">
+		<WINDOW_POS X="28" Y="288" W="100" H="11" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="TAXI_MONEY_IMAGE">
+		<WINDOW_POS X="12" Y="288" W="13" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="228" Y="92" W="13" H="13" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="ITEM_MIX_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="350" H="335" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_MIX_BACK">
+		<WINDOW_POS X="0" Y="20" W="350" H="315" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="196" W="350" H="315" />		
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_MIX_BACK_IMAGE">
+		<WINDOW_POS X="129" Y="51" W="196" H="196" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="784" Y="0" W="196" H="196" />		
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEM_MIX_SUCCESS_IMAGE">
+		<WINDOW_POS X="45" Y="82" W="263" H="146" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="350" Y="318" W="263" H="146" />		
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_MIX_FAIL_IMAGE">
+		<WINDOW_POS X="45" Y="82" W="263" H="146" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="613" Y="318" W="263" H="146" />		
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT0">
+		<WINDOW_POS X="26" Y="40" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT0_AMOUNT">
+		<WINDOW_POS X="26" Y="62" W="32" H="15" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT1">
+		<WINDOW_POS X="26" Y="94" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT1_AMOUNT">
+		<WINDOW_POS X="26" Y="116" W="32" H="15" />
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT2">
+		<WINDOW_POS X="26" Y="147" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT2_AMOUNT">
+		<WINDOW_POS X="26" Y="169" W="32" H="15" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT3">
+		<WINDOW_POS X="26" Y="200" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT3_AMOUNT">
+		<WINDOW_POS X="26" Y="222" W="32" H="15" />
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT4">
+		<WINDOW_POS X="26" Y="253" W="35" H="35" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="121" W="35" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT4_AMOUNT">
+		<WINDOW_POS X="26" Y="275" W="32" H="15" />
+	</CONTROL>
+	
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT0_BACK">
+		<WINDOW_POS X="13" Y="27" W="134" H="121" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="350" Y="196" W="134" H="121" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT1_BACK">
+		<WINDOW_POS X="13" Y="81" W="134" H="121" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="484" Y="196" W="134" H="121" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT2_BACK">
+		<WINDOW_POS X="13" Y="134" W="134" H="121" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="618" Y="196" W="134" H="121" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT3_BACK">
+		<WINDOW_POS X="13" Y="161" W="134" H="121" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="752" Y="196" W="134" H="121" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="ITEM_MIX_SUB_SLOT4_BACK">
+		<WINDOW_POS X="13" Y="181" W="134" H="121" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="885" Y="196" W="134" H="121" />
+	</CONTROL>	
+		
+	
+	
+
+	<CONTROL Local="Common" Id="ITEM_MIX_INFO_TEXT_STATIC">
+		<WINDOW_POS X="124" Y="265" W="202" H="30" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_MIX_OK_BUTTON">
+		<WINDOW_POS X="130" Y="305" W="90" H="20" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_MIX_CANCEL_BUTTON">
+		<WINDOW_POS X="230" Y="305" W="90" H="20" />
+	</CONTROL>	
+	
+	<CONTROL Local="Common" Id="ITEM_MIX_IMAGE">
+		<WINDOW_POS X="129" Y="51" W="196" H="196" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEM_MIX_ANIMATION_SHUFFLE0">
+		<WINDOW_POS X="0" Y="0" W="196" H="196" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="0" W="196" H="196" />		
+	</CONTROL>		
+	<CONTROL Local="Common" Id="ITEM_MIX_ANIMATION_SHUFFLE1">
+		<WINDOW_POS X="0" Y="0" W="196" H="196" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="196" Y="0" W="196" H="196" />		
+	</CONTROL>			
+	<CONTROL Local="Common" Id="ITEM_MIX_ANIMATION_SHUFFLE2">
+		<WINDOW_POS X="0" Y="0" W="196" H="196" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="392" Y="0" W="196" H="196" />		
+	</CONTROL>				
+	<CONTROL Local="Common" Id="ITEM_MIX_ANIMATION_SHUFFLE3">
+		<WINDOW_POS X="0" Y="0" W="196" H="196" />
+		<TEXTURE SizeX="1024" SizeY="512">ItemMixer.dds</TEXTURE>
+		<TEXTURE_POS X="588" Y="0" W="196" H="196" />		
+	</CONTROL>	
+		
+	<CONTROL Local="Common" Id="ITEM_MIX_INVEN_WINDOW">
+		<WINDOW_POS X="0" Y="0" W="239" H="193" />
+	</CONTROL>	
+	<CONTROL Local="Common" Id="ITEMMIXINVENSLOT_ITEM_SLOT0">
+		<WINDOW_POS X="0" Y="0" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVENSLOT_ITEM_SLOT1">
+		<WINDOW_POS X="0" Y="36" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVENSLOT_ITEM_SLOT2">
+		<WINDOW_POS X="0" Y="72" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVENSLOT_ITEM_SLOT3">
+		<WINDOW_POS X="0" Y="108" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVENSLOT_ITEM_SLOT4">
+		<WINDOW_POS X="0" Y="144" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVENSLOT_ITEM_SLOT5">
+		<WINDOW_POS X="0" Y="180" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVENSLOT_ITEM_SLOT6">
+		<WINDOW_POS X="0" Y="216" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVENSLOT_ITEM_SLOT7">
+		<WINDOW_POS X="0" Y="252" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVENSLOT_ITEM_SLOT8">
+		<WINDOW_POS X="0" Y="288" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVENSLOT_ITEM_SLOT9">
+		<WINDOW_POS X="0" Y="324" W="215" H="35" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVEN_PAGE">
+		<WINDOW_POS X="7" Y="23" W="225" H="143" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVEN_PAGE_SCROLL">
+		<WINDOW_POS X="216" Y="0" W="9" H="143" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVEN_MONEY_BACK">
+		<WINDOW_POS X="6" Y="171" W="227" H="15" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="0" Y="105" W="227" H="15" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVEN_MONEY_BUTTON">
+		<WINDOW_POS X="16" Y="172" W="13" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="228" Y="92" W="13" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVEN_MONEY_BUTTON_F">
+		<WINDOW_POS X="0" Y="0" W="13" H="13" />
+		<TEXTURE SizeX="512" SizeY="512">Interface_Main.dds</TEXTURE>
+		<TEXTURE_POS X="228" Y="106" W="13" H="13" />
+	</CONTROL>
+	<CONTROL Local="Common" Id="ITEMMIXINVEN_MONEYTEXT">
+		<WINDOW_POS X="34" Y="172" W="180" H="11" />
+	</CONTROL>		
+			
+</INTERFACE>
+
+

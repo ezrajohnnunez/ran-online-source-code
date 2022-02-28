@@ -1,0 +1,524 @@
+/////////////////////////////////////////////////////////////////////////////
+VERSION,1
+
+///////////////////////////////////////////////////////////////////
+//	스킬관련
+WORD,SKILL_BASIC_INFO,5
+이름,등급,속성,직업,레벨
+
+WORD,SKILL_ADVANCED_INFO,4
+보유스킬,보유스킬레벨,포인트,레벨
+
+WORD,SKILL_ADVANCED_INFO_STATS,6
+힘,체력,정신,민첩,지력,근력
+
+WORD,SKILL_ETC_MASTER,1
+Master
+
+WORD,SKILL_ADVANCED_TARGET_RANGE,1
+목표 가능 거리
+
+WORD,SKILL_ADVANCED_USE_ITEM_LR_HAND,2
+사용 보조 도구,사용 주 도구
+
+WORD,SKILL_ADVANCED_USE_ITEM,9
+검류,도류,검/도류,단검류,창류,몽둥이류,권류,활류,투척류
+
+WORD,SKILL_ADVANCED_SAPPLY,1
+적용 종류
+
+WORD,SKILL_CDATA_CVL_BASIC,7
+딜레이,지속 시간,적용 영역,적용 갯수,적용 각도,관통 정도,타겟 갯수
+
+WORD,SKILL_CDATA_CVL_BASIC_USE_VALUE,6
+소모 화살 갯수,소모 부적 갯수,EXP 소진량,HP 소진량,MP 소진량,SP 소진량
+
+WORD,SKILL_STATE_BLOW,1
+발생확률
+
+WORD,SKILL_CATEGORY,9
+▼기본 정보▼,▼사용 도구▼,▼기본 속성▼,▼사용시 소진량▼,▼상태 이상▼,▼부가 효과▼,▼특수 효과▼,▼레벨업 조건▼,▼설명▼
+
+WORD,SKILL_SPEC_TYPE,1
+기능
+
+WORD,SKILL_NEXTLEVEL,1
+다음 레벨
+
+WORD,QUEST_GIFT,10
+경험치,돈,성향,생활점수,DisPK,스킬포인트,스탯포인트,아이템,스킬,퀘스트 보상
+
+WORD,WEAR_ITEM,1
+착용중인 아이템
+
+///////////////////////////////////////////////////////////////////
+//	아이템관련
+WORD,ITEM_BASIC_INFO,8
+이름,가격,판매 불가,코스춤,만료일,개당 가격,수수료,코스춤 만료일
+
+WORD,ITEM_EXPIRE_DATE,1
+%02d/%02d/%02d %02d:%02d
+
+WORD,ITEM_ADVANCED_INFO,9
+공격력,방어력,공격 거리,명중률,회피율,착용 위치,공격 속성,SP 소모,기력치
+
+WORD,ITEM_ALL_CLASS,1
+모든클래스
+
+WORD,ITEM_GRIND_ALL_RESIST,1
+모든 저항
+
+WORD,ITEM_ADVANCED_INFO_CONDITION,3
+레벨,격투치,사격치
+
+WORD,ITEM_ADVANCED_INFO_CONDITION_STATS,6
+힘,체력,정신,민첩,지력,근력
+
+WORD,ITEM_ADVANCED_INFO_RESIST,5
+전기,불,얼음,독,기
+
+WORD,ITEM_ADVANCED_INFO_ABNORMAL,5
+상태 이상,지속시간(초),발생확률(%),수치1,수치2
+
+WORD,ITEM_ADVANCED_INFO_SPECIAL,4
+특수 기능,개조 가능 횟수,개조 불가,개조 가능
+
+WORD,ITEM_ARROW_INFO,3
+공격력,수량,레벨
+
+WORD,ITEM_TURN_INFO,1
+수량
+
+WORD,ITEM_USABLE,2
+사용 가능, 사용 불가능
+
+WORD,ITEM_NEEDSP,1
+추가 SP소비
+
+WORD,ITEM_CATEGORY,11
+▼기본 정보▼,▼기본 속성▼,▼조건▼,▼저항 수치▼,▼상태 이상▼,▼특수 기능▼,▼개조 정보▼,▼회복 기능▼,▼사용 정보▼,▼설명▼,▼가산 수치▼
+
+WORD,ITEM_CATEGORY_EX,1
+▼연마 가능 횟수▼
+
+WORD,ITEM_SKILL_CONDITION,3
+이미 배운 스킬문서,필요포인트,스킬
+
+WORD,ITEM_ADVANCED_INFO_SPECIAL_ADD,5
+없음,HP 회복률,MP 회복률,SP 회복률,HP+MP+SP 회복률
+
+WORD,ITEM_ADVANCED_INFO_SPECIAL_ADD_VOL,5
+없음,HP 회복량,MP 회복량,SP 회복량,HP+MP+SP 회복량
+
+WORD,ITEM_ADDON_INFO,17
+빈슬롯,명중률,회피율,공격력,방어력,HP,MP,SP,힘,체력,정신,민첩,지력,근력,격투치,사격치,기력치
+
+////////////////////////////////////////////
+WORD,CHARACTER_NAME_STATIC,1
+Character
+
+WORD,CHARACTER_EXP_STATIC,1
+EXP
+
+WORD,CHARACTER_STAT_STATIC,6
+힘,민첩,정신,지력,체력,근력
+
+WORD,CHARACTER_STATUS_STATIC,13
+Status,레벨,공격력,방어력,격투치,사격치,H P,M P,S P,명중률,회피율,기력치,만료일
+
+WORD,CHARACTER_RESI_STATIC,6
+저항력,화기저항,냉기저항,전기저항,독저항,기저항
+
+WORD,CHARACTER_SOCIAL_STATIC,7
+사회성향,학원,생활점수,명칭,부서,성향,지위
+
+WORD,HWOPTION_WINDOW_NAME_STATIC,1
+Option
+
+WORD,HWOPTION_AV_NAME,3
+Video,Audio,Play
+
+WORD,HWOPTION_APPLYOK,2
+Apply,OK
+
+WORD,HWOPTION_VIDEO_OPTION,9
+해상도,캐릭터 그림자,캐릭터 디테일,시야,버프 효과,지형 그림자,실시간 반사,화면 왜곡,글로우 효과
+
+WORD,HWOPTION_VIDEO_SIGHT,3
+가까이,보통,멀리
+
+WORD,HWOPTION_AUDIO,3
+SFX Volume,Environment Sound Volume,Music Volume
+
+WORD,HWOPTION_GAMEPLAY_OPTION,10
+자동 대련 거부,자동 거래 거부,자동 파티 거부,미니 HP 표시,자동 친구 요청 거부,게임창 기본 위치로,채팅창 뚫기,팁 보기,강제 공격,이름 항상 표시
+
+WORD,HWOPTION_VIDEO_SHADOW,5
+그림자 없음,그림자 저급,그림자 중급,그림자 고급1,그림자 고급2
+
+WORD,HWOPTION_VIDEO_SKINDETAIL,3
+저급,중급,고급
+
+WORD,SKILL_NAME_STATIC,1
+Skill
+
+WORD,SKILL_WINDOW_REST_POINT_STATIC,1
+획득 스킬 포인트
+
+WORD,ESC_MENU,5
+캐릭터 선택,서버 선택,옵 션,도 움 말,게임 종료
+
+WORD,SKILL_TAB_TITLE_FIGHTER,4
+주 먹,발,기 공,공 통
+
+WORD,SKILL_TAB_TITLE_ARMS,4
+찌 르 기,기 공,베 기,공 통
+
+WORD,SKILL_TAB_TITLE_ARCHER,4
+속 사,강 궁,기 공,공 통
+
+WORD,SKILL_TAB_TITLE_SPIRIT,4
+창 봉 술,공 격,보 조,공 통
+
+WORD,SKILL_SLOT,5
+등급, 패시브형,필요포인트,레벨,Master
+
+WORD,PARTY_NAME_STATIC,1
+Party
+
+WORD,PARTY_WINDOW_MASTER_MEMBER_STATIC,2
+Party Master,Party Member
+
+WORD,MARKET_NAME_STATIC,1
+Market
+
+WORD,MARKET_WINDOW_PAGE_BUTTON,3
+무 기 류,복 장 류,소 모 품
+
+WORD,INVENTORY_NAME_STATIC,1
+Inventory
+
+WORD,STORAGE_NAME_STATIC,1
+Storage
+
+WORD,CLUB_STORAGE_NAME_STATIC,1
+Club Storage
+
+WORD,TRADEINVENTORY_NAME_STATIC,1
+Inventory
+
+WORD,TRADE_NAME_STATIC,1
+Trade
+
+WORD,TRADE_OKCANCEL_BUTTON,2
+승 인,거 절
+
+WORD,MINIPARTY_NAME_STATIC,1
+MiniParty
+
+WORD,MODAL_BUTTON,4
+확 인,취 소,예,아니오
+
+WORD,MODAL_TITLE,6
+알림,질문,경고,오류,심각,입력
+
+WORD,QUICK_POTION_SHORTCUT,6
+Q,W,E,A,S,D
+
+WORD,DIALOGUE_WINDOW_STATIC,1
+대화
+
+WORD,ADMIN_NAME,1
+운영자
+
+WORD,NOTIFY_NAME,1
+알림
+
+WORD,SELECT_SERVER,1
+Server Select
+
+WORD,SELECT_SERVER_CONNECTQUIT,2
+접 속,종 료
+
+WORD,COPYRIGHT_TITLE,1
+Ran - Online
+
+SENTENSE,COPYRIGHT_COMPANY,2
+Copyright (c) 2003~2004 DaumGame Corp.
+Copyright (c) 2002~2004 Min Communication co., Ltd. All Rights Reserved.
+
+
+WORD,LOGIN_PAGE_OKCANCEL,2
+확 인,취 소
+
+WORD,LOGIN_PAGE,1
+Log in
+
+WORD,LOGIN_PAGE_IDPW,2
+아이디,비밀번호
+
+WORD,LOGIN_PAGE_IDSAVE_BACK,1
+아이디 저장
+
+WORD,SELECT_CHARACTER_PAGE_BUTTON,4
+새캐릭터,게임시작,삭 제,취 소
+
+WORD,SELECT_CHARACTER_STATIC,2
+EXP,성향
+
+WORD,SELECT_CHARACTER_PAGE,1
+Select Character
+
+WORD,CREATE_CHARACTER_PAGE,1
+Create Character
+
+WORD,CREATE_CHARACTER_PAGE_OKCANCEL,2
+생 성,취 소
+
+WORD,CREATE_CHARACTER_PAGE_STATIC,5
+학교선택,활동부서,얼굴모양,머리모양,이름입력
+
+WORD,ACADEMY_NAME,3
+성문,현암,봉황
+
+WORD,FACE_NAME_FIGHTER,10
+타입 A,타입 B,타입 C,타입 D,타입 E,타입 F,타입 G,타입 H,타입 I,타입 J
+
+WORD,FACE_NAME_ARMS,10
+타입 A,타입 B,타입 C,타입 D,타입 E,타입 F,타입 G,타입 H,타입 I,타입 J
+
+WORD,FACE_NAME_ARCHER,10
+타입 A,타입 B,타입 C,타입 D,타입 E,타입 F,타입 G,타입 H,타입 I,타입 J
+
+WORD,FACE_NAME_SPIRIT,10
+타입 A,타입 B,타입 C,타입 D,타입 E,타입 F,타입 G,타입 H,타입 I,타입 J
+
+WORD,HAIR_NAME_FIGHTER,10
+타입 A,타입 B,타입 C,타입 D,타입 E,타입 F,타입 G,타입 H,타입 I,타입 J
+
+WORD,HAIR_NAME_ARMS,10
+타입 A,타입 B,타입 C,타입 D,타입 E,타입 F,타입 G,타입 H,타입 I,타입 J
+
+WORD,HAIR_NAME_ARCHER,10
+타입 A,타입 B,타입 C,타입 D,타입 E,타입 F,타입 G,타입 H,타입 I,타입 J
+
+WORD,HAIR_NAME_SPIRIT,10
+타입 A,타입 B,타입 C,타입 D,타입 E,타입 F,타입 G,타입 H,타입 I,타입 J
+
+WORD,SERVER_STATE,3
+원활,보통,혼잡
+
+SENTENSE,GATE_ALARM,1
+이동하시려면 '이동확인'을 눌러주세요.
+
+WORD,HELP_WINDOW_STATIC,1
+Help
+
+WORD,CONFT_MODAL_TITLE,2
+대련 신청,대련 신청 정보
+
+WORD,CONFT_MODAL_CONDITION,3
+영역 제한,회복제 사용개수,체력 확대 비율
+
+WORD,MAPMOVE_OKBUTTON,1
+확 인
+
+WORD,UNLIMITED,1
+무한대
+
+WORD,PARTY_MODAL_TITLE,2
+파티 신청,파티 신청 정보
+
+WORD,PARTY_MODAL_CONDITION,2
+아이템분배,돈분배
+
+WORD,PARTY_MODAL_OPTION,5
+기여자우선,프리,마스터우선,순차습득,균등분배
+
+WORD,ARROW_TYPE,2
+화살,부적
+
+WORD,QUIT_PARTY,2
+해체,탈퇴
+
+WORD,GAMEMENU,10
+인벤토리(I),캐릭터(C),스킬(K),파티(P),퀘스트(T),클럽(G),친구(F),지도(M),구입한 아이템(B),달리기(R)
+
+WORD,QUEST_WINDOW_STATIC,1
+Quest
+
+WORD,QUEST_MAIN_BUTTON,5
+포 기,자세히,뒤 로,완 료,보 상
+
+WORD,QUEST_MAIN_ITEM_TITLE,1
+Quest Item
+
+WORD,QUEST_MAIN_CONDITION,3
+제한시간,제한인원,죽지않기
+
+WORD,QUEST_STEP_BUTTON,2
+포 기,뒤 로
+
+WORD,QUEST_STEP_ITEM_TITLE,1
+Quest Item
+
+WORD,QUEST_LIST_BUTTON,3
+진행중인 Quest,종료된 Quest,자세히
+
+WORD,QUEST_COMPLETE,2
+실패,성공
+
+WORD,QUEST_TRYCOUNT,1
+수행횟수
+
+WORD,QUEST_CONDITION,1
+조건
+
+WORD,QUEST_CONDITION_TIME_UNIT,2
+시간,분
+
+WORD,WAITSERVER_OKBUTTON,1
+확 인
+
+WORD,WAITSERVER_CANCELBUTTON,1
+취 소
+
+WORD,WAITSERVER_TIMELEFT_UNIT,1
+초
+
+WORD,FRIEND_WINDOW_NAME_STATIC,1
+Friend
+
+WORD,QUEST_BEGIN_MONEY,1
+필요금액
+
+WORD,BUS_WINDOW_NAME_STATIC,1
+Bus
+
+WORD,BUS_TITLE,2
+지역 구분,버스 정거장
+
+WORD,ITEMBANK_NAME_STATIC,1
+Item Bank
+
+WORD,LARGEMAP_WINDOW_STATIC,1
+Map
+
+WORD,SELECT_CHARACTER_CARD,1
+Character Cards
+
+WORD,SELECT_CHARACTER_CARD_STATIC,2
+생성가능 캐릭터 수,카드 사용량
+
+WORD,STORAGE_CARD_NUMBER,3
+2 번,3 번,4 번
+
+WORD,STORAGE_USABLE,2
+사용중,사용 불가
+
+SENTENSE,STORAGE_TIMELEFT,2
+%d년 %d월 %d일
+%d시 %d분 까지
+
+WORD,STORAGE_TIMELEFT_ONELINE,1
+%d년 %d월 %d일 %d시 %d분 까지
+
+WORD,ITEMBANK_REFRESH_BUTTON,1
+새로 고침
+
+WORD,CHARACTER_PREMIUM_EXPIRE_DATE_STATIC,1
+프리미엄 서비스 만료일
+
+WORD,CHARACTER_PREMIUM_EXPIRE_DATE,1
+%d년 %d월 %d일 %d시 %d분
+
+WORD,REBIRTH_BUTTON,2
+부활 하기,귀혼주 사용
+
+WORD,NOT_USE_PREMIUM,1
+사용 불가
+
+WORD,PRIVATE_MARKET_BUTTON,2
+시 작,종 료
+
+WORD,PRIVATE_MARKET_NAME_STATIC,1
+개인 상점
+
+WORD,PRIVATE_MARKET_MAKE_BUTTON,2
+확 인,취 소
+
+WORD,PRIVATE_MARKET_SELL_WINDOW_STATICTEXT,2
+개당 가격,판매 수량
+
+WORD,PRIVATE_MARKET,1
+[개인 상점] 
+
+WORD,CLUB_WINDOW_NAME_STATIC,1
+Club
+
+WORD,CLUB_TEXT_STATIC,9
+이  름,등  급,마스터,창설일,마크,해산예정일,별  명,부마스터,일반
+
+WORD,CLUB_GRADE,5
+E,D,C,B,A
+
+WORD,MOVABLE_ON_CHAT_WINDOW,1
+채팅창 위로 클릭 가능하게 하기
+
+//	NOTE
+//		DO NOT TOUCH.
+//		라이프(페이드 포함시간)/페이드/최저알파
+//		초단위
+WORD,SYSTEM_MESSAGE_FADE,3
+9.0,3.0,120.0
+
+//	NOTE
+//		DO NOT TOUCH.
+//		파일 이름입니다.
+WORD,HELP_FILE,1
+Ran_Help.hlp
+
+WORD,CONFT_WAV_BEGIN,6
+Fight.WAV,cd01.WAV,cd02.WAV,cd03.WAV,cd04.WAV,cd05.WAV
+
+WORD,CONFT_WAV_END,3
+Win.wav,Lost.wav,Draw.wav
+
+WORD,QUEST_ALARM,1
+06000196.wav
+
+WORD,TIP_FILE,1
+tip.txt
+
+WORD,LOBY_BGM,1
+intro.ogg
+
+WORD,BIG_FONT,1
+1
+
+WORD,SKILL_TEXTURE,5
+4,skill_Archer.dds,skill_Fighter.dds,skill_Knight.dds,skill_Magic.dds
+
+WORD,SUBMASTER_OPTION,6
+님의 권한,가입,제명,공지,마크변경,선도클럽인증
+
+WORD,SKILL_TAB_INFO,3
+F1,F2,F3
+
+WORD,CHAT_CHANNEL_BUTTON,6
+전 체,귓속말,파 티,클 럽,시스템,동 맹
+
+WORD,P2PMENU,7
+거래 신청,귓속말 등록,파티 신청,대련 신청,친구 등록 신청,클럽 가입 신청,동맹 가입 신청
+
+WORD,CLUB_BUTTON,13
+제 명,해 체,변 경,닫 기,별명수정,해체취소,탈 퇴,멤   버,공   지,동   맹,쓰 기,부마스터 설정,모두 삭제
+
+WORD,CHAT_ONOFF,6
+일반,귓속말,파티,클럽,시스템,동맹
+
+WORD,FRIEND_TAB_BUTTON,6
+친구목록,차단목록,받은쪽지,보낸쪽지,쪽지쓰기,쪽지
+
+WORD,FRIEND_BUTTON,12
+친구추가,삭 제,이 동,해 제,차 단,이 름,제 목,답 장,열 기,새로고침,보내기,다시쓰기

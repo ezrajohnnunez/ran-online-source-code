@@ -1,0 +1,259 @@
+/////////////////////////////////////////////////////////////////////////////
+VERSION,1
+///////////////////////////////////////////////////////////
+//
+//
+//Attention! Using % as a beginning symbol ( %d, %f, %s etc.)
+//On the basis of the system's amount or the words and so on to transform
+//
+//
+//
+//
+//
+//
+//
+SENTENSE,SERVERSTAGE_1,1
+Reading the server's data.
+
+SENTENSE,SERVERSTAGE_2,1
+Please select the server that you want to connect.
+
+SENTENSE,SERVERSTAGE_3,1
+Do you want to quit the games?
+
+SENTENSE,SERVERSTAGE_4,2
+Internet connection failed!
+Do you want to quit the games?
+
+SENTENSE,SERVERSTAGE_5,1
+Server connection failed!
+
+SENTENSE,LOGIN_FAILED_INVALID_VER,3
+A new Client version is available!
+Please conclude the Program before renew the lastest version,
+Start again  to run the games.
+
+SENTENSE,LOGIN_FAILED_VER_FILE,3
+Client's Program obtains Corrupted!
+Please remove the Program, reinstall it afterward,
+Start again  to run the games.
+
+SENTENSE,DAUM_LOGIN_WAIT_SERVERFULL,2
+Server is not giving any response!
+Do you want to reconnect again?
+
+SENTENSE,LOGINSTAGE_1,2
+Server is disconnected!
+Do you want to reconnect it again?
+
+SENTENSE,LOGINSTAGE_2,1
+Please select the server that you want to connect.
+
+SENTENSE,LOGINSTAGE_3,1
+Please select the server that you want to connect.
+
+SENTENSE,LOGINSTAGE_4,2
+User's account is unable to be included.
+Special Character or blank space.
+
+SENTENSE,LOGINSTAGE_5,1
+Please Key in your username and passwords.
+
+SENTENSE,LOGINSTAGE_6,2
+Verifying user's data!
+Please wait¡­
+
+SENTENSE,LOGIN_FAILED,1
+Failed to log in
+
+SENTENSE,LOGINSTAGE_8,1
+System error caused log in fail
+
+SENTENSE,LOGINSTAGE_9,1
+Permition time usage error!
+
+SENTENSE,LOGINSTAGE_10,1
+User's account is being connected!
+
+SENTENSE,LOGINSTAGE_11,2
+Username or passwords does not match!
+Please reconfirm.
+
+SENTENSE,LOGINSTAGE_12,2
+User IP is block!
+Please inquire with  the GM
+
+SENTENSE,LOGINSTAGE_BLOCK,2
+User's account is block
+Please inquire with  the GM
+
+SENTENSE,LOGINSTAGE_UNKNOWN_FAILED,3
+User's account is not clear!
+Please visit the official FAQ's website,
+Contact with the GM
+
+
+
+SENTENSE,CREATESTAGE_1,2
+Internet is disconnected!
+Do you want to reconnect it again?
+
+SENTENSE,CREATESTAGE_2,1
+Please key in the character's name. 
+
+SENTENSE,CREATESTAGE_3,1
+Do you want to quit the games?
+
+SENTENSE,CREATESTAGE_4,1
+Character Name Created! 
+
+SENTENSE,CREATESTAGE_5,1
+This name has been used.
+
+SENTENSE,CREATESTAGE_6,1
+Over Number Maximun character allowed
+
+SENTENSE,CREATESTAGE_7,1
+Failed to create a new character!
+
+SENTENSE,CREATESTAGE_8,1
+Character is unable to include special character or blank space.
+
+SENTENSE,NEWCHAR_NAME_TOO_SHORT,1
+Character's name is too short!
+
+
+
+
+SENTENSE,CHARACTERSTAGE_CAUTION_DELETE,2
+As if demanded to delete "%s"
+Please key in the second level password.
+
+SENTENSE,CHARACTERSTAGE_CAUTION_DELETE_DAUM,1
+Confirm Delete?
+
+SENTENSE,CHARACTERSTAGE_2,2
+Internet is disconnected!
+Do you want to reconnect it again?
+
+SENTENSE,CHARACTERSTAGE_3,1
+Do you want to quit the games?
+
+SENTENSE,CHARACTERSTAGE_4,1
+Do you want to create a new character?
+
+SENTENSE,CHARACTERSTAGE_GAME_JOIN,1
+Processing the data.
+
+SENTENSE,CHARACTERSTAGE_6,1
+Do you want to move to the server menu?
+
+SENTENSE,CHARACTERSTAGE_NOT_SELECTED,1
+Please select the character that you want to be deleted.
+
+SENTENSE,CHARACTERSTAGE_8,1
+Please select the character.
+
+SENTENSE,CHARACTERSTAGE_9,1
+Character failed to be deleted!
+
+SENTENSE,CHARACTERSTAGE_10,2
+This character is in the process of being connected!
+Please reconnect it again.
+
+SENTENSE,CHARACTERSTAGE_11,2
+Server failed to create a new character!
+Please reconnect it again.
+
+SENTENSE,CHARACTERSTAGE_12,1
+You can not enter this channel.
+
+SENTENSE,CHAR_DEL_SUCCEED,1
+Character success to be deleted
+
+SENTENSE,CHAR_DEL_FAILED,1
+Character success to be deleted
+
+SENTENSE,LOGIN_PAGE_ID_ERROR,2
+Account is unable to use 
+the special character or blank space.
+
+SENTENSE,LOGIN_PAGE_PW_ERROR,1
+Password is unable to use the speacial character or blank space.
+
+WORD,SERVER_NAME,10
+Server0,Harajuku,Server2,Server3,Server4,Server5,Server6,Server7,Server8,Server9
+
+WORD,SERVER_CHANNEL,1
+Channel
+
+WORD,SERVER_PK,1
+[PK]
+
+SENTENSE,CREATE_CHARACTER_NAME_ERROR,2
+Account's user could not include.
+special character or blank space.
+
+SENTENSE,LOGINSTAGE_INVALID_LOGIN,4
+Irregular log in! 
+Please press the "confirmation" button
+in order to quit the games.
+Please retry it again. 
+
+SENTENSE,LOGINSTAGE_EXPIRED_USER,4
+Time up for the log in Conformation! 
+Please press the "confirmation" button
+in order to quit the games.
+Please retry it again. 
+
+SENTENSE,LOGINSTAGE_NOGID,3
+Irregular log in! Please press the "confirmation" button
+in order to quit the games.
+Please retry it again. 
+
+SENTENSE,LOGINSTAGE_NOUID,4
+Time up for the log in Conformation! 
+Please press the "confirmation" button
+in order to quit the games.
+Please retry it again. 
+
+SENTENSE,DAUM_LOGIN_WAIT,2
+Server is in the process of being connected.
+Please Wait!
+
+SENTENSE,CHARACTERSTAGE_DAUM_GAME_JOIN_FAIL,1
+Character data failed to be processed!
+
+SENTENSE,CHARACTER_BADNAME,1
+Name of the character consists unproper words!
+
+SENTENSE,LOGINSTAGE_SSN_FAILED,2
+Identification Card 's character does not match
+Please press the "confirmation" button before it ends
+
+SENTENSE,LOGINSTAGE_ADULT_FAILED,2
+Adult failed to log in!
+Please press the "confirmation" button before it ends
+
+SENTENSE,CHARACTER_THIS_SERVER_SLOT_FULL,1
+Server is unable to recreate a new character!
+
+SENTENSE,CHARACTER_NOT_ENOUGH_CHARREMAIN,1
+"Character Card" is not adequated!
+
+SENTENSE,CHAR_DEL_CLUB_FAILED,2
+Character deletion failed!
+Please dissolve organization then retry it gain
+
+SENTENSE,WAITSERVER_DEL_CHARACTER,1
+Character would be deleted
+
+SENTENSE,SERVER_INFO_RECV_FAILED,1
+Server Menu connection Fail
+
+SENTENSE,LOGINSTAGE_FULL,2
+The number of users in ther server is overed the maximum limit
+Please reconnect it afterward
+
+SENTENSE,CHAR_DELETE_ON,1
+Deleting Character...	
